@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Think and Grow Rich
-subtitle: Notes
+description: Notes
 permalink: /notes/happiness/books/Think%20and%20Grow%20Rich/
 ---
 
