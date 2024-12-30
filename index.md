@@ -7,14 +7,13 @@
 </script>
 
 <div class="involvement-section">
-  <h3 class="toggle-involvement">Get Involved</h3>
+  <h3 class="toggle-involvement">Get Involved <span class="expand-icon">▼</span></h3>
   <div class="involvement-details" style="display: none;">
     <p style="color: #555;">Want to contribute?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/compare" style="color: #007bff;">Create a pull request.</a>
     <p style="color: #555;">Found a broken link?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/issues/new?assignees=&labels=bug&template=broken-link.md&title=Broken+Link" style="color: #007bff;">Report it here.</a>
   </div>
 </div>
 
-<hr>
 ## Diet 🍖
 <hr>
 
@@ -40,7 +39,6 @@
 - [[Vinnie Tortorich] Top 10 Foods That You Should Stop Eating](https://youtu.be/3oVdksMTJ50?si=h5iZRlqMw9UgcXPb)
 - [[Dr. Sean O'Mara] Optimize Your Health](https://youtu.be/XuFD5tMz9M0?si=f8SKPcSGIEqInaWs) 💪
 
-<hr>
 ## Gut Health 🍲
 <hr>
 
@@ -48,7 +46,6 @@
 - [[The Minimalists] Dr. Zach Bush — Decluttering the Gut](https://www.theminimalists.com/podcast/#398)
 - [[Dr. Andrew Huberman] Gut-Brain Health](https://youtu.be/pvI1vLHV0Mo?si=-KyK2ta83Fo6_BV1)
 
-<hr>
 ## Exercise 💪
 <hr>
 
@@ -56,7 +53,6 @@
 - [[Fitness Confidential] Dr. Ben Bocchicchio - The Colorado Experiment](https://youtu.be/P4hq8sIvb3c?si=UDeE7TohFACTllJF)
 - [[Joe Rogan] Ben Patrick — Knees Over Toes Guy](https://open.spotify.com/episode/2zfpB6RoKwylk3DbN3GXA0?si=de02e3493ef74d07)
 
-<hr>
 ## Sleep 😴
 <hr>
 
@@ -67,7 +63,6 @@
 #### Newsletters
 - [[Dr. Andrew Huberman] Toolkit for Sleep](https://www.hubermanlab.com/newsletter/toolkit-for-sleep)
 
-<hr>
 ## Brain/Stress 🧠
 <hr>
 
@@ -79,7 +74,6 @@
 #### Videos
 - [[Tim Ferriss] Dr. Andrew Huberman — Breathing Techniques to Reduce Stress and Anxiety](https://youtu.be/kSZKIupBUuc?si=sx_otgGYF73ukiz_)
 
-<hr>
 ## Happiness/Spirituality 😇
 <hr>
 
