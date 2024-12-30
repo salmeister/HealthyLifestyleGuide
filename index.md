@@ -7,7 +7,7 @@
 </script>
 
 <div class="involvement-section">
-  <h3 class="toggle-involvement">Get Involved <span class="expand-icon"><span class="right-arrow">►</span><span class="down-arrow">▼</span></span></h3>
+  <span class="toggle-involvement">Get Involved <span class="expand-icon"><span class="right-arrow">►</span><span class="down-arrow">▼</span></span></span>
   <div class="involvement-details" style="display: none;">
     <p style="color: #555;">Want to contribute?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/compare" style="color: #007bff;">Create a pull request.</a>
     <p style="color: #555;">Found a broken link?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/issues/new?assignees=&labels=bug&template=broken-link.md&title=Broken+Link" style="color: #007bff;">Report it here.</a>
