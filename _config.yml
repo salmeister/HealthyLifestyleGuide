@@ -1,8 +1,6 @@
 # Site settings
 title: "Healthy Lifestyle Guide"
 description: "Health & Wellness Guide: Tips for Nutrition, Fitness, and Mental Health."
-twitter_username: andysalmela
-github_username:  salmeister
 remote_theme: pages-themes/cayman@v0.2.0
 ga4_id: <%= ENV['GOOGLE_ANALYTICS_ID'] %>
 plugins:
