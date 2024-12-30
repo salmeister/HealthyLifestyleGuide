@@ -1,7 +1,7 @@
 ---
 ---
 
-## [:arrow_backward: back](./../../../README.md)
+## [:arrow_backward: back](./../../../index.md)
 
 - What gives you the right to decide how someone else lives their life?
 - Not everyone heals in the same way.
