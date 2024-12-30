@@ -1,7 +1,7 @@
 ---
 ---
 
-## [:arrow_backward: back](index.md)
+## [:arrow_backward: back](./index.md)
 
 ### Principles
 1. Desire
