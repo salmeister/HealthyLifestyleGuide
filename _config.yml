@@ -8,4 +8,4 @@ ga4_id: <%= ENV['GOOGLE_ANALYTICS_ID'] %>
 plugins:
   - jekyll-remote-theme
 include:
-  - Notes/**/*.md
+  - Notes/Happiness/Podcasts/*.md
