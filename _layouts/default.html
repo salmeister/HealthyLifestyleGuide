@@ -81,3 +81,20 @@
     'floating-chat.donateButton.text-color': '#fff'
   });
 </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.querySelector('.toggle-involvement');
+    const involvementDetails = document.querySelector('.involvement-details');
+  
+    toggleButton.addEventListener('click', function() {
+      if (involvementDetails.style.display === "none") {
+        involvementDetails.style.display = "block";
+        involvementDetails.classList.add('show');
+      } else {
+        involvementDetails.style.display = "none";
+        involvementDetails.classList.remove('show');
+      }
+    });
+  });
+  </script>
