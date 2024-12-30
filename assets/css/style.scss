@@ -2,3 +2,20 @@
 ---
 
 @import "{{ site.theme }}";
+
+// Light mode (default)
+body {
+  background-color: white;
+  color: black;
+}
+
+// Dark mode
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+// Additional styles for dark mode or to override theme specifics
+.dark-mode a {
+  color: #8ab4f8;
+}
