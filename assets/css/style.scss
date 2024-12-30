@@ -108,8 +108,7 @@ body.dark-mode {
 .toggle-involvement {
   margin: 0;
   display: inline-flex;
-  align-items: center;
-  transition: all 0.3s ease;
+  align-items: center; // Ensures vertical alignment
 }
 
 .expand-icon {
@@ -117,6 +116,7 @@ body.dark-mode {
   position: relative;
   display: inline-block;
   width: 10px; // Adjust width to fit your arrow size
+  height: 10px; // Ensures vertical space for both arrows
 }
 
 .right-arrow, .down-arrow {
