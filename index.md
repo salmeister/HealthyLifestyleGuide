@@ -7,8 +7,8 @@
 </script>
 
 <h3>Get Involved</h3>
-> <p style="color: #555;">Want to contribute? <a href="https://github.com/salmeister/HealthyLifestyleGuide/compare" style="color: #007bff;">Create a pull request</a>.</p>
-> <p style="color: #555;">Found a broken link? <a href="https://github.com/salmeister/HealthyLifestyleGuide/issues/new?assignees=&labels=bug&template=broken-link.md&title=Broken+Link" style="color: #007bff;">Report it here</a>.</p>
+<p style="color: #555;">Want to contribute?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/compare" style="color: #007bff;">Create a pull request.</a>
+<p style="color: #555;">Found a broken link?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/issues/new?assignees=&labels=bug&template=broken-link.md&title=Broken+Link" style="color: #007bff;">Report it here.</a>
 
 ## Diet 🍖
 <hr>
