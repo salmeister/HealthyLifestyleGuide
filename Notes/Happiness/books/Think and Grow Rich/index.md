@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Think and Grow Rich Notes
+title: Think and Grow Rich
+subtitle: Notes
 permalink: /notes/happiness/books/Think%20and%20Grow%20Rich/
 ---
 
-## [:arrow_backward: back](./index.md)
+## [⬅️](/)
 
 ### Principles
 1. Desire
