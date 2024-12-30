@@ -92,7 +92,7 @@ input:checked + .slider:before {
 }
 
 // Dark mode styles
-body.dark-mode {
+body.dark-mode .involvement-details {
   background-color: #121212;
   color: #e0e0e0;
 }
@@ -102,25 +102,44 @@ body.dark-mode {
 }
 
 .involvement-section {
-  cursor: pointer;
+  cursor: pointer; // Changes cursor to a hand, indicating clickable area
 }
 
 .toggle-involvement {
   margin: 0;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease; // For smooth transition when clicked
+}
+
+.expand-icon {
+  margin-left: 5px; // Space between text and icon
+  transition: transform 0.3s ease; // Smooth rotation
+}
+
+.toggle-involvement:hover {
+  color: #007bff; // Change text color on hover to indicate interactivity
 }
 
 .involvement-details {
   margin-top: 10px;
   padding: 10px;
-  background-color: #f9f9f9; // Or any background color you prefer
+  background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 4px;
-  transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
   overflow: hidden;
   max-height: 0;
+  opacity: 0;
 }
 
 .involvement-details.show {
   display: block;
   max-height: 500px; // Adjust based on content
+  opacity: 1;
+}
+
+/* When expanded */
+.toggle-involvement.active .expand-icon {
+  transform: rotate(180deg); // Rotate the icon to point upwards when expanded
 }
