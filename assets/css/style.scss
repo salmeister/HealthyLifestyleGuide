@@ -92,7 +92,7 @@ input:checked + .slider:before {
 }
 
 // Dark mode styles
-body.dark-mode .involvement-details {
+body.dark-mode {
   background-color: #121212;
   color: #e0e0e0;
 }
@@ -102,32 +102,59 @@ body.dark-mode .involvement-details {
 }
 
 .involvement-section {
-  cursor: pointer; // Changes cursor to a hand, indicating clickable area
+  cursor: pointer;
 }
 
 .toggle-involvement {
   margin: 0;
   display: inline-flex;
   align-items: center;
-  transition: all 0.3s ease; // For smooth transition when clicked
+  transition: all 0.3s ease;
 }
 
 .expand-icon {
-  margin-left: 5px; // Space between text and icon
-  transition: transform 0.3s ease; // Smooth rotation
+  margin-left: 5px;
+  position: relative;
+  display: inline-block;
+  width: 10px; // Adjust width to fit your arrow size
+}
+
+.down-arrow, .right-arrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.down-arrow {
+  opacity: 1;
+}
+
+.right-arrow {
+  opacity: 0;
+  transform: rotate(0deg);
+}
+
+.toggle-involvement.active .down-arrow {
+  opacity: 0;
+  transform: rotate(-90deg); // Rotate down arrow to disappear effect
+}
+
+.toggle-involvement.active .right-arrow {
+  opacity: 1;
+  transform: rotate(0deg);
 }
 
 .toggle-involvement:hover {
-  color: #007bff; // Change text color on hover to indicate interactivity
+  color: #007bff;
 }
 
 .involvement-details {
   margin-top: 10px;
   padding: 10px;
-  background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 4px;
-  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out, background-color 0.3s ease-out;
   overflow: hidden;
   max-height: 0;
   opacity: 0;
@@ -135,11 +162,6 @@ body.dark-mode .involvement-details {
 
 .involvement-details.show {
   display: block;
-  max-height: 500px; // Adjust based on content
+  max-height: 500px;
   opacity: 1;
-}
-
-/* When expanded */
-.toggle-involvement.active .expand-icon {
-  transform: rotate(180deg); // Rotate the icon to point upwards when expanded
 }
