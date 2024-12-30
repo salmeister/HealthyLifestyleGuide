@@ -1,7 +1,11 @@
 ---
+layout: default
+title: Krista Ryan -- Keep Going
+description: Notes
+permalink: /notes/happiness/books/Only%20the%20Important%20Stuff/
 ---
 
-## [:arrow_backward: back](./../../../index.md)
+## [⬅️](/)
 
 - What gives you the right to decide how someone else lives their life?
 - Not everyone heals in the same way.

@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
+// Custom header styles to make it smaller
+.page-header {
+  padding-top: 1rem; // Reduce top padding
+  padding-bottom: 1rem; // Reduce bottom padding
+  min-height: auto; // Remove minimum height if set
+}
+
 .theme-toggle {
   display: inline-flex;
   align-items: center;
