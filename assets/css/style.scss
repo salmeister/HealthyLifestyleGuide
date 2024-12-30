@@ -119,28 +119,29 @@ body.dark-mode {
   width: 10px; // Adjust width to fit your arrow size
 }
 
-.down-arrow, .right-arrow {
+.right-arrow, .down-arrow {
   position: absolute;
   top: 0;
   left: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.down-arrow {
-  opacity: 1;
-}
-
 .right-arrow {
-  opacity: 0;
+  opacity: 1;
   transform: rotate(0deg);
 }
 
-.toggle-involvement.active .down-arrow {
+.down-arrow {
   opacity: 0;
-  transform: rotate(-90deg); // Rotate down arrow to disappear effect
+  transform: rotate(-90deg); // Rotate down arrow to be hidden initially
 }
 
 .toggle-involvement.active .right-arrow {
+  opacity: 0;
+  transform: rotate(90deg); // Rotate right arrow to disappear effect
+}
+
+.toggle-involvement.active .down-arrow {
   opacity: 1;
   transform: rotate(0deg);
 }
