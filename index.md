@@ -7,6 +7,7 @@
 </script>
 
 <h3>Get Involved</h3>
+>   <p>[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O4O5187H39)</p>
 >    <p><a href="https://github.com/sponsors/salmeister" style="text-decoration: none;"><img src="https://img.shields.io/badge/Sponsor-Healthy%20Lifestyle%20Guide-brightgreen" alt="Sponsor"></a></p>
 > <p style="color: #555;">Want to contribute? <a href="https://github.com/salmeister/HealthyLifestyleGuide/compare" style="color: #007bff;">Create a pull request</a>.</p>
 > <p style="color: #555;">Found a broken link? <a href="https://github.com/salmeister/HealthyLifestyleGuide/issues/new?assignees=&labels=bug&template=broken-link.md&title=Broken+Link" style="color: #007bff;">Report it here</a>.</p>
