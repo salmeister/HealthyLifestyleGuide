@@ -1,9 +1,9 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', '{{ site.google_analytics }}');
+  gtag('config', '{{ site.ga4_id }}');
 </script>
 
 <h3>Get Involved</h3>
@@ -15,7 +15,7 @@
 <hr>
 
 #### Podcast Episodes
-- [[Know Thyself] Dr. Mindy Pelz - The Miracle of Fasthing](https://www.youtube.com/watch?v=pgWnbRg5-cg)🍲
+- [[Know Thyself] Dr. Mindy Pelz - The Miracle of Fasting](https://www.youtube.com/watch?v=pgWnbRg5-cg)🍲
 - [[Rich Roll] Robin Berzin - LONGEVITY PROTOCOL For Women](https://www.youtube.com/watch?v=P28Pqr9BSWw)💪
 - [[Andrew Huberman]Dr. Stacy Sims - Female Exercise & Nutrition](https://www.youtube.com/watch?v=pZX8ikmWvEU)💪
 - [[The Minimalists] Dr. Sean O'Mara — Minimize Fat](https://www.theminimalists.com/podcast/#408) 💪 🍲
