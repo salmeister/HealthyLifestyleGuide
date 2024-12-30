@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Think and Grow Rich Notes
+permalink: /notes/happiness/books/Think%20and%20Grow%20Rich/
 ---
 
 ## [:arrow_backward: back](./index.md)
