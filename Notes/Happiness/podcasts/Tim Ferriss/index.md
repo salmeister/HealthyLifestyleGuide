@@ -2,7 +2,7 @@
 layout: default
 title: Arthur C. Brooks -- How to Be Happy
 description: Notes
-permalink: /notes/happiness/books/Tim%20Ferriss/
+permalink: /notes/happiness/podcasts/Tim%20Ferriss/
 ---
 
 ## [⬅️](/)
