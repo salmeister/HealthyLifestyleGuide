@@ -1,3 +1,11 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics }}');
+</script>
+
 <h3>Get Involved</h3>
 >    <p><a href="https://github.com/sponsors/salmeister" style="text-decoration: none;"><img src="https://img.shields.io/badge/Sponsor-Healthy%20Lifestyle%20Guide-brightgreen" alt="Sponsor"></a></p>
 > <p style="color: #555;">Want to contribute? <a href="https://github.com/salmeister/HealthyLifestyleGuide/compare" style="color: #007bff;">Create a pull request</a>.</p>
@@ -7,6 +15,7 @@
 <hr>
 
 #### Podcast Episodes
+- [[Know Thyself] Dr. Mindy Pelz - The Miracle of Fasthing](https://www.youtube.com/watch?v=pgWnbRg5-cg)🍲
 - [[Rich Roll] Robin Berzin - LONGEVITY PROTOCOL For Women](https://www.youtube.com/watch?v=P28Pqr9BSWw)💪
 - [[Andrew Huberman]Dr. Stacy Sims - Female Exercise & Nutrition](https://www.youtube.com/watch?v=pZX8ikmWvEU)💪
 - [[The Minimalists] Dr. Sean O'Mara — Minimize Fat](https://www.theminimalists.com/podcast/#408) 💪 🍲
