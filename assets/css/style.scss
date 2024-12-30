@@ -100,3 +100,27 @@ body.dark-mode {
 .dark-mode a {
   color: #8ab4f8;
 }
+
+.involvement-section {
+  cursor: pointer;
+}
+
+.toggle-involvement {
+  margin: 0;
+}
+
+.involvement-details {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9; // Or any background color you prefer
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.involvement-details.show {
+  display: block;
+  max-height: 500px; // Adjust based on content
+}
