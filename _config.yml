@@ -2,6 +2,7 @@
 title: "Healthy Lifestyle Guide"
 description: "Health & Wellness Guide: Tips for Nutrition, Fitness, and Mental Health."
 remote_theme: pages-themes/cayman@v0.2.0
+permalink: pretty
 ga4_id: <%= ENV['GOOGLE_ANALYTICS_ID'] %>
 plugins:
   - jekyll-remote-theme
