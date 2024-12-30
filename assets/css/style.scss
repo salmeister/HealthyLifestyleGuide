@@ -10,8 +10,15 @@
 }
 
 .theme-label {
+  display: flex;
+  align-items: center;
   font-size: 0.9em;
   padding: 0 0.5em;
+}
+
+.theme-label svg {
+  width: 18px; /* Adjust size as needed */
+  height: 18px; /* Adjust size as needed */
 }
 
 /* The switch - the box around the slider */
@@ -20,6 +27,7 @@
   display: inline-block;
   width: 60px;
   height: 34px;
+  margin: 0 10px; /* Space between icons and switch */
 }
 
 /* Hide default HTML checkbox */
