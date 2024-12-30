@@ -1,3 +1,6 @@
+---
+---
+
 ## [:arrow_backward: back](./../../../README.md)
 
 - What gives you the right to decide how someone else lives their life?
