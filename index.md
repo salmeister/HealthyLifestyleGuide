@@ -77,17 +77,17 @@
 #### Podcast Episodes
 - [[Aubrey Marcus] NDE Survivor - Anita Moorjani](https://www.youtube.com/watch?v=6Po0qnuA3Vo) 🧠
 - [[Know Thyself] BioHacking - Dave Asprey](https://www.youtube.com/watch?v=ipe3GM30wZw&list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q) 🍖 🧠
-- [[Otherworld] The Valley](https://open.spotify.com/episode/4g1RHKTzlSkZ5nJeMKIXjb?si=2244d19c4425450d) [📝](./Notes/Happiness/Podcasts/[Otherworld]%20The%20Valley.md)
+- [[Otherworld] The Valley](https://open.spotify.com/episode/4g1RHKTzlSkZ5nJeMKIXjb?si=2244d19c4425450d) [📝](./notes/happiness/podcasts/[Otherworld]%20The%20Valley.md)
 - [[Only the Important Stuff] Andy Salmela — Kids, Marriage, Loss](https://onlytheimportantstuff.podbean.com/e/the-big-cat-returns/)
-- [[Only the Important Stuff] Krista Ryan — Keep F*!#ing Going](https://onlytheimportantstuff.podbean.com/e/krista-ryan/) [📝](./Notes/Happiness/Podcasts/[Only%20the%20Important%20Stuff]%20Krista%20Ryan%20—%20KeepGoing.md)
-- [[Tim Ferriss] Arthur C. Brooks — How to Be Happy](https://tim.blog/2023/09/11/arthur-c-brooks/) [📝](./Notes/Happiness/Podcasts/[Tim%20Ferriss]%20Arthur%20C.%20Brooks%20—%20How%20to%20Be%20Happy.md)
+- [[Only the Important Stuff] Krista Ryan — Keep F*!#ing Going](https://onlytheimportantstuff.podbean.com/e/krista-ryan/) [📝](./notes/happiness/podcasts/[Only%20the%20Important%20Stuff]%20Krista%20Ryan%20—%20KeepGoing.md)
+- [[Tim Ferriss] Arthur C. Brooks — How to Be Happy](https://tim.blog/2023/09/11/arthur-c-brooks/) [📝](./notes/happiness/podcasts/[Tim%20Ferriss]%20Arthur%20C.%20Brooks%20—%20How%20to%20Be%20Happy.md)
 - [[The Minimalists] Zach Bush — Simplifying Death](https://www.theminimalists.com/podcast/#362)
 - [[Joe Rogan] Sadhguru](https://open.spotify.com/episode/0zN02uiYg9KUwYs4JY8Nwg?si=834e1c5ee77d4e99)
 
 #### Books
 - [[Vinnie Tortorich] Intro to NSNG](https://nsng.vinnietortorich.com/product/intro-to-nsng/)
 - [[Rhonda Byrne] The Greatest Secret](https://www.amazon.com/The-Greatest-Secret/dp/B08GNDRZ3T/ref=tmm_aud_swatch_0?_encoding=UTF8&qid=&sr=)
-- [[Napoleon Hill] Think and Grow Rich](https://www.amazon.com/Think-Grow-Rich-Landmark-Bestseller/dp/1585424331) [📝](./Notes/Happiness/Podcasts/[Napoleon%20Hill]%20Think%20and%20Grow%20Rich.md)
+- [[Napoleon Hill] Think and Grow Rich](https://www.amazon.com/Think-Grow-Rich-Landmark-Bestseller/dp/1585424331) [📝](./notes/happiness/podcasts/[Napoleon%20Hill]%20Think%20and%20Grow%20Rich.md)
 - [The Bible](https://www.youversion.com/)
 
 #### Clips
