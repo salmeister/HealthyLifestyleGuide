@@ -52,11 +52,13 @@
 <hr>
 
 #### Videos
-- [[Dr. Andrew Huberman] Non-Sleep Deep Rest](https://www.youtube.com/watch?v=YrubXRXwxJc)
-- [[Dr. Andrew Huberman] The Optimal Morning Routine](https://youtu.be/gR_f-iwUGY4?si=ToyBFRHMwhTv3aCS) 😇 🧠
+- [[Dr. Andrew Huberman] The Optimal Morning Routine](https://youtu.be/gR_f-iwUGY4?si=ToyBFRHMwhTv3aCS) [📝](/notes/sleep/Optimal-Morning-Routine/) 😇 🧠
 
 #### Newsletters
 - [[Dr. Andrew Huberman] Toolkit for Sleep](https://www.hubermanlab.com/newsletter/toolkit-for-sleep) [📝](/notes/sleep/Toolkit-For-Sleep/)
+
+#### Protocols
+- [[Dr. Andrew Huberman] Non-Sleep Deep Rest](https://www.youtube.com/watch?v=YrubXRXwxJc)
 
 ## Brain/Stress 🧠
 <hr>
