@@ -1,11 +1,3 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ site.ga4_id }}');
-</script>
-
 <div class="involvement-section">
   <span class="toggle-involvement">Get Involved <span class="expand-icon"><span class="right-arrow">►</span><span class="down-arrow">▼</span></span></span>
   <div class="involvement-details" style="display: none;">
