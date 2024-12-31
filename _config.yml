@@ -10,3 +10,9 @@ collections:
   notes:
     output: true
     permalink: /notes/:path/
+defaults:
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "default"
