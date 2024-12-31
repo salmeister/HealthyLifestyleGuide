@@ -4,7 +4,7 @@ title: "Healthy Lifestyle Guide"
 
 ## [⬅️](/)
 
-## **The Optimal Morning Routine - Andrew Huberman**
+## **[The Optimal Morning Routine - Andrew Huberman](https://youtu.be/gR_f-iwUGY4?si=ToyBFRHMwhTv3aCS)**
 
 **Source**: [After Skool](https://www.youtube.com/@AfterSkool) YouTube
 

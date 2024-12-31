@@ -4,7 +4,7 @@ title: "Healthy Lifestyle Guide"
 
 ## [⬅️](/)
 
-## Joe Rogan Experience #1766 - Ben Patrick
+## [Joe Rogan Experience #1766 - Ben Patrick](https://www.youtube.com/watch?v=Lqi12hqe_lQ)
 
 **Podcast**: [The Joe Rogan Experience](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk) | **Guest**: Ben Patrick
 

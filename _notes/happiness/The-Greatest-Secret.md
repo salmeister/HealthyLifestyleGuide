@@ -4,7 +4,7 @@ title: "Healthy Lifestyle Guide"
 
 ## [⬅️](/)
 
-### **The Greatest Secret by Rhonda Byrne - Summary**
+### **[The Greatest Secret by Rhonda Byrne](https://www.amazon.com/The-Greatest-Secret/dp/B08GNDRZ3T/ref=tmm_aud_swatch_0?_encoding=UTF8&qid=&sr=) - Summary**
 
 **Core Concept:**
 - *The Greatest Secret* builds on the philosophy from *The Secret*, delving into spiritual awakening and self-realization, aiming to end personal suffering and discover lasting happiness.

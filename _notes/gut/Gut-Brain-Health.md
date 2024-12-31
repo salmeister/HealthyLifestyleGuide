@@ -4,9 +4,9 @@ title: "Healthy Lifestyle Guide"
 
 ## [⬅️](/)
 
-## **Gut-Brain Health with Dr. Andrew Huberman**
+## **[Gut-Brain Health with Dr. Andrew Huberman](https://www.youtube.com/watch?v=pvI1vLHV0Mo)**
 
-**Source**: [Virtusan App](https://www.youtube.com/watch?v=pvI1vLHV0Mo) YouTube
+**Source**: [Virtusan App](https://www.youtube.com/@virtusan) YouTube
 
 #### **Gut-Brain Axis Explained**
 

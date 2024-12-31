@@ -4,7 +4,7 @@ title: "Healthy Lifestyle Guide"
 
 ## [⬅️](/)
 
-## The Colorado Experiment with Dr. Ben Bocchicchio
+## [The Colorado Experiment with Dr. Ben Bocchicchio](https://youtu.be/P4hq8sIvb3c?si=UDeE7TohFACTllJF)
 
 **Podcast**: [Fitness Confidential Podcast](https://vinnietortorich.com/) | **Guest**: Dr. Ben Bocchicchio
 
