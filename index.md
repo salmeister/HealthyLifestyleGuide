@@ -28,7 +28,7 @@
 
 #### Videos
 - [[Vinnie Tortorich] Top 10 Foods That You Should Be Eating](https://youtu.be/2-fHQIhVAGA?si=wvBa12QBylM-ltn0) [📝](/notes/diet/Top-10-Foods-To-Eat/)
-- [[Vinnie Tortorich] Top 10 Foods That You Should Stop Eating](https://youtu.be/3oVdksMTJ50?si=h5iZRlqMw9UgcXPb) [📝](/notes/diet/Top-10-Foods-Stop-Eating/)
+- [[Vinnie Tortorich] Top 10 Foods That You Should Stop Eating](https://youtu.be/3oVdksMTJ50?si=h5iZRlqMw9UgcXPb) [📝](/notes/diet/Top-10-Foods-To-Stop-Eating/)
 - [[Dr. Sean O'Mara] Optimize Your Health](https://youtu.be/XuFD5tMz9M0?si=f8SKPcSGIEqInaWs) [📝](/notes/diet/Optimize-Your-Health/) 💪
 
 ## Gut Health 🍲
@@ -45,8 +45,8 @@
 <hr>
 
 #### Podcast Episodes
-- [[Fitness Confidential] Dr. Ben Bocchicchio - The Colorado Experiment](https://youtu.be/P4hq8sIvb3c?si=UDeE7TohFACTllJF)
-- [[Joe Rogan] Ben Patrick — Knees Over Toes Guy](https://open.spotify.com/episode/2zfpB6RoKwylk3DbN3GXA0?si=de02e3493ef74d07)
+- [[Fitness Confidential] Dr. Ben Bocchicchio - The Colorado Experiment](https://youtu.be/P4hq8sIvb3c?si=UDeE7TohFACTllJF) [📝](/notes/exercise/The-Colorado-Experiment/)
+- [[Joe Rogan] Ben Patrick — Knees Over Toes Guy](https://open.spotify.com/episode/2zfpB6RoKwylk3DbN3GXA0?si=de02e3493ef74d07) [📝](/notes/exercise/Knees-Over-Toes-Guy/)
 
 ## Sleep 😴
 <hr>
