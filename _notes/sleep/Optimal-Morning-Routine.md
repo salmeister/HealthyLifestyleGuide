@@ -1,6 +1,5 @@
 ---
-title: "The Optimal Morning Routine"
-description: Notes
+title: "Healthy Lifestyle Guide"
 ---
 
 ## [⬅️](/)

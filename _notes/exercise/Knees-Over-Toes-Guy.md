@@ -1,6 +1,5 @@
 ---
-title: Knees Over Toes Guy
-description: Notes
+title: "Healthy Lifestyle Guide"
 ---
 
 ## [⬅️](/)

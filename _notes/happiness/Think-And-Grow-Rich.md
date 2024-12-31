@@ -1,6 +1,5 @@
 ---
-title: Think and Grow Rich
-description: Notes
+title: "Healthy Lifestyle Guide"
 ---
 
 ## [⬅️](/)

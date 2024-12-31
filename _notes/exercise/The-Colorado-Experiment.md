@@ -1,6 +1,5 @@
 ---
-title: "The Colorado Experiment"
-description: Notes
+title: "Healthy Lifestyle Guide"
 ---
 
 ## [⬅️](/)

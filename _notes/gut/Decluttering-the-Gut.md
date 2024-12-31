@@ -1,6 +1,5 @@
 ---
-title: Decluttering the Gut
-description: Notes
+title: "Healthy Lifestyle Guide"
 ---
 
 ## [⬅️](/)

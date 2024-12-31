@@ -1,6 +1,5 @@
 ---
-title: The Valley
-description: Notes
+title: "Healthy Lifestyle Guide"
 ---
 
 ## [⬅️](/)
