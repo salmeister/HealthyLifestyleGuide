@@ -7,13 +7,10 @@ description: Notes
 
 ## **What to Do & Track to Optimize Your Health**
 
-**Youtube Video**: [Dr. Sean OMara](https://www.youtube.com/watch?v=XuFD5tMz9M0)
-
-
-### **Summary: The Importance of Eliminating Visceral Fat**
+**Source**: [Dr. Sean O'Mara](https://www.youtube.com/watch?v=XuFD5tMz9M0) YouTube
 
 #### **Introduction**
-- Dr. Sean Amera, an emergency medicine physician, introduces visceral fat as a critical health issue not commonly discussed in mainstream health systems.
+- Dr. Sean O'Mara, a medicine physician, introduces visceral fat as a critical health issue not commonly discussed in mainstream health systems.
 
 #### **What is Visceral Fat?**
 - **Location**: Deep within the abdominal cavity.
@@ -49,7 +46,7 @@ description: Notes
 - **Lifestyle Over Medication**: Unlike medications like statins, lifestyle changes directly address the root cause, improving arterial health and reducing disease risk.
 
 #### **Personal Anecdotes**
-- Dr. Amera shares his health journey, showing dramatic improvements in his physical appearance and health without medication or extensive exercise, just through diet and specific exercise.
+- Dr. O'Mara shares his health journey, showing dramatic improvements in his physical appearance and health without medication or extensive exercise, just through diet and specific exercise.
 
 #### **Conclusion**
 - Visceral fat is described as humanity's biggest health threat, advocating for education on this topic from schools to medical practices to reverse chronic disease trends.

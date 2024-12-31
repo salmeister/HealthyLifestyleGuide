@@ -7,7 +7,7 @@ description: Notes
 
 ## **Top 10 Foods to Avoid for Anti-Aging:**
 
-**Youtube Video**: [Vinnie Tortorich](https://www.youtube.com/watch?v=2-fHQIhVAGA)
+**Source**: [Vinnie Tortorich](https://www.youtube.com/watch?v=2-fHQIhVAGA) YouTube
 
 1. **Grains** - Often mislabeled as "heart-healthy" due to industry influence on health associations. They cause inflammation and aren't beneficial for heart health.
 
