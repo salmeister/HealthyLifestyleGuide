@@ -9,8 +9,6 @@ description: Notes
 
 **Source**: [Virtusan App](https://www.youtube.com/watch?v=pvI1vLHV0Mo) YouTube
 
-### **Summary: Gut-Brain Communication and Health**
-
 #### **Gut-Brain Axis Explained**
 
 - **Structure**: Neurons in the gut (stomach and intestines) communicate directly with the brain, particularly areas like the ventral tegmental area (VTA) which is linked to alertness, motivation, and dopamine release.
