@@ -28,15 +28,18 @@
 
 #### Videos
 - [[Vinnie Tortorich] Top 10 Foods That You Should Be Eating](https://youtu.be/2-fHQIhVAGA?si=wvBa12QBylM-ltn0) [📝](/notes/diet/Top-10-Foods-To-Eat/)
-- [[Vinnie Tortorich] Top 10 Foods That You Should Stop Eating](https://youtu.be/3oVdksMTJ50?si=h5iZRlqMw9UgcXPb) [📝](/notes/diet/Top-10-Foolds-Stop-Eating/)
+- [[Vinnie Tortorich] Top 10 Foods That You Should Stop Eating](https://youtu.be/3oVdksMTJ50?si=h5iZRlqMw9UgcXPb) [📝](/notes/diet/Top-10-Foods-Stop-Eating/)
 - [[Dr. Sean O'Mara] Optimize Your Health](https://youtu.be/XuFD5tMz9M0?si=f8SKPcSGIEqInaWs) [📝](/notes/diet/Optimize-Your-Health/) 💪
 
 ## Gut Health 🍲
 <hr>
 
 #### Podcast Episodes
-- [[The Minimalists] Dr. Zach Bush — Decluttering the Gut](https://www.theminimalists.com/podcast/#398)
-- [[Dr. Andrew Huberman] Gut-Brain Health](https://youtu.be/pvI1vLHV0Mo?si=-KyK2ta83Fo6_BV1)
+- [[The Minimalists] Dr. Zach Bush — Decluttering the Gut](https://www.theminimalists.com/podcast/#398) [📝](/notes/gut/Decluttering-the-Gut/)
+
+#### Videos
+- [[Dr. Andrew Huberman] Gut-Brain Health](https://youtu.be/pvI1vLHV0Mo?si=-KyK2ta83Fo6_BV1) [📝](/notes/gut/Gut-Brain-Health/)
+
 
 ## Exercise 💪
 <hr>

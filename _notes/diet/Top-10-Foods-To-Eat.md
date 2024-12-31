@@ -7,7 +7,7 @@ description: Notes
 
 ## **Top 10 Foods:**
 
-**Youtube Video**: [Vinnie Tortorich](https://www.youtube.com/watch?v=2-fHQIhVAGA)
+**Source**: [Vinnie Tortorich](https://www.youtube.com/watch?v=2-fHQIhVAGA) YouTube
 
 1. **Avocado** - High in monounsaturated fats, vitamins B, C, E, K, and minerals like potassium and magnesium. Versatile for smoothies, guacamole, or omelets.
 
