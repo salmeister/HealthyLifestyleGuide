@@ -10,14 +10,14 @@
 <hr>
 
 #### Podcast Episodes
-- [[Know Thyself] Dr. Mindy Pelz - The Miracle of Fasting](https://www.youtube.com/watch?v=pgWnbRg5-cg)🍲
-- [[Rich Roll] Robin Berzin - LONGEVITY PROTOCOL For Women](https://www.youtube.com/watch?v=P28Pqr9BSWw)💪
-- [[Andrew Huberman]Dr. Stacy Sims - Female Exercise & Nutrition](https://www.youtube.com/watch?v=pZX8ikmWvEU)💪
-- [[The Minimalists] Dr. Sean O'Mara — Minimize Fat](https://www.theminimalists.com/podcast/#408) 💪 🍲
-- [[The Minimalists] Dr. Paul Saladino — Food Clutter](https://www.theminimalists.com/podcast/#384)
-- [[Joe Rogan] Will Harris — White Oak Pastures](https://open.spotify.com/episode/0qf7CYEhxSFPAcdSw1JJMY?si=b6f7eaae9e1b45f2)
+- [[Know Thyself] Dr. Mindy Pelz - The Miracle of Fasting](https://www.youtube.com/watch?v=pgWnbRg5-cg) [📝](/notes/diet/The-Miracle-of-Fasting) 🍲
+- [[Rich Roll] Robin Berzin - LONGEVITY PROTOCOL For Women](https://www.youtube.com/watch?v=P28Pqr9BSWw) [📝](/notes/diet/Longevity-Protocol-For-Women/) 💪
+- [[Andrew Huberman]Dr. Stacy Sims - Female Exercise & Nutrition](https://www.youtube.com/watch?v=pZX8ikmWvEU) [📝](/notes/diet/Female-Exercise-and-Nutrition) 💪
+- [[The Minimalists] Dr. Sean O'Mara — Minimize Fat](https://www.theminimalists.com/podcast/#408) [📝](/notes/diet/Minimize-Fat) 💪 🍲
+- [[The Minimalists] Dr. Paul Saladino — Food Clutter](https://www.theminimalists.com/podcast/#384) [📝](/notes/diet/Food-Clutter/)
+- [[Joe Rogan] Will Harris — White Oak Pastures](https://open.spotify.com/episode/0qf7CYEhxSFPAcdSw1JJMY?si=b6f7eaae9e1b45f2) [📝](/notes/diet/White-Oak-Pastures/)
 - [[The Way I Heard It with Mike Rowe] Vinnie Tortorich — Where's the Beef?](https://mikerowe.com/2022/04/wheres-the-beef-ep-244/) 💪
-- [[Joe Rogan] Dr. Rhonda Patrick — Ketogenic Diet](https://open.spotify.com/episode/7y8MKnfhML6KzvA6GVd83B?si=mrIaUnsMTLuD0DnTR39GkQ)
+- [[Joe Rogan] Dr. Rhonda Patrick — Ketogenic Diet](https://open.spotify.com/episode/7y8MKnfhML6KzvA6GVd83B?si=mrIaUnsMTLuD0DnTR39GkQ) [📝](/notes/diet/Ketogenic-Diet/)
 
 #### Books
 - [[Vinnie Tortorich] Intro to NSNG](https://nsng.vinnietortorich.com/product/intro-to-nsng/) [📝](/notes/diet/Intro-To-NSNG/)
