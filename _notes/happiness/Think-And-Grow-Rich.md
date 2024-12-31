@@ -1,8 +1,7 @@
 ---
-layout: default
 title: Think and Grow Rich
 description: Notes
-permalink: /notes/happiness/ThinkandGrowRich.md
+layout: notes
 ---
 
 ## [⬅️](/)
