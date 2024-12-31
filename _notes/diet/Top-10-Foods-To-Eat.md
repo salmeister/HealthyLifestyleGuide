@@ -1,11 +1,9 @@
 ---
-title: "Top 10 Foods That You Should Be Eating"
-description: Notes
 ---
 
 ## [⬅️](/)
 
-## **Top 10 Foods:**
+## **[Top 10 Foods](https://www.youtube.com/watch?v=pgWnbRg5-cg):**
 
 **Source**: [Vinnie Tortorich](https://www.youtube.com/watch?v=2-fHQIhVAGA) YouTube
 

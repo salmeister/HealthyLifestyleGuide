@@ -1,11 +1,9 @@
 ---
-title: Food Clutter
-description: Notes
 ---
 
 ## [⬅️](/)
 
-## Ep. 384 | Food Clutter (with Dr. Paul Saladino)
+## [Ep. 384 | Food Clutter (with Dr. Paul Saladino)](https://youtu.be/dp8iNUrwFO8)
 
 **Podcast**: [The Minimalists Podcast](http://minimalists.com/podcast) | **Guest**: Dr. Paul Saladino
 

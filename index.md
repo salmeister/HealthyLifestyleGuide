@@ -68,7 +68,7 @@
 - [[Fitness Confidential] James Nestor — Breathing Correctly](https://youtu.be/5OKoZLS-h5g?si=4lfYR-vj0Fc8FE1V) [📝](/notes/brain/Breathing-Correctly/)
 
 #### Videos
-- [[Tim Ferriss] Dr. Andrew Huberman — Breathing Techniques to Reduce Stress and Anxiety](https://youtu.be/kSZKIupBUuc?si=sx_otgGYF73ukiz_) [📝](/notes/brain/Breathing-Techniques-to_Reduce-Stress/)
+- [[Tim Ferriss] Dr. Andrew Huberman — Breathing Techniques to Reduce Stress and Anxiety](https://youtu.be/kSZKIupBUuc?si=sx_otgGYF73ukiz_) [📝](/notes/brain/Breathing-Techniques-to-Reduce-Stress/)
 - [[Jocko Willink] Good](https://www.youtube.com/watch?v=IdTMDpizis8) 😇
 
 ## Happiness/Spirituality 😇

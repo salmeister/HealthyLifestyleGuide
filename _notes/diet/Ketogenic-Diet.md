@@ -1,11 +1,9 @@
 ---
-title: Ketogenic Diet
-description: Notes
 ---
 
 ## [⬅️](/)
 
-## Joe Rogan Experience #1701 - Rhonda Patrick
+## [Joe Rogan Experience #1701 - Rhonda Patrick](https://www.youtube.com/watch?v=Yx9viPghp4o)
 
 **Podcast**: [The Joe Rogan Experience](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk) | **Guest**: Dr. Rhonda Patrick
 

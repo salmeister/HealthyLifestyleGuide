@@ -1,11 +1,9 @@
 ---
-title: Longevity Protocol for Women
-description: Notes
 ---
 
 ## [⬅️](/)
 
-## The LIFESTYLE MEDICINE Doctor: The #1 LONGEVITY PROTOCOL For Women | Robin Berzin, MD
+## [The LIFESTYLE MEDICINE Doctor: The #1 LONGEVITY PROTOCOL For Women | Robin Berzin, MD](https://www.youtube.com/watch?v=P28Pqr9BSWw)
 
 **Podcast**: [Rich Roll Podcast](https://richroll.com/all-episodes/) | **Guest**: Dr. Robin Berzin
 

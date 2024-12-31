@@ -1,6 +1,4 @@
 ---
-title: "Your Brain on Coconut Oil"
-description: Notes
 ---
 
 ## [⬅️](/)
