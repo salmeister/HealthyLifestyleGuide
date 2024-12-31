@@ -1,7 +1,6 @@
 ---
 title: Think and Grow Rich
 description: Notes
-layout: notes
 ---
 
 ## [⬅️](/)

@@ -1,7 +1,6 @@
 ---
 title: The Greatest Secret
 description: Notes
-layout: notes
 ---
 
 ## [⬅️](/)

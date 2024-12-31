@@ -20,7 +20,7 @@
 - [[Joe Rogan] Dr. Rhonda Patrick — Ketogenic Diet](https://open.spotify.com/episode/7y8MKnfhML6KzvA6GVd83B?si=mrIaUnsMTLuD0DnTR39GkQ)
 
 #### Books
-- [[Vinnie Tortorich] Intro to NSNG](https://nsng.vinnietortorich.com/product/intro-to-nsng/) [📝](notes/diet/books/Intro%20to%20NSNG/)
+- [[Vinnie Tortorich] Intro to NSNG](https://nsng.vinnietortorich.com/product/intro-to-nsng/) [📝](notes/diet/Intro-To-NSNG/)
 
 #### Documentaries
 - [[Vinnie Tortorich] Fat A Documentary](https://www.youtube.com/watch?v=iVJM_0XEiBI)
@@ -53,7 +53,7 @@
 - [[Dr. Andrew Huberman] The Optimal Morning Routine](https://youtu.be/gR_f-iwUGY4?si=ToyBFRHMwhTv3aCS) 😇 🧠
 
 #### Newsletters
-- [[Dr. Andrew Huberman] Toolkit for Sleep](https://www.hubermanlab.com/newsletter/toolkit-for-sleep) [📝](notes/sleep/)
+- [[Dr. Andrew Huberman] Toolkit for Sleep](https://www.hubermanlab.com/newsletter/toolkit-for-sleep) [📝](notes/sleep/Toolkit-For-Sleep/)
 
 ## Brain/Stress 🧠
 <hr>
