@@ -53,7 +53,7 @@
 - [[Dr. Andrew Huberman] The Optimal Morning Routine](https://youtu.be/gR_f-iwUGY4?si=ToyBFRHMwhTv3aCS) 😇 🧠
 
 #### Newsletters
-- [[Dr. Andrew Huberman] Toolkit for Sleep](https://www.hubermanlab.com/newsletter/toolkit-for-sleep)
+- [[Dr. Andrew Huberman] Toolkit for Sleep](https://www.hubermanlab.com/newsletter/toolkit-for-sleep) [📝](notes/sleep/)
 
 ## Brain/Stress 🧠
 <hr>
@@ -80,8 +80,8 @@
 - [[Joe Rogan] Sadhguru](https://open.spotify.com/episode/0zN02uiYg9KUwYs4JY8Nwg?si=834e1c5ee77d4e99)
 
 #### Books
-- [[Rhonda Byrne] The Greatest Secret](https://www.amazon.com/The-Greatest-Secret/dp/B08GNDRZ3T/ref=tmm_aud_swatch_0?_encoding=UTF8&qid=&sr=)
-- [[Napoleon Hill] Think and Grow Rich](https://www.amazon.com/Think-Grow-Rich-Landmark-Bestseller/dp/1585424331) [📝](notes/happiness/books/Think%20and%20Grow%20Rich/)
+- [[Rhonda Byrne] The Greatest Secret](https://www.amazon.com/The-Greatest-Secret/dp/B08GNDRZ3T/ref=tmm_aud_swatch_0?_encoding=UTF8&qid=&sr=) [📝](notes/happiness/TheGreatestSecret.md)
+- [[Napoleon Hill] Think and Grow Rich](https://www.amazon.com/Think-Grow-Rich-Landmark-Bestseller/dp/1585424331) [📝](notes/happiness/ThinkandGrowRich.md)
 
 #### Clips
 - [[Unstoppable] Zach Bush — Rabbits and Pesticides Study](https://youtube.com/clip/Ugkx1mJ0yyrcWatebI5KA_ByXTdwd3c0mabA?si=BETEpvHDvMyG7F9Q)
