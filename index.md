@@ -23,13 +23,13 @@
 - [[Vinnie Tortorich] Intro to NSNG](https://nsng.vinnietortorich.com/product/intro-to-nsng/) [📝](/notes/diet/Intro-To-NSNG/)
 
 #### Documentaries
-- [[Vinnie Tortorich] Fat A Documentary](https://www.youtube.com/watch?v=iVJM_0XEiBI)
-- [[Vinnie Tortorich] Fat A Documentary 2](https://www.youtube.com/watch?v=AoPisYHbMcg)
+- [[Vinnie Tortorich] Fat A Documentary](https://www.youtube.com/watch?v=iVJM_0XEiBI) [📝](/notes/diet/Fat-A-Documentary/)
+- [[Vinnie Tortorich] Fat A Documentary 2](https://www.youtube.com/watch?v=AoPisYHbMcg) [📝](/notes/diet/Fat-A-Documentary-2/)
 
 #### Videos
-- [[Vinnie Tortorich] Top 10 Foods That You Should Be Eating](https://youtu.be/2-fHQIhVAGA?si=wvBa12QBylM-ltn0)
-- [[Vinnie Tortorich] Top 10 Foods That You Should Stop Eating](https://youtu.be/3oVdksMTJ50?si=h5iZRlqMw9UgcXPb)
-- [[Dr. Sean O'Mara] Optimize Your Health](https://youtu.be/XuFD5tMz9M0?si=f8SKPcSGIEqInaWs) 💪
+- [[Vinnie Tortorich] Top 10 Foods That You Should Be Eating](https://youtu.be/2-fHQIhVAGA?si=wvBa12QBylM-ltn0) [📝](/notes/diet/Top-10-Foods-To-Eat/)
+- [[Vinnie Tortorich] Top 10 Foods That You Should Stop Eating](https://youtu.be/3oVdksMTJ50?si=h5iZRlqMw9UgcXPb) [📝](/notes/diet/Top-10-Foolds-Stop-Eating/)
+- [[Dr. Sean O'Mara] Optimize Your Health](https://youtu.be/XuFD5tMz9M0?si=f8SKPcSGIEqInaWs) [📝](/notes/diet/Optimize-Your-Health/) 💪
 
 ## Gut Health 🍲
 <hr>
