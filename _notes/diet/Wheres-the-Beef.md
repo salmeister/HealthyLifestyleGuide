@@ -1,11 +1,9 @@
 ---
-title: "Where's the Beef?"
-description: Notes
 ---
 
 ## [⬅️](/)
 
-## Where’s the Beef? (Ep. 244)
+## [Where’s the Beef? (Ep. 244)](https://podcasts.apple.com/us/podcast/244-wheres-the-beef/id1087110764?i=1000555585865)
 
 **Podcast**: [The Way I Heard It](https://mikerowe.com/podcast/) | **Guest**: Vinnie Tortorich
 

@@ -1,6 +1,4 @@
 ---
-title: "Breathing Correctly"
-description: Notes
 ---
 
 ## [⬅️](/)

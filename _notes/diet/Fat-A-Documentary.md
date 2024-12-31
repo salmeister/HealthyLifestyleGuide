@@ -1,12 +1,11 @@
 ---
-title: "Fat: A Documentary"
-description: Notes
 ---
 
 ## [⬅️](/)
 
+## [Fat: A Documentary](https://www.youtube.com/watch?v=iVJM_0XEiBI)
+
 **Overview:**
-- **Title:** "Fat: A Documentary"
 - **Director/Host:** Vinnie Tortorich
 - **Focus:** The documentary examines the myths and misconceptions about health, diet, and nutrition in the United States, particularly critiquing the dietary guidelines and the war on fat.
 

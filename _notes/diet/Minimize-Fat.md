@@ -1,11 +1,9 @@
 ---
-title: Minimize Fat
-description: Notes
 ---
 
 ## [⬅️](/)
 
-## Minimize Fat | The Minimalists Ep. 408
+## [Minimize Fat | The Minimalists Ep. 408](https://www.youtube.com/watch?v=ZaK2ohcDlzo)
 
 **Podcast**: [The Minimalists Podcast](http://minimalists.com/podcast) | **Guest**: Dr. Sean O'Mara
 

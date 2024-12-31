@@ -1,11 +1,9 @@
 ---
-title: "Optimize Your Health"
-description: Notes
 ---
 
 ## [⬅️](/)
 
-## **What to Do & Track to Optimize Your Health**
+## **[What to Do & Track to Optimize Your Health](https://youtu.be/XuFD5tMz9M0?si=f8SKPcSGIEqInaWs)**
 
 **Source**: [Dr. Sean O'Mara](https://www.youtube.com/watch?v=XuFD5tMz9M0) YouTube
 

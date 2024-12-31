@@ -1,11 +1,9 @@
 ---
-title: Intro to NSNG
-description: Notes
 ---
 
 ## [⬅️](/)
 
-## A Beginner’s Guide to the No Sugar No Grains (NSNG) Lifestyle
+## [A Beginner’s Guide to the No Sugar No Grains (NSNG) Lifestyle](https://nsng.vinnietortorich.com/product/intro-to-nsng/)
 **Author**: Vinnie Tortorich | **Based on: Version 1.0 - September 2017**
 
 ### Who is Vinnie Tortorich?

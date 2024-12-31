@@ -1,12 +1,12 @@
 ---
-title: "Fat: A Documentary 2"
-description: Notes
 ---
 
 ## [⬅️](/)
 
+## [Fat: A Documentary 2](https://www.youtube.com/watch?v=AoPisYHbMcg)
+
 **Overview:**
-- **Title:** "Fat: A Documentary"
+- **Title:** ""
 - **Director/Host:** Vinnie Tortorich
 - **Focus:** Vinnie Tortorich, a health and fitness expert, explores the myths and truths behind dietary recommendations, focusing on how historical, scientific, and cultural factors have shaped our understanding of nutrition.
 

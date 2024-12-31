@@ -1,6 +1,4 @@
 ---
-title: "Breathing Techniques to Reduce Stress and Anxiety"
-description: Notes
 ---
 
 ## [⬅️](/)

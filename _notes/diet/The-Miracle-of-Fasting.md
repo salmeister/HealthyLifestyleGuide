@@ -1,11 +1,9 @@
 ---
-title: The Miracle of Fasting
-description: Notes
 ---
 
 ## [⬅️](/)
 
-## Harness Your Body's Intelligence: The Miracle Of Fasting, Hormones & Women's Cycles | Dr. Mindy Pelz
+## [Harness Your Body's Intelligence: The Miracle Of Fasting, Hormones & Women's Cycles | Dr. Mindy Pelz](https://www.youtube.com/watch?v=pgWnbRg5-cg)
 
 **Podcast**: [Know Thyself Podcast](https://www.knowthyself.one) | **Guest**: Dr. Mindy Pelz
 

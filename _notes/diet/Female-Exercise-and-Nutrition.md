@@ -1,11 +1,9 @@
 ---
-title: Female Exercise & Nutrition
-description: Notes
 ---
 
 ## [⬅️](/)
 
-## Dr. Stacy Sims: Female-Specific Exercise & Nutrition for Health, Performance & Longevity
+## [Dr. Stacy Sims: Female-Specific Exercise & Nutrition for Health, Performance & Longevity](https://www.youtube.com/watch?v=pZX8ikmWvEU)
 
 **Podcast**: [Andrew Huberman Podcast](https://www.hubermanlab.com/) | **Guest**: Dr. Stacy Sims
 

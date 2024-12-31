@@ -1,11 +1,9 @@
 ---
-title: White Oak Pastures
-description: Notes
 ---
 
 ## [⬅️](/)
 
-## Joe Rogan Experience #1893 - Will Harris
+## [Joe Rogan Experience #1893 - Will Harris](https://www.youtube.com/watch?v=ozNK2sgJmcg)
 
 **Podcast**: [The Joe Rogan Experience](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk) | **Guest**: Will Harris
 
