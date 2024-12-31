@@ -4,7 +4,7 @@ title: "Healthy Lifestyle Guide"
 
 ## [⬅️](/)
 
-## Ep. 398 | Decluttering the Gut (with Zach Bush MD)
+## [Ep. 398 | Decluttering the Gut (with Zach Bush MD)](https://www.youtube.com/watch?v=U4VKuviM-pM)
 
 **Podcast**: [The Minimalists Podcast](http://minimalists.com/podcast) | **Guest**: Dr. Zach Bush
 

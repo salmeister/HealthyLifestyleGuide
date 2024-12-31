@@ -4,7 +4,7 @@ title: "Healthy Lifestyle Guide"
 
 ## [⬅️](/)
 
-### **Think and Grow Rich by Napoleon Hill - Summary**
+### **[Think and Grow Rich by Napoleon Hill](https://www.amazon.com/Think-Grow-Rich-Landmark-Bestseller/dp/1585424331) - Summary**
 
 **Core Philosophy:**
 - Napoleon Hill's *Think and Grow Rich* is a seminal work in personal development, emphasizing the psychological aspects of achieving success and financial wealth. 
