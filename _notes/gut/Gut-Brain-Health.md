@@ -1,6 +1,5 @@
 ---
-title: "Gut-Brain Health"
-description: Notes
+title: "Healthy Lifestyle Guide"
 ---
 
 ## [⬅️](/)

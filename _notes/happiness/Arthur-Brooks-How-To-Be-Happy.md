@@ -1,6 +1,5 @@
 ---
-title: "Arthur C. Brooks: How to Be Happy"
-description: Notes
+title: "Healthy Lifestyle Guide"
 ---
 
 ## [⬅️](/)

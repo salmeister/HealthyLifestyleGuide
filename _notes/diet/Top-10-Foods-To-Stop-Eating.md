@@ -1,6 +1,5 @@
 ---
-title: "Top 10 Foods That You Should Stop Eating"
-description: Notes
+title: "Healthy Lifestyle Guide"
 ---
 
 ## [⬅️](/)

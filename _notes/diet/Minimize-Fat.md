@@ -1,4 +1,5 @@
 ---
+title: "Healthy Lifestyle Guide"
 ---
 
 ## [⬅️](/)

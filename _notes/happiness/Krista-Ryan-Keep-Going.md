@@ -1,6 +1,5 @@
 ---
-title: "Krista Ryan: Keep Going"
-description: Notes
+title: "Healthy Lifestyle Guide"
 ---
 
 ## [⬅️](/)
