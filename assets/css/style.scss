@@ -116,6 +116,18 @@ body.dark-mode {
   color: #8ab4f8;
 }
 
+.dark-mode .project-name a {
+  // Specific styles for the link
+  color: white; // White text
+  text-decoration: none; // Remove underline
+
+  // No change on hover
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
 .involvement-section {
   cursor: pointer;
 }
