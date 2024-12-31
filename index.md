@@ -16,7 +16,7 @@
 - [[The Minimalists] Dr. Sean O'Mara — Minimize Fat](https://www.theminimalists.com/podcast/#408) [📝](/notes/diet/Minimize-Fat) 💪 🍲
 - [[The Minimalists] Dr. Paul Saladino — Food Clutter](https://www.theminimalists.com/podcast/#384) [📝](/notes/diet/Food-Clutter/)
 - [[Joe Rogan] Will Harris — White Oak Pastures](https://open.spotify.com/episode/0qf7CYEhxSFPAcdSw1JJMY?si=b6f7eaae9e1b45f2) [📝](/notes/diet/White-Oak-Pastures/)
-- [[The Way I Heard It with Mike Rowe] Vinnie Tortorich — Where's the Beef?](https://mikerowe.com/2022/04/wheres-the-beef-ep-244/) 💪
+- [[The Way I Heard It with Mike Rowe] Vinnie Tortorich — Where's the Beef?](https://podcasts.apple.com/us/podcast/244-wheres-the-beef/id1087110764?i=1000555585865) [📝](/notes/diet/Wheres-the-Beef/) 💪
 - [[Joe Rogan] Dr. Rhonda Patrick — Ketogenic Diet](https://open.spotify.com/episode/7y8MKnfhML6KzvA6GVd83B?si=mrIaUnsMTLuD0DnTR39GkQ) [📝](/notes/diet/Ketogenic-Diet/)
 
 #### Books
