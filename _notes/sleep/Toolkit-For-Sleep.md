@@ -5,7 +5,7 @@ description: Notes
 
 ## [⬅️](/)
 
-**Authored by Andrew Huberman | Huberman Lab Podcast**
+**Source**: [Huberman Lab](https://www.hubermanlab.com/)
 
 ## Introduction
 These 12 actionable steps are designed to help you improve your sleep quality, based on insights from the Huberman Lab Podcast.
