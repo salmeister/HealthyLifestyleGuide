@@ -64,12 +64,12 @@
 <hr>
 
 #### Podcast Episodes
-- [[Fitness Confidential] Dr. Mary Newport — Your Brain on Coconut Oil](https://youtu.be/Xk5_8v5qLNo?si=J5WwSy52_homs-Wh)
-- [[Fitness Confidential] James Nestor — Breathing Correctly](https://youtu.be/5OKoZLS-h5g?si=4lfYR-vj0Fc8FE1V)
-- [[Jocko Willink] Good](https://www.youtube.com/watch?v=IdTMDpizis8) 😇
+- [[Fitness Confidential] Dr. Mary Newport — Your Brain on Coconut Oil](https://youtu.be/Xk5_8v5qLNo?si=J5WwSy52_homs-Wh) [📝](/notes/brain/Your-Brain-on-Coconut-Oil/)
+- [[Fitness Confidential] James Nestor — Breathing Correctly](https://youtu.be/5OKoZLS-h5g?si=4lfYR-vj0Fc8FE1V) [📝](/notes/brain/Breathing-Correctly/)
 
 #### Videos
-- [[Tim Ferriss] Dr. Andrew Huberman — Breathing Techniques to Reduce Stress and Anxiety](https://youtu.be/kSZKIupBUuc?si=sx_otgGYF73ukiz_)
+- [[Tim Ferriss] Dr. Andrew Huberman — Breathing Techniques to Reduce Stress and Anxiety](https://youtu.be/kSZKIupBUuc?si=sx_otgGYF73ukiz_) [📝](/notes/brain/Breathing-Techniques-to_Reduce-Stress/)
+- [[Jocko Willink] Good](https://www.youtube.com/watch?v=IdTMDpizis8) 😇
 
 ## Happiness/Spirituality 😇
 <hr>
