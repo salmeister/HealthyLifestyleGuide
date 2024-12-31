@@ -3,6 +3,21 @@
 
 @import "{{ site.theme }}";
 
+.project-name a {
+  // Inherit the styles from .project-name
+  @extend .project-name;
+  
+  // Specific styles for the link
+  color: white; // White text
+  text-decoration: none; // Remove underline
+
+  // No change on hover
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
 // Custom header styles to make it smaller
 .page-header {
   padding-top: 1rem; // Reduce top padding
