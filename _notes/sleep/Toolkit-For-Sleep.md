@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Toolkit for Sleep
 description: Notes
-permalink: /notes/sleep/
 ---
 
 ## [⬅️](/)

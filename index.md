@@ -20,7 +20,7 @@
 - [[Joe Rogan] Dr. Rhonda Patrick — Ketogenic Diet](https://open.spotify.com/episode/7y8MKnfhML6KzvA6GVd83B?si=mrIaUnsMTLuD0DnTR39GkQ)
 
 #### Books
-- [[Vinnie Tortorich] Intro to NSNG](https://nsng.vinnietortorich.com/product/intro-to-nsng/) [📝](notes/diet/Intro-To-NSNG/)
+- [[Vinnie Tortorich] Intro to NSNG](https://nsng.vinnietortorich.com/product/intro-to-nsng/) [📝](/notes/diet/Intro-To-NSNG/)
 
 #### Documentaries
 - [[Vinnie Tortorich] Fat A Documentary](https://www.youtube.com/watch?v=iVJM_0XEiBI)
@@ -53,7 +53,7 @@
 - [[Dr. Andrew Huberman] The Optimal Morning Routine](https://youtu.be/gR_f-iwUGY4?si=ToyBFRHMwhTv3aCS) 😇 🧠
 
 #### Newsletters
-- [[Dr. Andrew Huberman] Toolkit for Sleep](https://www.hubermanlab.com/newsletter/toolkit-for-sleep) [📝](notes/sleep/Toolkit-For-Sleep/)
+- [[Dr. Andrew Huberman] Toolkit for Sleep](https://www.hubermanlab.com/newsletter/toolkit-for-sleep) [📝](/notes/sleep/Toolkit-For-Sleep/)
 
 ## Brain/Stress 🧠
 <hr>
@@ -72,10 +72,10 @@
 #### Podcast Episodes
 - [[Aubrey Marcus] NDE Survivor - Anita Moorjani](https://www.youtube.com/watch?v=6Po0qnuA3Vo) 🧠
 - [[Know Thyself] BioHacking - Dave Asprey](https://www.youtube.com/watch?v=ipe3GM30wZw&list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q) 🍖 🧠
-- [[Otherworld] The Valley](https://open.spotify.com/episode/4g1RHKTzlSkZ5nJeMKIXjb?si=2244d19c4425450d) [📝](notes/happiness/podcasts/Otherworld/)
+- [[Otherworld] The Valley](https://open.spotify.com/episode/4g1RHKTzlSkZ5nJeMKIXjb?si=2244d19c4425450d) [📝](/notes/happiness/The-Valley/)
 - [[Only the Important Stuff] Andy Salmela — Kids, Marriage, Loss](https://onlytheimportantstuff.podbean.com/e/the-big-cat-returns/)
-- [[Only the Important Stuff] Krista Ryan — Keep F*!#ing Going](https://onlytheimportantstuff.podbean.com/e/krista-ryan/) [📝](notes/happiness/podcasts/Only%20the%20Important%20Stuff/)
-- [[Tim Ferriss] Arthur C. Brooks — How to Be Happy](https://tim.blog/2023/09/11/arthur-c-brooks/) [📝](notes/happiness/podcasts/Tim%20Ferriss/)
+- [[Only the Important Stuff] Krista Ryan — Keep F*!#ing Going](https://onlytheimportantstuff.podbean.com/e/krista-ryan/) [📝](/notes/happiness/Krista-Ryan-Keep-Going/)
+- [[Tim Ferriss] Arthur C. Brooks — How to Be Happy](https://tim.blog/2023/09/11/arthur-c-brooks/) [📝](/notes/happiness/Arthur-Brooks-How-To-Be-Happy/)
 - [[The Minimalists] Zach Bush — Simplifying Death](https://www.theminimalists.com/podcast/#362)
 - [[Joe Rogan] Sadhguru](https://open.spotify.com/episode/0zN02uiYg9KUwYs4JY8Nwg?si=834e1c5ee77d4e99)
 

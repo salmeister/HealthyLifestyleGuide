@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Intro to NSNG
 description: Notes
-permalink: /notes/diet/books/Intro%20to%20NSNG/
 ---
 
 ## [⬅️](/)

@@ -1,8 +1,6 @@
 ---
-layout: default
 title: The Valley
 description: Notes
-permalink: /notes/happiness/podcasts/Otherworld/
 ---
 
 ## [⬅️](/)

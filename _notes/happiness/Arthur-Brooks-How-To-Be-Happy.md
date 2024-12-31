@@ -1,8 +1,6 @@
 ---
-layout: default
-title: Arthur C. Brooks -- How to Be Happy
+title: "Arthur C. Brooks: How to Be Happy"
 description: Notes
-permalink: /notes/happiness/podcasts/Tim%20Ferriss/
 ---
 
 ## [⬅️](/)

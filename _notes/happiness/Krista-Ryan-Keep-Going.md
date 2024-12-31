@@ -1,8 +1,6 @@
 ---
-layout: default
-title: Krista Ryan -- Keep Going
+title: "Krista Ryan: Keep Going"
 description: Notes
-permalink: /notes/happiness/podcasts/Only%20the%20Important%20Stuff/
 ---
 
 ## [⬅️](/)
