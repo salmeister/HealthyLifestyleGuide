@@ -75,14 +75,14 @@
 <hr>
 
 #### Podcast Episodes
-- [[Aubrey Marcus] NDE Survivor - Anita Moorjani](https://www.youtube.com/watch?v=6Po0qnuA3Vo) 🧠
-- [[Know Thyself] BioHacking - Dave Asprey](https://www.youtube.com/watch?v=ipe3GM30wZw&list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q) 🍖 🧠
-- [[Otherworld] The Valley](https://open.spotify.com/episode/4g1RHKTzlSkZ5nJeMKIXjb?si=2244d19c4425450d) [📝](/notes/happiness/The-Valley/)
-- [[Only the Important Stuff] Andy Salmela — Kids, Marriage, Loss](https://onlytheimportantstuff.podbean.com/e/the-big-cat-returns/)
-- [[Only the Important Stuff] Krista Ryan — Keep F*!#ing Going](https://onlytheimportantstuff.podbean.com/e/krista-ryan/) [📝](/notes/happiness/Krista-Ryan-Keep-Going/)
+- [[Aubrey Marcus] NDE Survivor - Anita Moorjani](https://www.youtube.com/watch?v=6Po0qnuA3Vo) [📝](/notes/happiness/Anita-Moorjani-NDE/) 🧠
+- [[Know Thyself] BioHacking - Dave Asprey](https://www.youtube.com/watch?v=ipe3GM30wZw) [📝](/notes/happiness/Dave-Asprey-BioHacking/) 🍖 🧠 
+- [[Otherworld] The Valley](https://open.spotify.com/episode/4g1RHKTzlSkZ5nJeMKIXjb) [📝](/notes/happiness/The-Valley/)
+- [[Only the Important Stuff] Andy Salmela — Kids, Marriage, Loss](https://open.spotify.com/episode/5d5E5LUmBOLlazJ93wPRMT) [📝](/notes/happiness/Andy-Salmela/)
+- [[Only the Important Stuff] Krista Ryan — Keep F*!#ing Going](https://open.spotify.com/episode/5cUHRSIQ3XV9WpGC6Yugdb) [📝](/notes/happiness/Krista-Ryan-Keep-Going/)
 - [[Tim Ferriss] Arthur C. Brooks — How to Be Happy](https://tim.blog/2023/09/11/arthur-c-brooks/) [📝](/notes/happiness/Arthur-Brooks-How-To-Be-Happy/)
-- [[The Minimalists] Zach Bush — Simplifying Death](https://www.theminimalists.com/podcast/#362)
-- [[Joe Rogan] Sadhguru](https://open.spotify.com/episode/0zN02uiYg9KUwYs4JY8Nwg?si=834e1c5ee77d4e99)
+- [[The Minimalists] Zach Bush — Simplifying Death](https://www.theminimalists.com/podcast/#362) [📝](/notes/happiness/Zach-Bush-Simplifying-Death/)
+- [[Joe Rogan] Sadhguru](https://www.youtube.com/watch?v=_cPD7l1LEDA) [📝](/notes/happiness/Sadhguru/)
 
 #### Books
 - [[Rhonda Byrne] The Greatest Secret](https://www.amazon.com/The-Greatest-Secret/dp/B08GNDRZ3T/ref=tmm_aud_swatch_0?_encoding=UTF8&qid=&sr=) [📝](/notes/happiness/The-Greatest-Secret/)
@@ -97,18 +97,17 @@
 - [[Aubrey Marcus Podcast] - Aubrey Marcus](https://www.aubreymarcus.com/blogs/aubrey-marcus-podcast)
 - [[Think Tank] - Robert Edward Grant](https://robertedwardgrant.com/podcast/)
 - [[The Rich Roll Podcast] - Rich Roll](https://www.richroll.com/all-episodes/)
-- [[On Purpose with Jay Shetty] - Jay Shetty](https://www.youtube.com/@JayShettyPodcast)
 
 #### People
-- [Zach Bush](https://zachbushmd.com/) 
-- [Kute Blackson](https://kuteblackson.com/)
-- [Federico Faggin](https://www.federicofaggin.com/)
-- [Paul Chek](https://chekinstitute.com/)
-- [Joe Dispenza](https://drjoedispenza.com/)
-- [Bruce Lipton](https://www.brucelipton.com/)
-- [Billy Carson](https://www.4biddenknowledge.com/)
-- [Sadhguru](https://isha.sadhguru.org/us/en)
-- [Arthur C. Brooks](https://arthurbrooks.com/)
-- [Matias De Stefano](https://matiasdestefano.org/en/frontpage/)
-- [James Hollis](https://jameshollis.net/)
-- [Colin O'Brady](https://www.colinobrady.com/)
+- [Zach Bush](https://x.com/DrZachBush) [🔗](https://zachbushmd.com/) 
+- [Kute Blackson](https://x.com/kuteblackson) [🔗](https://kuteblackson.com/)
+- [Federico Faggin](https://x.com/fedefaggin) [🔗](https://www.federicofaggin.com/)
+- [Paul Chek](https://x.com/PaulChek) [🔗](https://chekinstitute.com/)
+- [Joe Dispenza](https://x.com/DrJoeDispenza) [🔗](https://drjoedispenza.com/)
+- [Bruce Lipton](https://x.com/biologyofbelief) [🔗](https://www.brucelipton.com/)
+- [Billy Carson](https://x.com/4biddnKnowledge) [🔗](https://www.4biddenknowledge.com/)
+- [Sadhguru](https://x.com/SadhguruJV) [🔗](https://isha.sadhguru.org/us/en)
+- [Arthur C. Brooks](https://x.com/arthurbrooks) [🔗](https://arthurbrooks.com/)
+- [Matias De Stefano](https://x.com/destefanomatias) [🔗](https://matiasdestefano.org/en/frontpage/)
+- James Hollis [🔗](https://jameshollis.net/)
+- [Colin O'Brady](https://x.com/colinobrady) [🔗](https://www.colinobrady.com/)
