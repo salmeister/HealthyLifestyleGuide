@@ -105,7 +105,6 @@
 - [Paul Chek](https://x.com/PaulChek) [🔗](https://chekinstitute.com/)
 - [Joe Dispenza](https://x.com/DrJoeDispenza) [🔗](https://drjoedispenza.com/)
 - [Bruce Lipton](https://x.com/biologyofbelief) [🔗](https://www.brucelipton.com/)
-- [Billy Carson](https://x.com/4biddnKnowledge) [🔗](https://www.4biddenknowledge.com/)
 - [Sadhguru](https://x.com/SadhguruJV) [🔗](https://isha.sadhguru.org/us/en)
 - [Arthur C. Brooks](https://x.com/arthurbrooks) [🔗](https://arthurbrooks.com/)
 - [Matias De Stefano](https://x.com/destefanomatias) [🔗](https://matiasdestefano.org/en/frontpage/)
