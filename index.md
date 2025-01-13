@@ -48,6 +48,9 @@
 - [[Fitness Confidential] Dr. Ben Bocchicchio - The Colorado Experiment](https://youtu.be/P4hq8sIvb3c?si=UDeE7TohFACTllJF) [📝](/notes/exercise/The-Colorado-Experiment/)
 - [[Joe Rogan] Ben Patrick — Knees Over Toes Guy](https://open.spotify.com/episode/2zfpB6RoKwylk3DbN3GXA0?si=de02e3493ef74d07) [📝](/notes/exercise/Knees-Over-Toes-Guy/)
 
+#### Videos
+- [[Thomas DeLauer] Dr. Sean O'Mara — The 4 Types of Belly Fat & How to Lose it for Good](https://www.youtube.com/watch?v=eDJzxlcNiNA) [📝](/notes/exercise/Lose-Belly-Fat/) 🍖
+
 ## Sleep 😴
 <hr>
 
@@ -75,6 +78,7 @@
 <hr>
 
 #### Podcast Episodes
+- [[Know Thyself] Become the Architect of Your Life - Dr. Rangan Chatterjee](https://www.youtube.com/watch?v=oFmNKGL0gU0) [📝](/notes/happiness/Architect-Your-Life/) 🍖 
 - [[Aubrey Marcus] NDE Survivor - Anita Moorjani](https://www.youtube.com/watch?v=6Po0qnuA3Vo) [📝](/notes/happiness/Anita-Moorjani-NDE/) 🧠
 - [[Know Thyself] BioHacking - Dave Asprey](https://www.youtube.com/watch?v=ipe3GM30wZw) [📝](/notes/happiness/Dave-Asprey-BioHacking/) 🍖 🧠 
 - [[Otherworld] The Valley](https://open.spotify.com/episode/4g1RHKTzlSkZ5nJeMKIXjb) [📝](/notes/happiness/The-Valley/)
@@ -110,3 +114,4 @@
 - [Matias De Stefano](https://x.com/destefanomatias) [🔗](https://matiasdestefano.org/en/frontpage/)
 - James Hollis [🔗](https://jameshollis.net/)
 - [Colin O'Brady](https://x.com/colinobrady) [🔗](https://www.colinobrady.com/)
+- [Rangan Chatterjee](https://x.com/drchatterjeeuk) [🔗](https://drchatterjee.com/)
