@@ -78,6 +78,7 @@
 <hr>
 
 #### Podcast Episodes
+- [[The Genius Life] The 5 Types of Wealth - Sahil Bloom](https://www.youtube.com/watch?v=iNBoeOGMHTE) [📝](/notes/happiness/Sahil-Bloom-5-Types-Of-Wealth/) 💪 
 - [[Know Thyself] Become the Architect of Your Life - Dr. Rangan Chatterjee](https://www.youtube.com/watch?v=oFmNKGL0gU0) [📝](/notes/happiness/Architect-Your-Life/) 🍖 
 - [[Aubrey Marcus] NDE Survivor - Anita Moorjani](https://www.youtube.com/watch?v=6Po0qnuA3Vo) [📝](/notes/happiness/Anita-Moorjani-NDE/) 🧠
 - [[Know Thyself] BioHacking - Dave Asprey](https://www.youtube.com/watch?v=ipe3GM30wZw) [📝](/notes/happiness/Dave-Asprey-BioHacking/) 🍖 🧠 
