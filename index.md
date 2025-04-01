@@ -16,6 +16,7 @@
 - [[The Minimalists] Dr. Sean O'Mara — Minimize Fat](https://www.theminimalists.com/podcast/#408) [📝](/notes/diet/Minimize-Fat) 💪 🍲
 - [[The Minimalists] Dr. Paul Saladino — Food Clutter](https://www.theminimalists.com/podcast/#384) [📝](/notes/diet/Food-Clutter/)
 - [[Joe Rogan] Will Harris — White Oak Pastures](https://open.spotify.com/episode/0qf7CYEhxSFPAcdSw1JJMY?si=b6f7eaae9e1b45f2) [📝](/notes/diet/White-Oak-Pastures/)
+- [[The Minimalists] Dr. Zach Bush — Decluttering the Gut](https://www.theminimalists.com/podcast/#398) [📝](/notes/diet/Decluttering-the-Gut/)
 - [[The Way I Heard It with Mike Rowe] Vinnie Tortorich — Where's the Beef?](https://podcasts.apple.com/us/podcast/244-wheres-the-beef/id1087110764?i=1000555585865) [📝](/notes/diet/Wheres-the-Beef/) 💪
 - [[Joe Rogan] Dr. Rhonda Patrick — Ketogenic Diet](https://open.spotify.com/episode/7y8MKnfhML6KzvA6GVd83B?si=mrIaUnsMTLuD0DnTR39GkQ) [📝](/notes/diet/Ketogenic-Diet/)
 
@@ -30,16 +31,13 @@
 - [[Vinnie Tortorich] Top 10 Foods That You Should Be Eating](https://youtu.be/2-fHQIhVAGA?si=wvBa12QBylM-ltn0) [📝](/notes/diet/Top-10-Foods-To-Eat/)
 - [[Vinnie Tortorich] Top 10 Foods That You Should Stop Eating](https://youtu.be/3oVdksMTJ50?si=h5iZRlqMw9UgcXPb) [📝](/notes/diet/Top-10-Foods-To-Stop-Eating/)
 - [[Dr. Sean O'Mara] Optimize Your Health](https://youtu.be/XuFD5tMz9M0?si=f8SKPcSGIEqInaWs) [📝](/notes/diet/Optimize-Your-Health/) 💪
+- [[Dr. Andrew Huberman] Gut-Brain Health](https://youtu.be/pvI1vLHV0Mo?si=-KyK2ta83Fo6_BV1) [📝](/notes/diet/Gut-Brain-Health/)
 
-## Gut Health 🍲
+## Health ⚕️
 <hr>
 
 #### Podcast Episodes
-- [[The Minimalists] Dr. Zach Bush — Decluttering the Gut](https://www.theminimalists.com/podcast/#398) [📝](/notes/gut/Decluttering-the-Gut/)
-
-#### Videos
-- [[Dr. Andrew Huberman] Gut-Brain Health](https://youtu.be/pvI1vLHV0Mo?si=-KyK2ta83Fo6_BV1) [📝](/notes/gut/Gut-Brain-Health/)
-
+- [[Joe Rogan] Dr. Suzanne Humphries - Dissolving Illusions: Vaccines, Health, and the Untold History](https://www.youtube.com/watch?v=207W1A_bJqI) [📝](/notes/health/Suzanne-Humphries/)
 
 ## Exercise 💪
 <hr>
