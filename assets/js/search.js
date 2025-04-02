@@ -64,13 +64,15 @@ function initSearch() {
           // The second h2 heading after the back arrow is the actual title
           const titleMatch = h2Headings[1].match(/##\s+\[([^\]]+)\]/);
           if (titleMatch && titleMatch[1]) {
-            displayTitle = cleanMarkdown(titleMatch[1]);
+            // Remove any URLs from the title
+            displayTitle = cleanMarkdown(titleMatch[1]).split('](')[0];
           }
         } else if (h2Headings.length > 0) {
           // If there's no back arrow, take the first h2 heading
           const titleMatch = h2Headings[0].match(/##\s+\[([^\]]+)\]/);
           if (titleMatch && titleMatch[1]) {
-            displayTitle = cleanMarkdown(titleMatch[1]);
+            // Remove any URLs from the title
+            displayTitle = cleanMarkdown(titleMatch[1]).split('](')[0];
           }
         }
 
