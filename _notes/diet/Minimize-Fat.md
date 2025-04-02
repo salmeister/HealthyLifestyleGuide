@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Minimize Fat | The Minimalists"
 ---
 
 ## [⬅️](/)

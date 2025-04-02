@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "What to Do & Track to Optimize Your Health"
 ---
 
 ## [⬅️](/)

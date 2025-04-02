@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Her Near Death Expericence Might Save YOUR Life"
 ---
 
 ## [⬅️](/)

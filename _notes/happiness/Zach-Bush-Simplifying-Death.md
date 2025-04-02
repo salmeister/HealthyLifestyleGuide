@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Simplifying Death (with Zach Bush)"
 ---
 
 ## [⬅️](/)

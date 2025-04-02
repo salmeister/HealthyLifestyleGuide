@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Think and Grow Rich by Napoleon Hill"
 ---
 
 ## [⬅️](/)

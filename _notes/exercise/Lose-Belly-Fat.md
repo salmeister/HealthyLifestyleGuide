@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "The 4 Types of Belly Fat & How to Lose it for Good - Dr. Sean O’Mara"
 ---
 
 ## [⬅️](/)
