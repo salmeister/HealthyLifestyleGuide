@@ -2,9 +2,8 @@ function initSearch() {
   let searchIndex;
   let pagesData;
   
-  // Get the site URL to ensure we always load from the root directory
-  const siteUrl = new URL(window.location.origin);
-  const basePath = siteUrl.origin + '/'; // Always use root path
+  // Explicitly set the URL to the root search.json file
+  const searchJsonUrl = window.location.protocol + '//' + window.location.host + '/search.json';
   
   const searchInput = document.getElementById('search-input');
   const searchResults = document.getElementById('search-results');
@@ -19,8 +18,8 @@ function initSearch() {
   searchResults.style.display = 'block';
 
   // Fetch the search index with a cache-busting parameter, always from root
-  console.log('Fetching search index from:', basePath + 'search.json');
-  fetch(basePath + 'search.json?v=' + new Date().getTime())
+  console.log('Fetching search index from:', searchJsonUrl);
+  fetch(searchJsonUrl + '?v=' + new Date().getTime())
     .then(response => {
       if (!response.ok) {
         console.error('Failed to load search.json:', response.status, response.statusText);
