@@ -79,6 +79,9 @@ function initSearch() {
 
       // Build the search index
       searchIndex = lunr(function() {
+        this.pipeline.remove(lunr.stemmer);
+        this.searchPipeline.remove(lunr.stemmer);
+        
         this.ref('url');
         this.field('title', { boost: 15 });
         this.field('cleanContent');
@@ -145,8 +148,10 @@ function initSearch() {
     }
     
     try {
-      // Use * for partial matching to improve search results
-      const searchQuery = query.split(' ').map(term => `${term}*`).join(' ');
+      // Add wildcards to both ends of each term for better partial matching
+      const searchQuery = query.split(' ')
+        .map(term => term.length > 1 ? `*${term}*` : term)
+        .join(' ');
       const results = searchIndex.search(searchQuery);
       
       if (results.length === 0) {
