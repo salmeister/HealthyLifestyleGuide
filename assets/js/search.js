@@ -53,7 +53,7 @@ function initSearch() {
       // Process the data to extract titles from content ahead of time
       pagesData = pagesData.map(page => {
         const content = page.content || '';
-        let displayTitle = page.title;
+        let displayTitle = '';
         let hostInfo = '';
 
         // Step 1: Find all H2 headings in the content
@@ -74,6 +74,11 @@ function initSearch() {
             // Remove any URLs from the title
             displayTitle = cleanMarkdown(titleMatch[1]).split('](')[0];
           }
+        }
+
+        // If no display title was found and there is a title field, use that
+        if (!displayTitle && page.title) {
+          displayTitle = page.title;
         }
 
         // Extract host/presenter info
