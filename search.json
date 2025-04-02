@@ -2,14 +2,13 @@
 layout: none
 ---
 [
-  {% assign notes = site.html_pages %}
-  {% for note in notes %}
-    {% if note.path contains '_notes/' %}
+  {% assign files = site.static_files | where_exp: "file", "file.path contains '/_notes/'" | where_exp: "file", "file.extname == '.md'" %}
+  {% for file in files %}
+    {% capture content %}{% include_relative {{ file.path }} %}{% endcapture %}
     {
-      "title": "{{ note.name | remove: '.md' | replace: '-', ' ' }}",
-      "url": "{{ note.url | relative_url }}",
-      "content": {{ note.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
+      "title": "{{ file.path | split: '/' | last | remove: '.md' | replace: '-', ' ' }}",
+      "url": "{{ file.path | relative_url }}",
+      "content": {{ content | jsonify }}
     }{% unless forloop.last %},{% endunless %}
-    {% endif %}
   {% endfor %}
 ]
