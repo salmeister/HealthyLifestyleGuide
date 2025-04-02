@@ -13,7 +13,7 @@ layout: null
   ,{
     "url": "{{ note.url | relative_url }}",
     "content": {{ note.content | strip_html | strip_newlines | normalize_whitespace | jsonify }},
-    "title": {{ note.title | jsonify }}
+    "frontMatterTitle": {{ note.title | jsonify }}
   }
   {% endfor %}
 ]
