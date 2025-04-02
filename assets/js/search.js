@@ -82,6 +82,30 @@ function initSearch() {
       searchResults.style.display = 'block';
     });
 
+  function cleanMarkdown(text) {
+    if (!text) return '';
+    return text
+      .replace(/\[\[([^\]]+)\]\([^\)]+\)/g, '$1') // Replace [[text](url) with text
+      .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1')   // Replace [text](url) with text
+      .replace(/\*\*([^*]+)\*\*/g, '$1')          // Replace **text** with text
+      .replace(/\*([^*]+)\*/g, '$1')              // Replace *text* with text
+      .replace(/`([^`]+)`/g, '$1')                // Replace `text` with text
+      .replace(/\[\d+\]/g, '')                    // Remove [1], [2], etc.
+      .replace(/[#]+\s/g, '')                     // Remove heading markers
+      .replace(/📝/g, '')                         // Remove note emoji
+      .replace(/💪/g, '')                         // Remove muscle/exercise emoji
+      .replace(/🍖/g, '')                         // Remove meat/diet emoji
+      .replace(/🍲/g, '')                         // Remove food emoji
+      .replace(/😇/g, '')                         // Remove happiness emoji
+      .replace(/🧠/g, '')                         // Remove brain emoji
+      .replace(/😴/g, '')                         // Remove sleep emoji
+      .replace(/⚕️/g, '')                         // Remove health emoji
+      .replace(/🔗/g, '')                         // Remove link emoji
+      .replace(/\n/g, ' ')                        // Replace newlines with spaces
+      .replace(/\s+/g, ' ')                       // Normalize whitespace
+      .trim();
+  }
+
   function performSearch(query) {
     if (!searchIndex) {
       console.warn('Search index not yet loaded');
@@ -109,23 +133,34 @@ function initSearch() {
             
             // Try to extract the real title (usually in h2 format after the back link)
             let displayTitle = page.title;
-            const h2Match = content.match(/##\s+\[([^\]]+)\]/);
-            if (h2Match && h2Match[1]) {
-              displayTitle = h2Match[1];
+            
+            // First look for the header pattern in content
+            const titleMatch = content.match(/##\s+\[([^\]]+)\]/);
+            if (titleMatch && titleMatch[1]) {
+              displayTitle = cleanMarkdown(titleMatch[1]);
             }
             
             // Extract host/presenter if available
             let hostInfo = '';
-            if (content.includes('**Director/Host:**')) {
-              const hostMatch = content.match(/\*\*Director\/Host:\*\*\s*([^\n]+)/);
+            if (content.includes('Director/Host:')) {
+              const hostMatch = content.match(/Director\/Host:\s*([^\n]+)/);
               if (hostMatch && hostMatch[1]) {
-                hostInfo = `[${hostMatch[1].trim()}] `;
+                hostInfo = `[${cleanMarkdown(hostMatch[1].trim())}] `;
               }
-            } else if (content.includes('**Podcast**:')) {
-              const podcastMatch = content.match(/\*\*Podcast\*\*:\s*\[([^\]]+)\]/);
-              const guestMatch = content.match(/\*\*Guest\*\*:\s*([^\n]+)/);
-              if (podcastMatch && podcastMatch[1] && guestMatch && guestMatch[1]) {
-                hostInfo = `[${podcastMatch[1].trim()}] ${guestMatch[1].trim()} — `;
+            } else if (content.includes('Podcast:')) {
+              const podcastMatch = content.match(/Podcast:\s*([^\n|]+)/);
+              const guestMatch = content.match(/Guest:\s*([^\n]+)/);
+              
+              if (podcastMatch) {
+                const podcastName = cleanMarkdown(podcastMatch[1].trim());
+                hostInfo = `[${podcastName}]`;
+                
+                if (guestMatch) {
+                  const guestName = cleanMarkdown(guestMatch[1].trim());
+                  hostInfo += ` ${guestName} — `;
+                } else {
+                  hostInfo += ` `;
+                }
               }
             }
             
@@ -136,22 +171,25 @@ function initSearch() {
             const snippetLength = 150;
             let snippet = '';
             
+            // Clean the content for snippet extraction
+            const cleanedContent = cleanMarkdown(content);
+            
             // Try to find the search term in the content
-            const searchTermPos = content.toLowerCase().indexOf(query.toLowerCase());
+            const searchTermPos = cleanedContent.toLowerCase().indexOf(query.toLowerCase());
             if (searchTermPos !== -1) {
               const start = Math.max(0, searchTermPos - Math.floor(snippetLength / 2));
-              snippet = '...' + content.substr(start, snippetLength) + '...';
+              snippet = '...' + cleanedContent.substr(start, snippetLength) + '...';
             } else {
               // Try to extract Key Points or Overview section for the snippet
-              const keyPointsMatch = content.match(/\*\*Key Points:\*\*([^*]+)/);
+              const keyPointsMatch = cleanedContent.match(/Key Points:([^*]+)/);
               if (keyPointsMatch && keyPointsMatch[1]) {
                 snippet = keyPointsMatch[1].trim().substring(0, snippetLength) + '...';
               } else {
-                const overviewMatch = content.match(/\*\*Overview:\*\*([^*]+)/);
+                const overviewMatch = cleanedContent.match(/Overview:([^*]+)/);
                 if (overviewMatch && overviewMatch[1]) {
                   snippet = overviewMatch[1].trim().substring(0, snippetLength) + '...';
                 } else {
-                  snippet = content.substr(0, snippetLength) + '...';
+                  snippet = cleanedContent.substr(0, snippetLength) + '...';
                 }
               }
             }
