@@ -55,22 +55,17 @@ function initSearch() {
         try {
           const content = page.content || '';
           let displayTitle = '';
-          let hostInfo = '';
 
-          // If we have a pre-extracted display title from search.json, use it
-          if (page.displayTitle) {
-            try {
-              const parsedTitle = typeof page.displayTitle === 'string' ? JSON.parse(page.displayTitle) : page.displayTitle;
-              // Look for the second link in the content (after back arrow)
-              const linkMatch = parsedTitle.match(/\[([^\]]+)\]\([^\)]+\)/);
-              if (linkMatch && linkMatch[1]) {
-                displayTitle = cleanMarkdown(linkMatch[1]);
-              } else {
-                displayTitle = cleanMarkdown(parsedTitle);
-              }
-            } catch (e) {
-              console.warn('Error parsing displayTitle:', e);
-              displayTitle = cleanMarkdown(page.displayTitle);
+          if (page.rawTitle) {
+            // Find all level 2 headings
+            const h2Pattern = /##\s+\[([^\]]+)\]\([^)]+\)/g;
+            const matches = [...page.rawTitle.matchAll(h2Pattern)];
+            
+            // Skip the back arrow heading and get the next one
+            if (matches.length >= 2 && matches[0][1].includes('⬅️')) {
+              displayTitle = cleanMarkdown(matches[1][1]);
+            } else if (matches.length > 0) {
+              displayTitle = cleanMarkdown(matches[0][1]);
             }
           } else if (page.title === "Home") {
             displayTitle = page.title;
@@ -82,7 +77,6 @@ function initSearch() {
           return {
             ...page,
             displayTitle: displayTitle,
-            hostInfo: hostInfo,
             fullDisplayTitle: displayTitle.trim(),
             cleanContent: cleanContent
           };
