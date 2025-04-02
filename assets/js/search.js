@@ -91,7 +91,9 @@ function initSearch() {
     }
     
     try {
-      const results = searchIndex.search(query);
+      // Use * for partial matching to improve search results
+      const searchQuery = query.split(' ').map(term => term + '*').join(' ');
+      const results = searchIndex.search(searchQuery);
       console.log('Search results for "' + query + '":', results);
       
       if (results.length === 0) {
@@ -102,8 +104,35 @@ function initSearch() {
             const page = pagesData.find(p => p.url === result.ref);
             if (!page) return '';
             
-            // Extract a relevant snippet of content
+            // Extract content for processing
             const content = page.content || '';
+            
+            // Try to extract the real title (usually in h2 format after the back link)
+            let displayTitle = page.title;
+            const h2Match = content.match(/##\s+\[([^\]]+)\]/);
+            if (h2Match && h2Match[1]) {
+              displayTitle = h2Match[1];
+            }
+            
+            // Extract host/presenter if available
+            let hostInfo = '';
+            if (content.includes('**Director/Host:**')) {
+              const hostMatch = content.match(/\*\*Director\/Host:\*\*\s*([^\n]+)/);
+              if (hostMatch && hostMatch[1]) {
+                hostInfo = `[${hostMatch[1].trim()}] `;
+              }
+            } else if (content.includes('**Podcast**:')) {
+              const podcastMatch = content.match(/\*\*Podcast\*\*:\s*\[([^\]]+)\]/);
+              const guestMatch = content.match(/\*\*Guest\*\*:\s*([^\n]+)/);
+              if (podcastMatch && podcastMatch[1] && guestMatch && guestMatch[1]) {
+                hostInfo = `[${podcastMatch[1].trim()}] ${guestMatch[1].trim()} — `;
+              }
+            }
+            
+            // Create the display title with host/presenter info
+            const fullDisplayTitle = hostInfo + displayTitle;
+            
+            // Extract a relevant snippet of content
             const snippetLength = 150;
             let snippet = '';
             
@@ -113,13 +142,24 @@ function initSearch() {
               const start = Math.max(0, searchTermPos - Math.floor(snippetLength / 2));
               snippet = '...' + content.substr(start, snippetLength) + '...';
             } else {
-              snippet = content.substr(0, snippetLength) + '...';
+              // Try to extract Key Points or Overview section for the snippet
+              const keyPointsMatch = content.match(/\*\*Key Points:\*\*([^*]+)/);
+              if (keyPointsMatch && keyPointsMatch[1]) {
+                snippet = keyPointsMatch[1].trim().substring(0, snippetLength) + '...';
+              } else {
+                const overviewMatch = content.match(/\*\*Overview:\*\*([^*]+)/);
+                if (overviewMatch && overviewMatch[1]) {
+                  snippet = overviewMatch[1].trim().substring(0, snippetLength) + '...';
+                } else {
+                  snippet = content.substr(0, snippetLength) + '...';
+                }
+              }
             }
             
             const category = page.category ? `<span class="search-result-category">${page.category}</span>` : '';
             
             return `<div class="search-result-item" onclick="window.location.href='${page.url}'">
-              <strong>${page.title}</strong>
+              <strong>${fullDisplayTitle}</strong>
               ${category}
               <div class="search-result-snippet">${snippet}</div>
             </div>`;
