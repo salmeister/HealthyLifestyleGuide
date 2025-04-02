@@ -17,7 +17,6 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://unpkg.com/lunr/lunr.js"></script>
     {% include head-custom.html %}
   </head>
   <body>
@@ -60,124 +59,52 @@
     
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-        let searchIndex;
-        let pagesData;
-        
-        // Fetch the search index
-        fetch('{{ "/search.json" | relative_url }}')
-          .then(response => {
-            if (!response.ok) {
-              throw new Error('Network response was not ok');
-            }
-            return response.json();
-          })
-          .then(data => {
-            console.log('Loaded search data:', data); // Debug logging
-            pagesData = data;
-            searchIndex = lunr(function() {
-              this.field('title', { boost: 10 });
-              this.field('content');
-              this.ref('url');
-              
-              data.forEach(function(page) {
-                this.add(page);
-              }, this);
-            });
-          })
-          .catch(error => {
-            console.error('Error loading search index:', error);
-          });
-        
-        const searchInput = document.getElementById('search-input');
-        const searchResults = document.getElementById('search-results');
-        
-        // Show/hide results container
-        searchInput.addEventListener('focus', () => {
-          searchResults.style.display = 'block';
-        });
-        
-        document.addEventListener('click', (e) => {
-          if (!searchResults.contains(e.target) && e.target !== searchInput) {
-            searchResults.style.display = 'none';
+        const toggleSwitch = document.getElementById('theme-toggle');
+        const body = document.body;
+      
+        toggleSwitch.addEventListener('change', function() {
+          body.classList.toggle('dark-mode');
+          if (this.checked) {
+            localStorage.setItem('darkMode', 'enabled');
+          } else {
+            localStorage.setItem('darkMode', 'disabled');
           }
         });
-        
-        // Handle search
-        searchInput.addEventListener('input', function() {
-          if (!searchIndex) return;
-          
-          const query = this.value;
-          if (query === '') {
-            searchResults.style.display = 'none';
-            return;
+      
+        // Check if dark mode was previously enabled
+        if (localStorage.getItem('darkMode') === 'enabled') {
+          toggleSwitch.checked = true;
+          body.classList.add('dark-mode');
+        }
+      });
+    </script>
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+      kofiWidgetOverlay.draw('andysalmela', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#2196F3',
+        'floating-chat.donateButton.text-color': '#fff'
+      });
+    </script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const toggleButton = document.querySelector('.toggle-involvement');
+        const involvementDetails = document.querySelector('.involvement-details');
+      
+        toggleButton.addEventListener('click', function() {
+          this.classList.toggle('active'); // Toggle the active class for icon change
+          if (involvementDetails.style.display === "none" || involvementDetails.style.display === "") {
+            involvementDetails.style.display = "block";
+            involvementDetails.classList.add('show');
+          } else {
+            involvementDetails.style.display = "none";
+            involvementDetails.classList.remove('show');
           }
-          
-          const results = searchIndex.search(query);
-          const resultsHtml = results
-            .map(result => {
-              const page = pagesData.find(p => p.url === result.ref);
-              if (!page) return '';
-              const title = page.title || page.url.split('/').pop().replace(/-/g, ' ');
-              return `<div class="search-result-item" onclick="window.location.href='${page.url}'">
-                <strong>${title}</strong>
-              </div>`;
-            })
-            .join('');
-          
-          searchResults.innerHTML = resultsHtml || '<div class="search-result-item">No results found</div>';
-          searchResults.style.display = 'block';
         });
       });
     </script>
   </body>
 </html>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const toggleSwitch = document.getElementById('theme-toggle');
-    const body = document.body;
-  
-    toggleSwitch.addEventListener('change', function() {
-      body.classList.toggle('dark-mode');
-      if (this.checked) {
-        localStorage.setItem('darkMode', 'enabled');
-      } else {
-        localStorage.setItem('darkMode', 'disabled');
-      }
-    });
-  
-    // Check if dark mode was previously enabled
-    if (localStorage.getItem('darkMode') === 'enabled') {
-      toggleSwitch.checked = true;
-      body.classList.add('dark-mode');
-    }
-  });
-</script>
-
-<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
-  kofiWidgetOverlay.draw('andysalmela', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#2196F3',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const toggleButton = document.querySelector('.toggle-involvement');
-    const involvementDetails = document.querySelector('.involvement-details');
-  
-    toggleButton.addEventListener('click', function() {
-      this.classList.toggle('active'); // Toggle the active class for icon change
-      if (involvementDetails.style.display === "none" || involvementDetails.style.display === "") {
-        involvementDetails.style.display = "block";
-        involvementDetails.classList.add('show');
-      } else {
-        involvementDetails.style.display = "none";
-        involvementDetails.classList.remove('show');
-      }
-    });
-  });
-</script>
