@@ -60,23 +60,13 @@ function initSearch() {
           // If we have a pre-extracted display title from search.json, use it
           if (page.displayTitle) {
             try {
-              // Try to parse the displayTitle if it's a JSON string
               const parsedTitle = typeof page.displayTitle === 'string' ? JSON.parse(page.displayTitle) : page.displayTitle;
-              // First remove any bold markers
-              const titleText = parsedTitle.replace(/\*\*/g, '');
-              // Extract the title and source info (e.g., [Thomas DeLauer])
-              const matches = titleText.match(/\[([^\]]+)\][^\[]*(\[[^\]]+\][^[]*)?$/);
-              if (matches) {
-                if (matches[2]) {
-                  // We have both source and title
-                  hostInfo = `[${cleanMarkdown(matches[1])}] `;
-                  displayTitle = cleanMarkdown(matches[2]);
-                } else {
-                  // We just have the title
-                  displayTitle = cleanMarkdown(matches[1]);
-                }
+              // Look for the second link in the content (after back arrow)
+              const linkMatch = parsedTitle.match(/\[([^\]]+)\]\([^\)]+\)/);
+              if (linkMatch && linkMatch[1]) {
+                displayTitle = cleanMarkdown(linkMatch[1]);
               } else {
-                displayTitle = cleanMarkdown(titleText);
+                displayTitle = cleanMarkdown(parsedTitle);
               }
             } catch (e) {
               console.warn('Error parsing displayTitle:', e);
@@ -93,7 +83,7 @@ function initSearch() {
             ...page,
             displayTitle: displayTitle,
             hostInfo: hostInfo,
-            fullDisplayTitle: (hostInfo + displayTitle).trim(),
+            fullDisplayTitle: displayTitle.trim(),
             cleanContent: cleanContent
           };
         } catch (e) {
@@ -107,7 +97,6 @@ function initSearch() {
         this.ref('url');
         this.field('displayTitle', { boost: 15 });
         this.field('fullDisplayTitle', { boost: 20 });
-        this.field('category', { boost: 5 });
         this.field('cleanContent');
         
         pagesData.forEach(function(page) {
@@ -194,11 +183,8 @@ function initSearch() {
               snippet = page.cleanContent.substr(0, snippetLength) + '...';
             }
             
-            const category = page.category ? `<span class="search-result-category">${page.category}</span>` : '';
-            
             return `<div class="search-result-item" onclick="window.location.href='${page.url}'">
-              <strong>${page.fullDisplayTitle}</strong>
-              ${category}
+              <strong>${page.displayTitle}</strong>
               <div class="search-result-snippet">${snippet}</div>
             </div>`;
           })
