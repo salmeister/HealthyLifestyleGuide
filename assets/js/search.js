@@ -51,12 +51,59 @@ function initSearch() {
       // Store the pages data
       pagesData = data;
 
+      // Process the data to extract titles from content ahead of time
+      pagesData = pagesData.map(page => {
+        const content = page.content || '';
+        let displayTitle = page.title;
+        let hostInfo = '';
+
+        // Extract title from content if available (ignore back links)
+        const titleRegex = /##\s+\[((?!\[⬅️\]).+?)\]/;
+        const titleMatch = content.match(titleRegex);
+        if (titleMatch && titleMatch[1]) {
+          displayTitle = cleanMarkdown(titleMatch[1]);
+        }
+
+        // Extract host/presenter info
+        if (content.includes('Director/Host:')) {
+          const hostMatch = content.match(/Director\/Host:\s*([^\n]+)/);
+          if (hostMatch && hostMatch[1]) {
+            hostInfo = `[${cleanMarkdown(hostMatch[1].trim())}] `;
+          }
+        } else if (content.includes('Podcast:')) {
+          const podcastMatch = content.match(/Podcast:\s*\[([^\]]+)\]/);
+          const guestMatch = content.match(/Guest:\s*([^\n]+)/);
+          
+          if (podcastMatch && podcastMatch[1]) {
+            const podcastName = cleanMarkdown(podcastMatch[1].trim());
+            hostInfo = `[${podcastName}]`;
+            
+            if (guestMatch && guestMatch[1]) {
+              const guestName = cleanMarkdown(guestMatch[1].trim());
+              hostInfo += ` ${guestName} — `;
+            } else {
+              hostInfo += ` `;
+            }
+          }
+        }
+
+        return {
+          ...page,
+          displayTitle: displayTitle,
+          hostInfo: hostInfo,
+          fullDisplayTitle: hostInfo + displayTitle,
+          cleanContent: cleanMarkdown(content)
+        };
+      });
+
       // Build the search index
       searchIndex = lunr(function() {
         this.ref('url');
         this.field('title', { boost: 10 });
+        this.field('displayTitle', { boost: 15 });
+        this.field('fullDisplayTitle', { boost: 20 });
         this.field('category', { boost: 5 });
-        this.field('content');
+        this.field('cleanContent');
         
         pagesData.forEach(function(page) {
           try {
@@ -101,6 +148,7 @@ function initSearch() {
       .replace(/😴/g, '')                         // Remove sleep emoji
       .replace(/⚕️/g, '')                         // Remove health emoji
       .replace(/🔗/g, '')                         // Remove link emoji
+      .replace(/\[⬅️\]\(\//g, '')                // Remove back links
       .replace(/\n/g, ' ')                        // Replace newlines with spaces
       .replace(/\s+/g, ' ')                       // Normalize whitespace
       .trim();
@@ -116,7 +164,7 @@ function initSearch() {
     
     try {
       // Use * for partial matching to improve search results
-      const searchQuery = query.split(' ').map(term => term + '*').join(' ');
+      const searchQuery = query.split(' ').map(term => `${term}*`).join(' ');
       const results = searchIndex.search(searchQuery);
       console.log('Search results for "' + query + '":', results);
       
@@ -128,76 +176,23 @@ function initSearch() {
             const page = pagesData.find(p => p.url === result.ref);
             if (!page) return '';
             
-            // Extract content for processing
-            const content = page.content || '';
-            
-            // Try to extract the real title (usually in h2 format after the back link)
-            let displayTitle = page.title;
-            
-            // First look for the header pattern in content
-            const titleMatch = content.match(/##\s+\[([^\]]+)\]/);
-            if (titleMatch && titleMatch[1]) {
-              displayTitle = cleanMarkdown(titleMatch[1]);
-            }
-            
-            // Extract host/presenter if available
-            let hostInfo = '';
-            if (content.includes('Director/Host:')) {
-              const hostMatch = content.match(/Director\/Host:\s*([^\n]+)/);
-              if (hostMatch && hostMatch[1]) {
-                hostInfo = `[${cleanMarkdown(hostMatch[1].trim())}] `;
-              }
-            } else if (content.includes('Podcast:')) {
-              const podcastMatch = content.match(/Podcast:\s*([^\n|]+)/);
-              const guestMatch = content.match(/Guest:\s*([^\n]+)/);
-              
-              if (podcastMatch) {
-                const podcastName = cleanMarkdown(podcastMatch[1].trim());
-                hostInfo = `[${podcastName}]`;
-                
-                if (guestMatch) {
-                  const guestName = cleanMarkdown(guestMatch[1].trim());
-                  hostInfo += ` ${guestName} — `;
-                } else {
-                  hostInfo += ` `;
-                }
-              }
-            }
-            
-            // Create the display title with host/presenter info
-            const fullDisplayTitle = hostInfo + displayTitle;
-            
             // Extract a relevant snippet of content
-            const snippetLength = 150;
+            const snippetLength = 100;
             let snippet = '';
             
-            // Clean the content for snippet extraction
-            const cleanedContent = cleanMarkdown(content);
-            
             // Try to find the search term in the content
-            const searchTermPos = cleanedContent.toLowerCase().indexOf(query.toLowerCase());
+            const searchTermPos = page.cleanContent.toLowerCase().indexOf(query.toLowerCase());
             if (searchTermPos !== -1) {
               const start = Math.max(0, searchTermPos - Math.floor(snippetLength / 2));
-              snippet = '...' + cleanedContent.substr(start, snippetLength) + '...';
+              snippet = '...' + page.cleanContent.substr(start, snippetLength) + '...';
             } else {
-              // Try to extract Key Points or Overview section for the snippet
-              const keyPointsMatch = cleanedContent.match(/Key Points:([^*]+)/);
-              if (keyPointsMatch && keyPointsMatch[1]) {
-                snippet = keyPointsMatch[1].trim().substring(0, snippetLength) + '...';
-              } else {
-                const overviewMatch = cleanedContent.match(/Overview:([^*]+)/);
-                if (overviewMatch && overviewMatch[1]) {
-                  snippet = overviewMatch[1].trim().substring(0, snippetLength) + '...';
-                } else {
-                  snippet = cleanedContent.substr(0, snippetLength) + '...';
-                }
-              }
+              snippet = page.cleanContent.substr(0, snippetLength) + '...';
             }
             
             const category = page.category ? `<span class="search-result-category">${page.category}</span>` : '';
             
             return `<div class="search-result-item" onclick="window.location.href='${page.url}'">
-              <strong>${fullDisplayTitle}</strong>
+              <strong>${page.fullDisplayTitle}</strong>
               ${category}
               <div class="search-result-snippet">${snippet}</div>
             </div>`;
