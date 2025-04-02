@@ -2,9 +2,9 @@ function initSearch() {
   let searchIndex;
   let pagesData;
   
-  // Get the site URL, accounting for GitHub Pages path
-  const siteUrl = new URL(window.location.href);
-  const basePath = siteUrl.pathname.replace(/\/[^/]*$/, '/');
+  // Get the site URL to ensure we always load from the root directory
+  const siteUrl = new URL(window.location.origin);
+  const basePath = siteUrl.origin + '/'; // Always use root path
   
   const searchInput = document.getElementById('search-input');
   const searchResults = document.getElementById('search-results');
@@ -18,7 +18,7 @@ function initSearch() {
   searchResults.innerHTML = '<div class="search-result-item">Loading search index...</div>';
   searchResults.style.display = 'block';
 
-  // Fetch the search index with a cache-busting parameter
+  // Fetch the search index with a cache-busting parameter, always from root
   console.log('Fetching search index from:', basePath + 'search.json');
   fetch(basePath + 'search.json?v=' + new Date().getTime())
     .then(response => {
