@@ -56,15 +56,14 @@ function initSearch() {
           const content = page.content || '';
           let displayTitle = '';
 
-          // Extract title from the second H2 heading (after back arrow)
-          const h2Match = content.match(/##\s*\[⬅️\][\s\S]*?##\s*\[([^\]]+)\]/);
-          if (h2Match && h2Match[1]) {
-            displayTitle = h2Match[1];
+          // Use the front matter title if available
+          if (page.frontMatterTitle) {
+            displayTitle = page.frontMatterTitle;
           } else if (page.title === "Home") {
             displayTitle = page.title;
           }
 
-          // Clean up the content for the snippet - remove emojis and special characters first
+          // Clean up the content for the snippet
           const cleanContent = content
             .replace(/[^\w\s.,;:!?()'"-]/g, '') // Remove all non-text characters except basic punctuation
             .replace(/\s+/g, ' ') // Normalize whitespace
@@ -84,12 +83,15 @@ function initSearch() {
       // Build the search index
       searchIndex = lunr(function() {
         this.ref('url');
-        this.field('title', { boost: 15 });
+        this.field('frontMatterTitle', { boost: 15 }); // Index the front matter title
         this.field('cleanContent');
         
         pagesData.forEach(function(page) {
           try {
-            this.add(page);
+            this.add({
+              ...page,
+              frontMatterTitle: page.displayTitle // Make sure the title is indexed
+            });
           } catch (e) {
             console.error('Error adding page to index:', page.url, e);
           }
@@ -174,7 +176,7 @@ function initSearch() {
             const title = page.title || page.displayTitle || 'Untitled';
             
             return `<div class="search-result-item" onclick="window.location.href='${page.url}'">
-              <strong>${page.displayTitle}</strong>
+              <strong>${page.frontMatterTitle || page.displayTitle || 'Untitled'}</strong>
               <div class="search-result-snippet">${snippet}</div>
             </div>`;
           })

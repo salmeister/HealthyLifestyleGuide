@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Dr. Stacy Sims: Female-Specific Exercise & Nutrition for Health, Performance & Longevity"
 ---
 
 ## [⬅️](/)
