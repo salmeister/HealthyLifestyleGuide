@@ -56,67 +56,35 @@ function initSearch() {
         let displayTitle = '';
         let hostInfo = '';
 
-        // Step 1: Find all H2 headings in the content
-        const h2Headings = content.match(/##\s+\[([^\]]+)\][^\n]*/g) || [];
-        
-        // Step 2: Skip the first heading if it's a back arrow
-        if (h2Headings.length >= 2 && h2Headings[0].includes('⬅️')) {
-          // The second h2 heading after the back arrow is the actual title
-          const titleMatch = h2Headings[1].match(/##\s+\[([^\]]+)\]/);
-          if (titleMatch && titleMatch[1]) {
-            // Remove any URLs from the title
-            displayTitle = cleanMarkdown(titleMatch[1]).split('](')[0];
+        // If we have a pre-extracted display title from search.json, use it
+        if (page.displayTitle) {
+          // Extract the title and source info (e.g., [Thomas DeLauer])
+          const matches = page.displayTitle.match(/\*?\*?\[([^\]]+)\]([^[]+)/);
+          if (matches && matches.length > 2) {
+            hostInfo = `[${cleanMarkdown(matches[1])}] `;
+            displayTitle = cleanMarkdown(matches[2]);
+          } else {
+            displayTitle = cleanMarkdown(page.displayTitle);
           }
-        } else if (h2Headings.length > 0) {
-          // If there's no back arrow, take the first h2 heading
-          const titleMatch = h2Headings[0].match(/##\s+\[([^\]]+)\]/);
-          if (titleMatch && titleMatch[1]) {
-            // Remove any URLs from the title
-            displayTitle = cleanMarkdown(titleMatch[1]).split('](')[0];
-          }
-        }
-
-        // If no display title was found and there is a title field, use that
-        if (!displayTitle && page.title) {
+        } else if (page.title === "Home") {
           displayTitle = page.title;
         }
 
-        // Extract host/presenter info
-        if (content.includes('Director/Host:')) {
-          const hostMatch = content.match(/Director\/Host:\s*([^\n]+)/);
-          if (hostMatch && hostMatch[1]) {
-            hostInfo = `[${cleanMarkdown(hostMatch[1].trim())}] `;
-          }
-        } else if (content.includes('Podcast:')) {
-          const podcastMatch = content.match(/Podcast:\s*\[([^\]]+)\]/);
-          const guestMatch = content.match(/Guest:\s*([^\n]+)/);
-          
-          if (podcastMatch && podcastMatch[1]) {
-            const podcastName = cleanMarkdown(podcastMatch[1].trim());
-            hostInfo = `[${podcastName}]`;
-            
-            if (guestMatch && guestMatch[1]) {
-              const guestName = cleanMarkdown(guestMatch[1].trim());
-              hostInfo += ` ${guestName} — `;
-            } else {
-              hostInfo += ` `;
-            }
-          }
-        }
+        // Clean up the content for the snippet
+        const cleanContent = cleanMarkdown(content);
 
         return {
           ...page,
           displayTitle: displayTitle,
           hostInfo: hostInfo,
-          fullDisplayTitle: hostInfo + displayTitle,
-          cleanContent: cleanMarkdown(content)
+          fullDisplayTitle: (hostInfo + displayTitle).trim(),
+          cleanContent: cleanContent
         };
       });
 
       // Build the search index
       searchIndex = lunr(function() {
         this.ref('url');
-        this.field('title', { boost: 10 });
         this.field('displayTitle', { boost: 15 });
         this.field('fullDisplayTitle', { boost: 20 });
         this.field('category', { boost: 5 });
