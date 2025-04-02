@@ -249,6 +249,18 @@ body.dark-mode {
     margin-bottom: 4px;
     color: #2196F3;
   }
+
+  .search-result-category {
+    display: inline-block;
+    background-color: #e9f5fe;
+    color: #2196F3;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin-left: 8px;
+    vertical-align: middle;
+    text-transform: capitalize;
+  }
 }
 
 .search-result-snippet {
@@ -293,6 +305,11 @@ body.dark-mode {
 
     .search-result-snippet {
       color: #bbb;
+    }
+    
+    .search-result-category {
+      background-color: #1a3854;
+      color: #64b5f6;
     }
     
     &:hover {
