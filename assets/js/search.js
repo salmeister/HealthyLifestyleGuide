@@ -114,31 +114,6 @@ function initSearch() {
       searchResults.style.display = 'block';
     });
 
-  function cleanMarkdown(text) {
-    if (!text) return '';
-    return text
-      .replace(/\[\[([^\]]+)\]\([^\)]+\)/g, '$1') // Replace [[text](url) with text
-      .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1')   // Replace [text](url) with text
-      .replace(/\*\*([^*]+)\*\*/g, '$1')          // Replace **text** with text
-      .replace(/\*([^*]+)\*/g, '$1')              // Replace *text* with text
-      .replace(/`([^`]+)`/g, '$1')                // Replace `text` with text
-      .replace(/\[\d+\]/g, '')                    // Remove [1], [2], etc.
-      .replace(/[#]+\s/g, '')                     // Remove heading markers
-      .replace(/📝/g, '')                         // Remove note emoji
-      .replace(/💪/g, '')                         // Remove muscle/exercise emoji
-      .replace(/🍖/g, '')                         // Remove meat/diet emoji
-      .replace(/🍲/g, '')                         // Remove food emoji
-      .replace(/😇/g, '')                         // Remove happiness emoji
-      .replace(/🧠/g, '')                         // Remove brain emoji
-      .replace(/😴/g, '')                         // Remove sleep emoji
-      .replace(/⚕️/g, '')                         // Remove health emoji
-      .replace(/🔗/g, '')                         // Remove link emoji
-      .replace(/\[⬅️\]\(\//g, '')                // Remove back links
-      .replace(/\n/g, ' ')                        // Replace newlines with spaces
-      .replace(/\s+/g, ' ')                       // Normalize whitespace
-      .trim();
-  }
-
   function performSearch(query) {
     if (!searchIndex) {
       console.warn('Search index not yet loaded');
