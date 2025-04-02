@@ -1,5 +1,5 @@
 ---
-title: "Is Success Worth It? Happiness, Freedom, and the Real Currency of Life"
+title: "44 Harsh Truths About Human Nature - Naval Ravikant"
 ---
 
 ## [⬅️](/)

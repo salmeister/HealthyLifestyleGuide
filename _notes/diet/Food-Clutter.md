@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Food Clutter (with Dr. Paul Saladino)"
 ---
 
 ## [⬅️](/)

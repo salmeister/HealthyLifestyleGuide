@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Joe Rogan Experience #1701 - Rhonda Patrick"
 ---
 
 ## [⬅️](/)

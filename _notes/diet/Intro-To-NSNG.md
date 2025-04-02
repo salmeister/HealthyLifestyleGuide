@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "A Beginner’s Guide to the No Sugar No Grains (NSNG) Lifestyle"
 ---
 
 ## [⬅️](/)

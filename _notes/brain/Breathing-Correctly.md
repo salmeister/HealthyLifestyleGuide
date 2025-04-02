@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Breathing Correctly with James Nestor"
 ---
 
 ## [⬅️](/)

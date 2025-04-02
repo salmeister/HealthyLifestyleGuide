@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Breathing Techniques to Reduce Stress and Anxiety | Dr. Andrew Huberman"
 ---
 
 ## [⬅️](/)

@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Become the Architect of Your Health, Happiness, and Purpose | Dr. Rangan Chatterjee"
 ---
 
 ## [⬅️](/)

@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "How to Be Happy, Reverse Bucket Lists, The Four False Idols, and More — Arthur C. Brooks"
 ---
 
 ## [⬅️](/)

@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Decluttering the Gut (with Zach Bush MD)"
 ---
 
 ## [⬅️](/)
