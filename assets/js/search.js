@@ -15,6 +15,7 @@ function initSearch() {
   }
 
   // Fetch the search index
+  console.log('Fetching search index from:', basePath + 'search.json');
   fetch(basePath + 'search.json')
     .then(response => {
       if (!response.ok) {
@@ -25,22 +26,27 @@ function initSearch() {
     })
     .then(data => {
       console.log('Loaded search data:', data);
-      if (!data || !data.pages || !Array.isArray(data.pages) || data.pages.length === 0) {
+      if (!data || !Array.isArray(data) || data.length === 0) {
         console.warn('Search index is empty or invalid');
         return;
       }
 
       // Store the pages data
-      pagesData = data.pages;
+      pagesData = data;
 
       // Build the search index
       searchIndex = lunr(function() {
         this.ref('url');
         this.field('title', { boost: 10 });
+        this.field('category', { boost: 5 });
         this.field('content');
         
         pagesData.forEach(function(page) {
-          this.add(page);
+          try {
+            this.add(page);
+          } catch (e) {
+            console.error('Error adding page to index:', page.url, e);
+          }
         }, this);
       });
 
@@ -54,6 +60,7 @@ function initSearch() {
     .catch(error => {
       console.error('Error loading search index:', error);
       searchResults.innerHTML = '<div class="search-result-item">Error loading search index</div>';
+      searchResults.style.display = 'block';
     });
 
   function performSearch(query) {
@@ -77,21 +84,24 @@ function initSearch() {
             if (!page) return '';
             
             // Extract a relevant snippet of content
-            const content = page.content;
+            const content = page.content || '';
             const snippetLength = 150;
             let snippet = '';
             
             // Try to find the search term in the content
             const searchTermPos = content.toLowerCase().indexOf(query.toLowerCase());
             if (searchTermPos !== -1) {
-              const start = Math.max(0, searchTermPos - snippetLength / 2);
+              const start = Math.max(0, searchTermPos - Math.floor(snippetLength / 2));
               snippet = '...' + content.substr(start, snippetLength) + '...';
             } else {
               snippet = content.substr(0, snippetLength) + '...';
             }
             
-            return `<div class="search-result-item" onclick="window.location.href='${basePath}${page.url.replace(/^\//, '')}'">
+            const category = page.category ? `<span class="search-result-category">${page.category}</span>` : '';
+            
+            return `<div class="search-result-item" onclick="window.location.href='${page.url}'">
               <strong>${page.title}</strong>
+              ${category}
               <div class="search-result-snippet">${snippet}</div>
             </div>`;
           })
@@ -138,16 +148,31 @@ function initSearch() {
   });
 }
 
-// Check if Lunr is loaded before initializing search
-if (typeof lunr !== 'undefined') {
-  initSearch();
-} else {
-  // Wait for Lunr to load
-  document.addEventListener('DOMContentLoaded', function checkLunr() {
-    if (typeof lunr !== 'undefined') {
-      initSearch();
-    } else {
-      setTimeout(checkLunr, 100);
-    }
-  });
-}
+// Initialize search when the page is loaded
+document.addEventListener('DOMContentLoaded', function() {
+  // Try initializing immediately if Lunr is already loaded
+  if (typeof lunr !== 'undefined') {
+    console.log('Lunr is loaded, initializing search');
+    initSearch();
+  } else {
+    // Wait for Lunr to load with a fallback
+    console.log('Waiting for Lunr to load');
+    let attempts = 0;
+    const maxAttempts = 10;
+    
+    const checkLunr = function() {
+      if (typeof lunr !== 'undefined') {
+        console.log('Lunr loaded, initializing search');
+        initSearch();
+      } else if (attempts < maxAttempts) {
+        attempts++;
+        console.log('Lunr not loaded yet, waiting... (Attempt ' + attempts + '/' + maxAttempts + ')');
+        setTimeout(checkLunr, 200);
+      } else {
+        console.error('Lunr failed to load after ' + maxAttempts + ' attempts');
+      }
+    };
+    
+    setTimeout(checkLunr, 200);
+  }
+});
