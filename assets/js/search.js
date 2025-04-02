@@ -2,14 +2,15 @@ document.addEventListener('DOMContentLoaded', function() {
   let searchIndex;
   let pagesData;
   
-  // Get the base URL for the site
-  const baseUrl = document.querySelector('base')?.href || window.location.origin + window.location.pathname;
+  // Get the site URL, accounting for GitHub Pages path
+  const siteUrl = new URL(window.location.href);
+  const basePath = siteUrl.pathname.replace(/\/[^/]*$/, '/');
   
   // Fetch the search index
-  fetch(baseUrl + 'search.json')
+  fetch(basePath + 'search.json')
     .then(response => {
       if (!response.ok) {
-        console.error('Failed to load search.json:', response.status, response.statusText);
+        console.error('Failed to load search.json:', response.status, response.statusText, 'URL:', basePath + 'search.json');
         throw new Error('Network response was not ok');
       }
       return response.json();
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log('Loaded search data:', data);
       if (!data || !Array.isArray(data) || data.length === 0) {
         console.warn('Search index is empty or invalid');
+        searchResults.innerHTML = '<div class="search-result-item">Search index is empty. Please try again later.</div>';
         return;
       }
 
@@ -35,13 +37,24 @@ document.addEventListener('DOMContentLoaded', function() {
         this.field('content');
         
         pagesData.forEach(function(page) {
-          this.add(page);
+          try {
+            this.add(page);
+          } catch (e) {
+            console.error('Error adding page to index:', page.url, e);
+          }
         }, this);
       });
       console.log('Search index built successfully with', pagesData.length, 'pages');
+      
+      // If there's a current search, run it now
+      const currentQuery = searchInput.value.trim();
+      if (currentQuery) {
+        performSearch(currentQuery);
+      }
     })
     .catch(error => {
       console.error('Error loading search index:', error);
+      searchResults.innerHTML = '<div class="search-result-item">Error loading search index. Please try again later.</div>';
     });
   
   const searchInput = document.getElementById('search-input');
@@ -65,6 +78,57 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
+  function performSearch(query) {
+    if (!searchIndex) {
+      console.warn('Search index not yet loaded');
+      searchResults.innerHTML = '<div class="search-result-item">Loading search index...</div>';
+      searchResults.style.display = 'block';
+      return;
+    }
+    
+    try {
+      const results = searchIndex.search(query);
+      console.log('Search results for "' + query + '":', results);
+      
+      if (results.length === 0) {
+        searchResults.innerHTML = '<div class="search-result-item">No results found</div>';
+      } else {
+        const resultsHtml = results
+          .map(result => {
+            const page = pagesData.find(p => p.url === result.ref);
+            if (!page) return '';
+            
+            // Extract a relevant snippet of content
+            const content = page.content;
+            const snippetLength = 150;
+            let snippet = '';
+            
+            // Try to find the search term in the content
+            const searchTermPos = content.toLowerCase().indexOf(query.toLowerCase());
+            if (searchTermPos !== -1) {
+              const start = Math.max(0, searchTermPos - snippetLength / 2);
+              snippet = '...' + content.substr(start, snippetLength) + '...';
+            } else {
+              snippet = content.substr(0, snippetLength) + '...';
+            }
+            
+            return `<div class="search-result-item" onclick="window.location.href='${basePath}${page.url.replace(/^\//, '')}'">
+              <strong>${page.title}</strong>
+              <div class="search-result-snippet">${snippet}</div>
+            </div>`;
+          })
+          .join('');
+        
+        searchResults.innerHTML = resultsHtml;
+      }
+      searchResults.style.display = 'block';
+    } catch (error) {
+      console.error('Error performing search:', error);
+      searchResults.innerHTML = '<div class="search-result-item">Error performing search</div>';
+      searchResults.style.display = 'block';
+    }
+  }
+  
   // Handle search with debouncing
   let searchTimeout;
   searchInput.addEventListener('input', function() {
@@ -76,56 +140,9 @@ document.addEventListener('DOMContentLoaded', function() {
       searchResults.innerHTML = '';
       return;
     }
-
+    
     searchTimeout = setTimeout(() => {
-      if (!searchIndex) {
-        console.warn('Search index not yet loaded');
-        searchResults.innerHTML = '<div class="search-result-item">Loading search index...</div>';
-        searchResults.style.display = 'block';
-        return;
-      }
-      
-      try {
-        const results = searchIndex.search(query);
-        console.log('Search results for "' + query + '":', results);
-        
-        if (results.length === 0) {
-          searchResults.innerHTML = '<div class="search-result-item">No results found</div>';
-        } else {
-          const resultsHtml = results
-            .map(result => {
-              const page = pagesData.find(p => p.url === result.ref);
-              if (!page) return '';
-              
-              // Extract a relevant snippet of content
-              const content = page.content;
-              const snippetLength = 150;
-              let snippet = '';
-              
-              // Try to find the search term in the content
-              const searchTermPos = content.toLowerCase().indexOf(query.toLowerCase());
-              if (searchTermPos !== -1) {
-                const start = Math.max(0, searchTermPos - snippetLength / 2);
-                snippet = '...' + content.substr(start, snippetLength) + '...';
-              } else {
-                snippet = content.substr(0, snippetLength) + '...';
-              }
-              
-              return `<div class="search-result-item" onclick="window.location.href='${page.url}'">
-                <strong>${page.title}</strong>
-                <div class="search-result-snippet">${snippet}</div>
-              </div>`;
-            })
-            .join('');
-          
-          searchResults.innerHTML = resultsHtml;
-        }
-        searchResults.style.display = 'block';
-      } catch (error) {
-        console.error('Error performing search:', error);
-        searchResults.innerHTML = '<div class="search-result-item">Error performing search</div>';
-        searchResults.style.display = 'block';
-      }
+      performSearch(query);
     }, 300); // Debounce for 300ms
   });
 });
