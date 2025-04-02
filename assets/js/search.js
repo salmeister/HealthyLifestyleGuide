@@ -56,20 +56,16 @@ function initSearch() {
           const content = page.content || '';
           let displayTitle = '';
 
-          // Extract title from rawTitle (front matter)
-          if (page.rawTitle) {
-            const titleMatch = page.rawTitle.match(/title:\s*"([^"]+)"/);
-            if (titleMatch && titleMatch[1]) {
-              displayTitle = titleMatch[1];
-            }
-          }
-          
-          if (!displayTitle && page.title === "Home") {
+          // Extract title from the second H2 heading (after back arrow)
+          const h2Match = content.match(/##\s*\[⬅️\][\s\S]*?##\s*\[([^\]]+)\]/);
+          if (h2Match && h2Match[1]) {
+            displayTitle = h2Match[1];
+          } else if (page.title === "Home") {
             displayTitle = page.title;
           }
 
-          // Clean up the content for the snippet
-          const cleanContent = cleanMarkdown(content)
+          // Clean up the content for the snippet - remove emojis and special characters first
+          const cleanContent = content
             .replace(/[^\w\s.,;:!?()'"-]/g, '') // Remove all non-text characters except basic punctuation
             .replace(/\s+/g, ' ') // Normalize whitespace
             .trim();
@@ -88,7 +84,7 @@ function initSearch() {
       // Build the search index
       searchIndex = lunr(function() {
         this.ref('url');
-        this.field('displayTitle', { boost: 15 });
+        this.field('title', { boost: 15 });
         this.field('cleanContent');
         
         pagesData.forEach(function(page) {
@@ -152,7 +148,6 @@ function initSearch() {
       // Use * for partial matching to improve search results
       const searchQuery = query.split(' ').map(term => `${term}*`).join(' ');
       const results = searchIndex.search(searchQuery);
-      console.log('Search results for "' + query + '":', results);
       
       if (results.length === 0) {
         searchResults.innerHTML = '<div class="search-result-item">No results found</div>';
@@ -166,7 +161,7 @@ function initSearch() {
             const snippetLength = 100;
             let snippet = '';
             
-            // Try to find the search term in the content
+            // Try to find the search term in the cleaned content
             const searchTermPos = page.cleanContent.toLowerCase().indexOf(query.toLowerCase());
             if (searchTermPos !== -1) {
               const start = Math.max(0, searchTermPos - Math.floor(snippetLength / 2));
@@ -174,9 +169,12 @@ function initSearch() {
             } else {
               snippet = page.cleanContent.substr(0, snippetLength) + '...';
             }
+
+            // Ensure we have a title
+            const title = page.title || page.displayTitle || 'Untitled';
             
             return `<div class="search-result-item" onclick="window.location.href='${page.url}'">
-              <strong>${page.displayTitle || ''}</strong>
+              <strong>${page.displayTitle}</strong>
               <div class="search-result-snippet">${snippet}</div>
             </div>`;
           })
