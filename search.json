@@ -1,15 +1,15 @@
 ---
-layout: none
 ---
-[
-  {% assign notes = site.pages %}
-  {% for note in notes %}
-    {% if note.path contains '_notes/' %}
-    {
-      "title": "{{ note.path | split: '/' | last | remove: '.md' | replace: '-', ' ' }}",
-      "url": "{{ note.url | relative_url }}",
-      "content": {{ note.content | strip_html | strip_newlines | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
-    {% endif %}
-  {% endfor %}
-]
+{
+  "pages": [
+    {% for page in site.pages %}
+      {% if page.path contains '_notes/' %}
+        {
+          "title": {{ page.path | split: '/' | last | remove: '.md' | replace: '-', ' ' | jsonify }},
+          "url": {{ page.url | relative_url | jsonify }},
+          "content": {{ page.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+  ]
+}

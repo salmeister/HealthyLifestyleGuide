@@ -1,61 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() {
+function initSearch() {
   let searchIndex;
   let pagesData;
   
   // Get the site URL, accounting for GitHub Pages path
   const siteUrl = new URL(window.location.href);
   const basePath = siteUrl.pathname.replace(/\/[^/]*$/, '/');
-  
-  // Fetch the search index
-  fetch(basePath + 'search.json')
-    .then(response => {
-      if (!response.ok) {
-        console.error('Failed to load search.json:', response.status, response.statusText, 'URL:', basePath + 'search.json');
-        throw new Error('Network response was not ok');
-      }
-      return response.json();
-    })
-    .then(data => {
-      console.log('Loaded search data:', data);
-      if (!data || !Array.isArray(data) || data.length === 0) {
-        console.warn('Search index is empty or invalid');
-        searchResults.innerHTML = '<div class="search-result-item">Search index is empty. Please try again later.</div>';
-        return;
-      }
-
-      // Process and clean the data
-      pagesData = data.map(page => ({
-        ...page,
-        title: page.title || page.url.split('/').pop().replace(/-/g, ' '),
-        content: (page.content || '').replace(/[\n\r]+/g, ' ').trim()
-      }));
-
-      // Build the search index
-      searchIndex = lunr(function() {
-        this.ref('url');
-        this.field('title', { boost: 10 });
-        this.field('content');
-        
-        pagesData.forEach(function(page) {
-          try {
-            this.add(page);
-          } catch (e) {
-            console.error('Error adding page to index:', page.url, e);
-          }
-        }, this);
-      });
-      console.log('Search index built successfully with', pagesData.length, 'pages');
-      
-      // If there's a current search, run it now
-      const currentQuery = searchInput.value.trim();
-      if (currentQuery) {
-        performSearch(currentQuery);
-      }
-    })
-    .catch(error => {
-      console.error('Error loading search index:', error);
-      searchResults.innerHTML = '<div class="search-result-item">Error loading search index. Please try again later.</div>';
-    });
   
   const searchInput = document.getElementById('search-input');
   const searchResults = document.getElementById('search-results');
@@ -65,19 +14,48 @@ document.addEventListener('DOMContentLoaded', function() {
     return;
   }
 
-  // Show/hide results container
-  searchInput.addEventListener('focus', () => {
-    if (searchResults.children.length > 0) {
-      searchResults.style.display = 'block';
-    }
-  });
-  
-  document.addEventListener('click', (e) => {
-    if (!searchResults.contains(e.target) && e.target !== searchInput) {
-      searchResults.style.display = 'none';
-    }
-  });
-  
+  // Fetch the search index
+  fetch(basePath + 'search.json')
+    .then(response => {
+      if (!response.ok) {
+        console.error('Failed to load search.json:', response.status, response.statusText);
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log('Loaded search data:', data);
+      if (!data || !data.pages || !Array.isArray(data.pages) || data.pages.length === 0) {
+        console.warn('Search index is empty or invalid');
+        return;
+      }
+
+      // Store the pages data
+      pagesData = data.pages;
+
+      // Build the search index
+      searchIndex = lunr(function() {
+        this.ref('url');
+        this.field('title', { boost: 10 });
+        this.field('content');
+        
+        pagesData.forEach(function(page) {
+          this.add(page);
+        }, this);
+      });
+
+      console.log('Search index built successfully with', pagesData.length, 'pages');
+      
+      // Check for any existing search query
+      if (searchInput.value.trim()) {
+        performSearch(searchInput.value.trim());
+      }
+    })
+    .catch(error => {
+      console.error('Error loading search index:', error);
+      searchResults.innerHTML = '<div class="search-result-item">Error loading search index</div>';
+    });
+
   function performSearch(query) {
     if (!searchIndex) {
       console.warn('Search index not yet loaded');
@@ -128,6 +106,19 @@ document.addEventListener('DOMContentLoaded', function() {
       searchResults.style.display = 'block';
     }
   }
+
+  // Show/hide results container
+  searchInput.addEventListener('focus', () => {
+    if (searchResults.children.length > 0) {
+      searchResults.style.display = 'block';
+    }
+  });
+  
+  document.addEventListener('click', (e) => {
+    if (!searchResults.contains(e.target) && e.target !== searchInput) {
+      searchResults.style.display = 'none';
+    }
+  });
   
   // Handle search with debouncing
   let searchTimeout;
@@ -145,4 +136,18 @@ document.addEventListener('DOMContentLoaded', function() {
       performSearch(query);
     }, 300); // Debounce for 300ms
   });
-});
+}
+
+// Check if Lunr is loaded before initializing search
+if (typeof lunr !== 'undefined') {
+  initSearch();
+} else {
+  // Wait for Lunr to load
+  document.addEventListener('DOMContentLoaded', function checkLunr() {
+    if (typeof lunr !== 'undefined') {
+      initSearch();
+    } else {
+      setTimeout(checkLunr, 100);
+    }
+  });
+}
