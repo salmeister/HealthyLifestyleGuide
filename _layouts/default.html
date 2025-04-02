@@ -17,6 +17,7 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
     {% include head-custom.html %}
   </head>
   <body>
@@ -43,6 +44,12 @@
       <br />
       <h1 class="project-name"><a href="/">{{ site.title }}</a></h1>
       <h2 class="project-tagline">{{ site.description }}</h2>
+      
+      <!-- Add search box -->
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search Summaries..." class="search-input">
+        <div id="search-results" class="search-results"></div>
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -50,6 +57,69 @@
 
       {% include footer.html %}
     </main>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        let searchIndex;
+        let pagesData;
+        
+        // Fetch the search index
+        fetch('/search.json')
+          .then(response => response.json())
+          .then(data => {
+            pagesData = data;
+            searchIndex = lunr(function() {
+              this.field('title', { boost: 10 });
+              this.field('content');
+              this.ref('url');
+              
+              data.forEach(function(page) {
+                this.add(page);
+              }, this);
+            });
+          });
+        
+        const searchInput = document.getElementById('search-input');
+        const searchResults = document.getElementById('search-results');
+        
+        // Show/hide results container
+        searchInput.addEventListener('focus', () => {
+          searchResults.style.display = 'block';
+        });
+        
+        document.addEventListener('click', (e) => {
+          if (!searchResults.contains(e.target) && e.target !== searchInput) {
+            searchResults.style.display = 'none';
+          }
+        });
+        
+        // Handle search
+        searchInput.addEventListener('input', function() {
+          if (!searchIndex) return;
+          
+          const query = this.value;
+          if (query === '') {
+            searchResults.style.display = 'none';
+            return;
+          }
+          
+          const results = searchIndex.search(query);
+          const resultsHtml = results
+            .map(result => {
+              const page = pagesData.find(p => p.url === result.ref);
+              if (!page) return '';
+              const title = page.title || page.url.split('/').pop().replace(/-/g, ' ');
+              return `<div class="search-result-item" onclick="window.location.href='${page.url}'">
+                <strong>${title}</strong>
+              </div>`;
+            })
+            .join('');
+          
+          searchResults.innerHTML = resultsHtml || '<div class="search-result-item">No results found</div>';
+          searchResults.style.display = 'block';
+        });
+      });
+    </script>
   </body>
 </html>
 
@@ -101,4 +171,4 @@
       }
     });
   });
-  </script>
+</script>
