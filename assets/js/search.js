@@ -56,26 +56,23 @@ function initSearch() {
           const content = page.content || '';
           let displayTitle = '';
 
+          // Extract title from rawTitle (front matter)
           if (page.rawTitle) {
-            // Split content by ## to find headers
-            const headers = page.rawTitle.split(/##\s+/);
-            // Find the header after the back arrow
-            for (let i = 0; i < headers.length; i++) {
-              if (headers[i].includes('[⬅️](/)') && i + 1 < headers.length) {
-                // Get the next header after the back arrow
-                const titleMatch = headers[i + 1].match(/\[([^\]]+)\]/);
-                if (titleMatch && titleMatch[1]) {
-                  displayTitle = cleanMarkdown(titleMatch[1]);
-                  break;
-                }
-              }
+            const titleMatch = page.rawTitle.match(/title:\s*"([^"]+)"/);
+            if (titleMatch && titleMatch[1]) {
+              displayTitle = titleMatch[1];
             }
-          } else if (page.title === "Home") {
+          }
+          
+          if (!displayTitle && page.title === "Home") {
             displayTitle = page.title;
           }
 
           // Clean up the content for the snippet
-          const cleanContent = cleanMarkdown(content);
+          const cleanContent = cleanMarkdown(content)
+            .replace(/[^\w\s.,;:!?()'"-]/g, '') // Remove all non-text characters except basic punctuation
+            .replace(/\s+/g, ' ') // Normalize whitespace
+            .trim();
 
           return {
             ...page,

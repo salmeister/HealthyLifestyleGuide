@@ -12,9 +12,8 @@ layout: null
   {% for note in site.notes %}
   ,{
     "url": "{{ note.url | relative_url }}",
-    "category": "{{ note.path | split: '/' | slice: 2 | first }}",
     "content": {{ note.content | strip_html | strip_newlines | normalize_whitespace | jsonify }},
-    "rawTitle": {{ note.content | jsonify }}
+    "title": {{ note.title | jsonify }}
   }
   {% endfor %}
 ]

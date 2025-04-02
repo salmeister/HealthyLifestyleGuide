@@ -1,5 +1,5 @@
 ---
-title: "Healthy Lifestyle Guide"
+title: "Only the Important Stuff - The Big Cat Returns"
 ---
 
 ## [⬅️](/)
