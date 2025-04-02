@@ -14,20 +14,37 @@ function initSearch() {
     return;
   }
 
-  // Fetch the search index
+  // Show a loading indicator
+  searchResults.innerHTML = '<div class="search-result-item">Loading search index...</div>';
+  searchResults.style.display = 'block';
+
+  // Fetch the search index with a cache-busting parameter
   console.log('Fetching search index from:', basePath + 'search.json');
-  fetch(basePath + 'search.json')
+  fetch(basePath + 'search.json?v=' + new Date().getTime())
     .then(response => {
       if (!response.ok) {
         console.error('Failed to load search.json:', response.status, response.statusText);
-        throw new Error('Network response was not ok');
+        throw new Error('Network response was not ok: ' + response.status);
       }
-      return response.json();
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        console.warn('Response is not JSON, received:', contentType);
+      }
+      return response.text().then(text => {
+        try {
+          console.log('Raw search data first 100 chars:', text.substring(0, 100) + '...');
+          return JSON.parse(text);
+        } catch (e) {
+          console.error('Error parsing JSON:', e);
+          throw new Error('Invalid JSON: ' + e.message);
+        }
+      });
     })
     .then(data => {
       console.log('Loaded search data:', data);
       if (!data || !Array.isArray(data) || data.length === 0) {
         console.warn('Search index is empty or invalid');
+        searchResults.innerHTML = '<div class="search-result-item">Search index is empty. Try again later.</div>';
         return;
       }
 
@@ -51,6 +68,8 @@ function initSearch() {
       });
 
       console.log('Search index built successfully with', pagesData.length, 'pages');
+      searchResults.style.display = 'none';
+      searchResults.innerHTML = '';
       
       // Check for any existing search query
       if (searchInput.value.trim()) {
@@ -59,7 +78,7 @@ function initSearch() {
     })
     .catch(error => {
       console.error('Error loading search index:', error);
-      searchResults.innerHTML = '<div class="search-result-item">Error loading search index</div>';
+      searchResults.innerHTML = '<div class="search-result-item">Error loading search index: ' + error.message + '</div>';
       searchResults.style.display = 'block';
     });
 
