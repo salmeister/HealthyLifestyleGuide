@@ -7,6 +7,6 @@ layout: null
     "title": {{ note.title | jsonify }},
     "url": "{{ note.url | relative_url }}",
     "content": {{ note.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
-  }
+  },
   {% endfor %}
 ]
