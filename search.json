@@ -1,0 +1,14 @@
+---
+layout: none
+---
+[
+  {% for page in site.pages %}
+    {% if page.url contains '_notes' %}
+    {
+      "title": "{{ page.title | escape }}",
+      "url": "{{ page.url | relative_url }}",
+      "content": {{ page.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %}
+]
