@@ -41,7 +41,7 @@ title: "Is Success Worth It? Happiness, Freedom, and the Real Currency of Life"
 
 #### **Conclusion**
 - **Freedom’s Essence**: Naval’s “holistic selfishness” prioritizes personal agency over societal scripts—live unapologetically, cut the past like a Gordian knot.
-- **Williamson’s Take**: From party boy to podcaster, he mirrors Naval’s arc: success matters, but peace and presence define a life well-lived.
+- **Williamson’s Take**: He mirrors Naval’s arc: success matters, but peace and presence define a life well-lived.
 
 This episode unpacks success as a means, not an end, urging listeners to chase alignment and attention over fleeting wins.
 
