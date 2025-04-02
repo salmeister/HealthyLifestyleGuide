@@ -56,11 +56,22 @@ function initSearch() {
         let displayTitle = page.title;
         let hostInfo = '';
 
-        // Extract title from content if available (ignore back links)
-        const titleRegex = /##\s+\[((?!\[⬅️\]).+?)\]/;
-        const titleMatch = content.match(titleRegex);
-        if (titleMatch && titleMatch[1]) {
-          displayTitle = cleanMarkdown(titleMatch[1]);
+        // Step 1: Find all H2 headings in the content
+        const h2Headings = content.match(/##\s+\[([^\]]+)\][^\n]*/g) || [];
+        
+        // Step 2: Skip the first heading if it's a back arrow
+        if (h2Headings.length >= 2 && h2Headings[0].includes('⬅️')) {
+          // The second h2 heading after the back arrow is the actual title
+          const titleMatch = h2Headings[1].match(/##\s+\[([^\]]+)\]/);
+          if (titleMatch && titleMatch[1]) {
+            displayTitle = cleanMarkdown(titleMatch[1]);
+          }
+        } else if (h2Headings.length > 0) {
+          // If there's no back arrow, take the first h2 heading
+          const titleMatch = h2Headings[0].match(/##\s+\[([^\]]+)\]/);
+          if (titleMatch && titleMatch[1]) {
+            displayTitle = cleanMarkdown(titleMatch[1]);
+          }
         }
 
         // Extract host/presenter info
