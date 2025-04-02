@@ -57,15 +57,18 @@ function initSearch() {
           let displayTitle = '';
 
           if (page.rawTitle) {
-            // Find all level 2 headings
-            const h2Pattern = /##\s+\[([^\]]+)\]\([^)]+\)/g;
-            const matches = [...page.rawTitle.matchAll(h2Pattern)];
-            
-            // Skip the back arrow heading and get the next one
-            if (matches.length >= 2 && matches[0][1].includes('⬅️')) {
-              displayTitle = cleanMarkdown(matches[1][1]);
-            } else if (matches.length > 0) {
-              displayTitle = cleanMarkdown(matches[0][1]);
+            // Split content by ## to find headers
+            const headers = page.rawTitle.split(/##\s+/);
+            // Find the header after the back arrow
+            for (let i = 0; i < headers.length; i++) {
+              if (headers[i].includes('[⬅️](/)') && i + 1 < headers.length) {
+                // Get the next header after the back arrow
+                const titleMatch = headers[i + 1].match(/\[([^\]]+)\]/);
+                if (titleMatch && titleMatch[1]) {
+                  displayTitle = cleanMarkdown(titleMatch[1]);
+                  break;
+                }
+              }
             }
           } else if (page.title === "Home") {
             displayTitle = page.title;
@@ -77,7 +80,6 @@ function initSearch() {
           return {
             ...page,
             displayTitle: displayTitle,
-            fullDisplayTitle: displayTitle.trim(),
             cleanContent: cleanContent
           };
         } catch (e) {
@@ -90,7 +92,6 @@ function initSearch() {
       searchIndex = lunr(function() {
         this.ref('url');
         this.field('displayTitle', { boost: 15 });
-        this.field('fullDisplayTitle', { boost: 20 });
         this.field('cleanContent');
         
         pagesData.forEach(function(page) {
@@ -178,7 +179,7 @@ function initSearch() {
             }
             
             return `<div class="search-result-item" onclick="window.location.href='${page.url}'">
-              <strong>${page.displayTitle}</strong>
+              <strong>${page.displayTitle || ''}</strong>
               <div class="search-result-snippet">${snippet}</div>
             </div>`;
           })
