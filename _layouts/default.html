@@ -64,9 +64,15 @@
         let pagesData;
         
         // Fetch the search index
-        fetch('/search.json')
-          .then(response => response.json())
+        fetch('{{ "/search.json" | relative_url }}')
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Network response was not ok');
+            }
+            return response.json();
+          })
           .then(data => {
+            console.log('Loaded search data:', data); // Debug logging
             pagesData = data;
             searchIndex = lunr(function() {
               this.field('title', { boost: 10 });
@@ -77,6 +83,9 @@
                 this.add(page);
               }, this);
             });
+          })
+          .catch(error => {
+            console.error('Error loading search index:', error);
           });
         
         const searchInput = document.getElementById('search-input');
