@@ -14,7 +14,7 @@ layout: null
     "url": "{{ note.url | relative_url }}",
     "category": "{{ note.path | split: '/' | slice: 2 | first }}",
     "content": {{ note.content | strip_html | strip_newlines | normalize_whitespace | jsonify }},
-    "displayTitle": "{{ note.content | split: '## [⬅️](/)' | last | split: '##' | first | strip_html | strip_newlines | normalize_whitespace | jsonify }}"
+    "displayTitle": {{ note.content | split: '## [⬅️](/)' | last | split: '##' | first | strip_html | strip_newlines | normalize_whitespace | jsonify }}
   }
   {% endfor %}
 ]

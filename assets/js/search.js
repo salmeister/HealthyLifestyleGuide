@@ -52,34 +52,54 @@ function initSearch() {
 
       // Process the data to extract titles from content ahead of time
       pagesData = pagesData.map(page => {
-        const content = page.content || '';
-        let displayTitle = '';
-        let hostInfo = '';
+        try {
+          const content = page.content || '';
+          let displayTitle = '';
+          let hostInfo = '';
 
-        // If we have a pre-extracted display title from search.json, use it
-        if (page.displayTitle) {
-          // Extract the title and source info (e.g., [Thomas DeLauer])
-          const matches = page.displayTitle.match(/\*?\*?\[([^\]]+)\]([^[]+)/);
-          if (matches && matches.length > 2) {
-            hostInfo = `[${cleanMarkdown(matches[1])}] `;
-            displayTitle = cleanMarkdown(matches[2]);
-          } else {
-            displayTitle = cleanMarkdown(page.displayTitle);
+          // If we have a pre-extracted display title from search.json, use it
+          if (page.displayTitle) {
+            try {
+              // Try to parse the displayTitle if it's a JSON string
+              const parsedTitle = typeof page.displayTitle === 'string' ? JSON.parse(page.displayTitle) : page.displayTitle;
+              // First remove any bold markers
+              const titleText = parsedTitle.replace(/\*\*/g, '');
+              // Extract the title and source info (e.g., [Thomas DeLauer])
+              const matches = titleText.match(/\[([^\]]+)\][^\[]*(\[[^\]]+\][^[]*)?$/);
+              if (matches) {
+                if (matches[2]) {
+                  // We have both source and title
+                  hostInfo = `[${cleanMarkdown(matches[1])}] `;
+                  displayTitle = cleanMarkdown(matches[2]);
+                } else {
+                  // We just have the title
+                  displayTitle = cleanMarkdown(matches[1]);
+                }
+              } else {
+                displayTitle = cleanMarkdown(titleText);
+              }
+            } catch (e) {
+              console.warn('Error parsing displayTitle:', e);
+              displayTitle = cleanMarkdown(page.displayTitle);
+            }
+          } else if (page.title === "Home") {
+            displayTitle = page.title;
           }
-        } else if (page.title === "Home") {
-          displayTitle = page.title;
+
+          // Clean up the content for the snippet
+          const cleanContent = cleanMarkdown(content);
+
+          return {
+            ...page,
+            displayTitle: displayTitle,
+            hostInfo: hostInfo,
+            fullDisplayTitle: (hostInfo + displayTitle).trim(),
+            cleanContent: cleanContent
+          };
+        } catch (e) {
+          console.error('Error processing page:', e);
+          return page;
         }
-
-        // Clean up the content for the snippet
-        const cleanContent = cleanMarkdown(content);
-
-        return {
-          ...page,
-          displayTitle: displayTitle,
-          hostInfo: hostInfo,
-          fullDisplayTitle: (hostInfo + displayTitle).trim(),
-          cleanContent: cleanContent
-        };
       });
 
       // Build the search index
