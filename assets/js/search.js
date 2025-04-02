@@ -51,46 +51,44 @@ function initSearch() {
       pagesData = data;
 
       // Process the data to extract titles from content ahead of time
-      pagesData = pagesData.map(page => {
-        try {
-          const content = page.content || '';
-          let displayTitle = '';
+      pagesData = pagesData
+        .filter(page => page.url !== '/') // Remove home page
+        .map(page => {
+          try {
+            const content = page.content || '';
+            
+            // Clean up the content for the snippet
+            const cleanContent = content
+              .replace(/[^\w\s.,;:!?()'"-]/g, '') // Remove all non-text characters
+              .replace(/\s+/g, ' ') // Normalize whitespace
+              .replace(/[⬅️]/g, '') // Explicitly remove back arrow emoji
+              .replace(/[\u{1F300}-\u{1F9FF}]/gu, '') // Remove all emojis
+              .replace(/[^\x20-\x7E]/g, '') // Remove any other non-ASCII characters
+              .trim();
 
-          // Use the front matter title if available
-          if (page.frontMatterTitle) {
-            displayTitle = page.frontMatterTitle;
-          } else if (page.title === "Home") {
-            displayTitle = page.title;
+            return {
+              ...page,
+              cleanContent: cleanContent
+            };
+          } catch (e) {
+            console.error('Error processing page:', e);
+            return null;
           }
-
-          // Clean up the content for the snippet
-          const cleanContent = content
-            .replace(/[^\w\s.,;:!?()'"-]/g, '') // Remove all non-text characters except basic punctuation
-            .replace(/\s+/g, ' ') // Normalize whitespace
-            .trim();
-
-          return {
-            ...page,
-            displayTitle: displayTitle,
-            cleanContent: cleanContent
-          };
-        } catch (e) {
-          console.error('Error processing page:', e);
-          return page;
-        }
-      });
+        })
+        .filter(page => page !== null);
 
       // Build the search index
       searchIndex = lunr(function() {
         this.ref('url');
-        this.field('frontMatterTitle', { boost: 15 }); // Index the front matter title
+        this.field('title', { boost: 15 });
         this.field('cleanContent');
         
         pagesData.forEach(function(page) {
           try {
             this.add({
-              ...page,
-              frontMatterTitle: page.displayTitle // Make sure the title is indexed
+              url: page.url,
+              title: page.title,
+              cleanContent: page.cleanContent
             });
           } catch (e) {
             console.error('Error adding page to index:', page.url, e);
@@ -171,12 +169,9 @@ function initSearch() {
             } else {
               snippet = page.cleanContent.substr(0, snippetLength) + '...';
             }
-
-            // Ensure we have a title
-            const title = page.title || page.displayTitle || 'Untitled';
             
             return `<div class="search-result-item" onclick="window.location.href='${page.url}'">
-              <strong>${page.frontMatterTitle || page.displayTitle || 'Untitled'}</strong>
+              <strong>${page.title || ''}</strong>
               <div class="search-result-snippet">${snippet}</div>
             </div>`;
           })

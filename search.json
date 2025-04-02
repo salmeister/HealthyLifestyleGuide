@@ -1,12 +1,13 @@
 ---
 layout: null
 ---
-[ 
+[
   {% for note in site.notes %}
+  {% unless forloop.first %},{% endunless %}
   {
-    "title": {{ note.title | jsonify }},
     "url": "{{ note.url | relative_url }}",
-    "content": {{ note.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
-  },
+    "content": {{ note.content | strip_html | strip_newlines | normalize_whitespace | jsonify }},
+    "title": {{ note.title | jsonify }}
+  }
   {% endfor %}
 ]
