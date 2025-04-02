@@ -2,12 +2,13 @@
 layout: none
 ---
 [
-  {% for page in site.pages %}
-    {% if page.url contains '_notes' %}
+  {% assign notes = site.html_pages %}
+  {% for note in notes %}
+    {% if note.path contains '_notes/' %}
     {
-      "title": "{{ page.title | escape }}",
-      "url": "{{ page.url | relative_url }}",
-      "content": {{ page.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
+      "title": "{{ note.name | remove: '.md' | replace: '-', ' ' }}",
+      "url": "{{ note.url | relative_url }}",
+      "content": {{ note.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
     }{% unless forloop.last %},{% endunless %}
     {% endif %}
   {% endfor %}
