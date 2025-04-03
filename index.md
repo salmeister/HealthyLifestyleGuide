@@ -75,6 +75,7 @@
 <hr>
 
 #### Podcast Episodes
+- [📝](/notes/happiness/Billy-Carson-School-Greatness/) [[School of Greatness] You Can’t Manifest if You’re Full of Trauma! Address Your Shadow Work! - Billy Carson](https://www.youtube.com/watch?v=nHb1YPqUH1Y)🧠
 - [📝](/notes/happiness/Naval-Modern-Wisdom/) [[Modern Wisdom] 44 Harsh Truths About Human Nature - Naval Ravikant](https://www.youtube.com/watch?v=KyfUysrNaco)
 - [📝](/notes/happiness/Sahil-Bloom-5-Types-Of-Wealth/) [[The Genius Life] The 5 Types of Wealth - Sahil Bloom](https://www.youtube.com/watch?v=iNBoeOGMHTE) 💪
 - [📝](/notes/happiness/Architect-Your-Life/) [[Know Thyself] Become the Architect of Your Life - Dr. Rangan Chatterjee](https://www.youtube.com/watch?v=oFmNKGL0gU0) 🍖
