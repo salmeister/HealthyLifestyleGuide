@@ -97,6 +97,7 @@
 - [[Unstoppable] Zach Bush — Eating Together](https://youtube.com/clip/Ugkx5aGBx3qXld3O6Qn1lC4Dj_8O70jW1DcK?si=e-e0h9WpGWpy4UIo)
 
 #### Podcasts
+- [[The Telepathy Tapes] - With Ky Dickens](https://thetelepathytapes.com/)
 - [[Know Thyself] - Andre Duqum](https://www.youtube.com/playlist?list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q)
 - [[Aubrey Marcus Podcast] - Aubrey Marcus](https://www.aubreymarcus.com/blogs/aubrey-marcus-podcast)
 - [[Think Tank] - Robert Edward Grant](https://robertedwardgrant.com/podcast/)
