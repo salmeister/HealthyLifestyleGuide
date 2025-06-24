@@ -65,6 +65,7 @@
 <hr>
 
 #### Podcast Episodes
+- [📝](/notes/brain/Risk-Factors-Destroying-Brain/) [[Modern Wisdom] Dr. Daniel Amen — 11 Risk Factors That Are Destroying Your Brain](https://www.youtube.com/watch?v=RUApBlqr7FM)
 - [📝](/notes/brain/Your-Brain-on-Coconut-Oil/) [[Fitness Confidential] Dr. Mary Newport — Your Brain on Coconut Oil](https://youtu.be/Xk5_8v5qLNo?si=J5WwSy52_homs-Wh)
 - [📝](/notes/brain/Breathing-Correctly/) [[Fitness Confidential] James Nestor — Breathing Correctly](https://youtu.be/5OKoZLS-h5g?si=4lfYR-vj0Fc8FE1V)
 
