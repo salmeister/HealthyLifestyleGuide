@@ -1,6 +1,6 @@
-# Healthy Lifestyle Guide
+# Thriving Healthy
 
-Welcome to the Healthy Lifestyle Guide repository! This project aims to provide resources, tips, and guidelines to help individuals lead a healthier lifestyle.
+Welcome to the Thriving Healthy repository! This project aims to provide resources, tips, and guidelines to help individuals lead a healthier lifestyle.
 
 ## Table of Contents
 
@@ -12,11 +12,11 @@ Welcome to the Healthy Lifestyle Guide repository! This project aims to provide 
 
 ## Introduction
 
-The Healthy Lifestyle Guide is a comprehensive resource for anyone looking to improve their health and well-being. It covers various aspects of a healthy lifestyle, including nutrition, exercise, mental health, and more.
+Thriving Healthy is a comprehensive resource for anyone looking to improve their health and well-being. It covers various aspects of a healthy lifestyle, including nutrition, exercise, mental health, and more.
 
 ## Getting Started
 
-To get started with the Healthy Lifestyle Guide, simply clone this repository and explore the available resources:
+To get started with Thriving Healthy, simply clone this repository and explore the available resources:
 
 ```bash
 git clone https://github.com/yourusername/HealthyLifestyleGuide.git
