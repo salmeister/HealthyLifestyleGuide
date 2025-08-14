@@ -4,7 +4,7 @@ title: "Vitamin D Expert: The Fastest Way To Dementia & The Big Lie About Sunlig
 
 ## [⬅️](/)
 
-## [Vitamin D Expert: The Fastest Way To Dementia & The Big Lie About Sunlight!](https://www.youtube.com/watch?v=207W1A_bJqI)
+## [Vitamin D Expert: The Fastest Way To Dementia & The Big Lie About Sunlight!](https://www.youtube.com/watch?v=wQJlGHVmdrA)
 
 **Podcast**: [The Diary of a CEO](https://www.youtube.com/playlist?list=PL22egh3ok4cP0T7UZRmP6TMLErZYWMN-l) | **Guest**: Dr. Roger Seheult
 

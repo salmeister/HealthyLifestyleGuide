@@ -1,8 +1,9 @@
 <div class="involvement-section">
   <span class="toggle-involvement">Get Involved <span class="expand-icon"><span class="right-arrow">►</span><span class="down-arrow">▼</span></span></span>
   <div class="involvement-details" style="display: none;">
-    <p style="color: #555;">Want to contribute?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/compare" style="color: #007bff;">Create a pull request.</a>
-    <p style="color: #555;">Found a broken link?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/issues/new?assignees=&labels=bug&template=broken-link.md&title=Broken+Link" style="color: #007bff;">Report it here.</a>
+    <p style="color: #555;">Want to contribute?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/discussions" style="color: #007bff;">Join the Discussion.</a>
+    <!-- <p style="color: #555;">Want to contribute?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/compare" style="color: #007bff;">Create a pull request.</a>
+    <p style="color: #555;">Found a broken link?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/issues/new?assignees=&labels=bug&template=broken-link.md&title=Broken+Link" style="color: #007bff;">Report it here.</a> -->
   </div>
 </div>
 
@@ -37,7 +38,7 @@
 <hr>
 
 #### Podcast Episodes
-- [📝](/notes/health/NEW-START/) [[DOAC] Dr. Roger Seheul - Nutrition, Exercise, Water, Sunlight, Temperance, Air, Rest, Trust](https://www.youtube.com/watch?v=207W1A_bJqI) 🍖💪🧠😴😇
+- [📝](/notes/health/NEW-START/) [[DOAC] Dr. Roger Seheul - Nutrition, Exercise, Water, Sunlight, Temperance, Air, Rest, Trust](https://www.youtube.com/watch?v=wQJlGHVmdrA) 🍖💪🧠😴😇
 - [📝](/notes/health/Suzanne-Humphries/) [[Joe Rogan] Dr. Suzanne Humphries - Dissolving Illusions: Vaccines, Health, and the Untold History](https://www.youtube.com/watch?v=207W1A_bJqI)
 
 ## Exercise 💪
