@@ -10,10 +10,10 @@
 <hr>
 
 #### Podcast Episodes
-- [📝](/notes/diet/The-Miracle-of-Fasting) [[Know Thyself] Dr. Mindy Pelz - The Miracle of Fasting](https://www.youtube.com/watch?v=pgWnbRg5-cg) 🍲
+- [📝](/notes/diet/The-Miracle-of-Fasting) [[Know Thyself] Dr. Mindy Pelz - The Miracle of Fasting](https://www.youtube.com/watch?v=pgWnbRg5-cg) 
 - [📝](/notes/diet/Longevity-Protocol-For-Women/) [[Rich Roll] Robin Berzin - LONGEVITY PROTOCOL For Women](https://www.youtube.com/watch?v=P28Pqr9BSWw) 💪
 - [📝](/notes/diet/Female-Exercise-and-Nutrition) [[Andrew Huberman]Dr. Stacy Sims - Female Exercise & Nutrition](https://www.youtube.com/watch?v=pZX8ikmWvEU) 💪
-- [📝](/notes/diet/Minimize-Fat) [[The Minimalists] Dr. Sean O'Mara — Minimize Fat](https://www.theminimalists.com/podcast/#408) 💪 🍲
+- [📝](/notes/diet/Minimize-Fat) [[The Minimalists] Dr. Sean O'Mara — Minimize Fat](https://www.theminimalists.com/podcast/#408) 💪 
 - [📝](/notes/diet/Food-Clutter/) [[The Minimalists] Dr. Paul Saladino — Food Clutter](https://www.theminimalists.com/podcast/#384)
 - [📝](/notes/diet/White-Oak-Pastures/) [[Joe Rogan] Will Harris — White Oak Pastures](https://open.spotify.com/episode/0qf7CYEhxSFPAcdSw1JJMY?si=b6f7eaae9e1b45f2)
 - [📝](/notes/diet/Decluttering-the-Gut/) [[The Minimalists] Dr. Zach Bush — Decluttering the Gut](https://www.theminimalists.com/podcast/#398)
@@ -37,6 +37,7 @@
 <hr>
 
 #### Podcast Episodes
+- [📝](/notes/health/NEW-START/) [[DOAC] Dr. Roger Seheul - Nutrition, Exercise, Water, Sunlight, Temperance, Air, Rest, Trust](https://www.youtube.com/watch?v=207W1A_bJqI) 🍖💪🧠😴😇
 - [📝](/notes/health/Suzanne-Humphries/) [[Joe Rogan] Dr. Suzanne Humphries - Dissolving Illusions: Vaccines, Health, and the Untold History](https://www.youtube.com/watch?v=207W1A_bJqI)
 
 ## Exercise 💪
