@@ -634,8 +634,8 @@ body.dark-mode {
   }
 }
 
-// YouTube link styling
-.link-url {
+// Platform link styling (YouTube, Spotify, Apple Podcasts, Amazon, etc.)
+.platform-link {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
@@ -646,10 +646,46 @@ body.dark-mode {
   }
   
   svg {
-    transition: fill 0.2s ease;
+    transition: all 0.2s ease;
+  }
+}
+
+// Platform-specific hover effects
+.youtube-link:hover svg {
+  fill: #cc0000;
+}
+
+.spotify-link:hover svg {
+  fill: #1ed760;
+}
+
+.apple-link:hover svg {
+  fill: #007aff;
+}
+
+.amazon-link:hover svg {
+  fill: #ff9900;
+}
+
+.generic-link:hover svg {
+  stroke: #0066cc;
+}
+
+// Dark mode adjustments for platform links
+.dark-mode {
+  .apple-link svg {
+    fill: #ffffff;
   }
   
-  &:hover svg {
-    fill: #cc0000;
+  .apple-link:hover svg {
+    fill: #007aff;
+  }
+  
+  .generic-link svg {
+    stroke: #e0e0e0;
+  }
+  
+  .generic-link:hover svg {
+    stroke: #64b5f6;
   }
 }

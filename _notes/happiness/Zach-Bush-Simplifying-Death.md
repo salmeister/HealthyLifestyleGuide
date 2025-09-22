@@ -1,5 +1,6 @@
 ---
 title: "Simplifying Death (with Zach Bush)"
+link: "https://www.youtube.com/watch?v=Y1WNVJDQyCA"
 ---
 
 ## [⬅️](/)
