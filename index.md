@@ -6,25 +6,20 @@ keywords: "healthy lifestyle, nutrition tips, fitness guide, mental health, well
 image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 ---
 
-# Healthy Lifestyle Guide: Your Complete Wellness Resource
+<div class="intro-text">
+  <p>Expert-curated health and wellness resources covering nutrition, fitness, mental health, and sustainable lifestyle practices backed by science and real-world experience.</p>
+</div>
 
-Welcome to your comprehensive guide for achieving optimal health and wellness. Our expert-curated content covers nutrition, fitness, mental health, and sustainable lifestyle practices backed by science and real-world experience.
-
-## Quick Navigation
-- [🍖 Diet & Nutrition](#diet-) - Evidence-based nutrition guidance
-- [⚕️ General Health](#health-️) - Holistic health approaches  
-- [💪 Exercise & Fitness](#exercise-) - Effective workout strategies
-- [😴 Sleep Optimization](#sleep-) - Better rest for better health
-- [🧠 Brain Health & Stress](#brainstress-) - Mental wellness techniques
-- [😇 Happiness & Spirituality](#happinessspirituality-) - Mind-body connection
-
-<div class="involvement-section">
-  <span class="toggle-involvement">Get Involved <span class="expand-icon"><span class="right-arrow">►</span><span class="down-arrow">▼</span></span></span>
-  <div class="involvement-details" style="display: none;">
-    <p style="color: #555;">Want to contribute?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/discussions" style="color: #007bff;">Join the Discussion.</a>
-    <!-- <p style="color: #555;">Want to contribute?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/compare" style="color: #007bff;">Create a pull request.</a>
-    <p style="color: #555;">Found a broken link?</p><a href="https://github.com/salmeister/HealthyLifestyleGuide/issues/new?assignees=&labels=bug&template=broken-link.md&title=Broken+Link" style="color: #007bff;">Report it here.</a> -->
-  </div>
+<div class="quick-navigation">
+  <h2>Quick Navigation</h2>
+  <ul>
+    <li><a href="#diet--nutrition-">🍖 Diet & Nutrition - Evidence-based nutrition guidance</a></li>
+    <li><a href="#health--wellness-">⚕️ General Health - Holistic health approaches</a></li>
+    <li><a href="#exercise--fitness-">💪 Exercise & Fitness - Effective workout strategies</a></li>
+    <li><a href="#sleep-optimization-">😴 Sleep Optimization - Better rest for better health</a></li>
+    <li><a href="#brain-health--stress-management-">🧠 Brain Health & Stress - Mental wellness techniques</a></li>
+    <li><a href="#happiness--spirituality-">😇 Happiness & Spirituality - Mind-body connection</a></li>
+  </ul>
 </div>
 
 ## Diet & Nutrition 🍖
@@ -143,3 +138,9 @@ Welcome to your comprehensive guide for achieving optimal health and wellness. O
 ---
 
 *Ready to transform your health? Start with one category that resonates most with you and dive into the expert-curated content above. Your journey to optimal wellness begins with a single step.*
+
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#quick-navigation" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>
