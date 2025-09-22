@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Healthy Lifestyle Guide - Nutrition, Fitness & Wellness Tips"
+title: "Thriving Healthy - Nutrition, Fitness & Wellness Tips"
 description: "Discover evidence-based health and wellness resources. Expert-curated content on nutrition, fitness, mental health, sleep optimization, and sustainable lifestyle changes."
 keywords: "healthy lifestyle, nutrition tips, fitness guide, mental health, wellness, diet advice, exercise routines, sleep optimization, stress management"
 image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
