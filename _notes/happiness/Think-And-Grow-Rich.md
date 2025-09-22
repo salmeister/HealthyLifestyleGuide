@@ -79,4 +79,8 @@ link: "https://www.amazon.com/Think-Grow-Rich-Landmark-Bestseller/dp/1585424331"
 - Success starts with your state of mind. Consistently work on nurturing positive thoughts and desires.
 - Regularly revisit your plans and goals to keep your motivation high and direction clear.
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>

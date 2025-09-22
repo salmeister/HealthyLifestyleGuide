@@ -16,7 +16,11 @@ link: "https://podcasts.apple.com/us/podcast/244-wheres-the-beef/id1087110764?i=
 **⏱️ Key Takeaway**: Personal health transformation through proper nutrition and fitness principles"Where’s the Beef?"
 ---
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>
 
 ## [Where’s the Beef? (Ep. 244)](https://podcasts.apple.com/us/podcast/244-wheres-the-beef/id1087110764?i=1000555585865)
 
@@ -68,4 +72,8 @@ link: "https://podcasts.apple.com/us/podcast/244-wheres-the-beef/id1087110764?i=
 - Vinnie Tortorich's website for the free NSNG PDF and more information: [vinnietortorich.com](vinnietortorich.com)
 - His documentaries available on platforms like Amazon and iTunes.
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>

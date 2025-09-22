@@ -55,4 +55,8 @@ link: "https://www.youtube.com/watch?v=2-fHQIhVAGA"
 
 This summary is intended to provide a quick reference for enhancing diet to combat aging effects post-40, encouraging a diverse and nutrient-rich diet for better health and longevity.
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>

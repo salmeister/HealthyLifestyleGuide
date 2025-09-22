@@ -69,4 +69,8 @@ link: "https://youtu.be/P4hq8sIvb3c?si=UDeE7TohFACTllJF"
 
 This episode dives deep into the legacy of Nautilus equipment, the science behind high-intensity training, and how these principles can be applied for health and muscle maintenance across different ages.
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>

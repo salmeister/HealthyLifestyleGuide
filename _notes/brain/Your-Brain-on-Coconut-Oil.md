@@ -55,4 +55,8 @@ link: "https://www.youtube.com/watch?v=Xk5_8v5qLNo"
 
 This episode highlights Dr. Newport's journey from a personal health crisis to becoming a proponent of ketogenic diets for neurodegenerative diseases, offering both personal anecdotes and scientific insights.
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>

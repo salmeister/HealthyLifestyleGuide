@@ -16,7 +16,11 @@ link: "https://www.youtube.com/watch?v=eDJzxlcNiNA"
 **⏱️ Key Takeaway**: Understanding different types of belly fat is crucial for developing effective, targeted fat loss strategies "The 4 Types of Belly Fat & How to Lose it for Good - Dr. Sean O’Mara"
 ---
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>
 
 ## **[Visceral Fat Doctor: The 4 Types of Belly Fat & How to Lose it for Good - Dr. Sean O’Mara](https://www.youtube.com/watch?v=eDJzxlcNiNA)**
 
@@ -62,4 +66,8 @@ link: "https://www.youtube.com/watch?v=eDJzxlcNiNA"
 **Conclusion:**
 - Understanding fat types and their effects, coupled with specific lifestyle adjustments, can enhance health, appearance, and performance. The transcript stresses tailored exercise, diet, and stress management to minimize harmful fats and promote wellness.
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>
