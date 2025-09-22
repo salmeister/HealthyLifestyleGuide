@@ -39,4 +39,8 @@ link: "https://open.spotify.com/episode/5d5E5LUmBOLlazJ93wPRMT"
 #### **Conclusion**
 This episode touches on themes of life transitions, the complexities of family life, and the healing power of new beginnings amidst loss.
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>

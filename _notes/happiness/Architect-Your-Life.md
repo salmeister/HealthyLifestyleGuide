@@ -50,4 +50,8 @@ link: "https://www.youtube.com/watch?v=oFmNKGL0gU0"
 **Conclusion:**
 - Dr. Chatterjee's message is one of empowerment and transformation through self-awareness, small daily practices, and aligning actions with personal values. Change is always possible, and living with an open heart can fundamentally alter one's experience of life for the better.
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>

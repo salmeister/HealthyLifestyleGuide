@@ -16,7 +16,11 @@ link: "https://nsng.vinnietortorich.com/product/intro-to-nsng/"
 **⏱️ Key Takeaway**: Eliminating sugar and grains can stabilize energy, improve metabolic health, and enhance physical performancele: "A Beginner’s Guide to the No Sugar No Grains (NSNG) Lifestyle"
 ---
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>
 
 ## [A Beginner’s Guide to the No Sugar No Grains (NSNG) Lifestyle](https://nsng.vinnietortorich.com/product/intro-to-nsng/)
 **Author**: Vinnie Tortorich | **Based on: Version 1.0 - September 2017**
@@ -61,4 +65,8 @@ The eBook provides books and studies supporting the principles of NSNG are recom
 
 For more detailed information, visit [VinnieTortorich.com](https://vinnietortorich.com)
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>

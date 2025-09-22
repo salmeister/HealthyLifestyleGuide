@@ -49,4 +49,8 @@ link: "https://www.youtube.com/watch?v=ZaK2ohcDlzo"
   - Focus on eliminating processed foods and incorporating minimal, intense exercise like sprinting
   - The episode connects minimalism with health by advocating for simplicity in diet and exercise to remove what is detrimental to health, thereby improving life quality and longevity.
 
-## [⬅️](/)
+<div style="text-align: center; margin: 40px 0;">
+  <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
+    ⬆️ Back to Top
+  </a>
+</div>
