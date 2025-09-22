@@ -6,6 +6,7 @@ category: "Diet & Nutrition"
 author: "Dr. Mindy Pelz"
 podcast: "Know Thyself Podcast"
 date: 2023-12-15
+link: "https://www.youtube.com/watch?v=pgWnbRg5-cg"
 ---
 
 ## Overview
