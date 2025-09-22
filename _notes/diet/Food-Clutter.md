@@ -1,14 +1,19 @@
 ---
 title: "Food Clutter (with Dr. Paul Saladino)"
+description: "Dr. Paul Saladino discusses food clutter and the carnivore diet approach to simplifying nutrition and improving health outcomes."
+keywords: "Dr. Paul Saladino, food clutter, carnivore diet, nutrition simplification, The Minimalists, diet optimization"
+category: "Diet & Nutrition"
+author: "Dr. Paul Saladino"
+podcast: "The Minimalists Podcast"
+date: 2023-01-01
+link: "https://youtu.be/dp8iNUrwFO8"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Ep. 384 | Food Clutter (with Dr. Paul Saladino)](https://youtu.be/dp8iNUrwFO8)
-
-**Podcast**: [The Minimalists Podcast](http://minimalists.com/podcast) | **Guest**: Dr. Paul Saladino
-
-**Key Discussion Points:**
+**🎧 Podcast**: [The Minimalists Podcast](http://minimalists.com/podcast) | **👨‍⚕️ Expert**: Dr. Paul Saladino  
+**🎯 Topic**: Food Clutter and Nutritional Simplification  
+**⏱️ Key Takeaway**: Simplifying food choices through ancestral eating patterns can eliminate nutritional confusion and improve health
 
 - **Food Clutter and Diet Simplification:**
   - The episode focuses on decluttering diets by subtracting harmful foods and adding nutrient-dense ones for optimal health.

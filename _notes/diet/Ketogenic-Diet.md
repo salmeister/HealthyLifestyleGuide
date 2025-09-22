@@ -1,15 +1,19 @@
 ---
 title: "Joe Rogan Experience #1701 - Rhonda Patrick"
+description: "Dr. Rhonda Patrick shares her ketogenic diet experience and discusses the metabolic benefits of ketosis for brain health and cognitive performance."
+keywords: "ketogenic diet, Dr. Rhonda Patrick, ketosis, brain health, metabolism, Joe Rogan, cognitive performance"
+category: "Diet & Nutrition"
+author: "Dr. Rhonda Patrick"
+podcast: "The Joe Rogan Experience"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=Yx9viPghp4o"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Joe Rogan Experience #1701 - Rhonda Patrick](https://www.youtube.com/watch?v=Yx9viPghp4o)
-
-**Podcast**: [The Joe Rogan Experience](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk) | **Guest**: Dr. Rhonda Patrick
-
-**Guest Details:**
-- Dr. Rhonda Patrick, a biomedical scientist specializing in nutrition, aging, and disease prevention.
+**🎧 Podcast**: [The Joe Rogan Experience](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk) | **👩‍⚕️ Expert**: Dr. Rhonda Patrick  
+**🎯 Topic**: Ketogenic Diet and Metabolic Health  
+**⏱️ Key Takeaway**: Ketosis provides enhanced brain function through efficient energy production and beneficial gene activation
 
 **Key Discussion Points:**
 

@@ -1,12 +1,19 @@
 ---
 title: "Your Brain on Coconut Oil with Dr. Mary Newport"
+description: "Learn how coconut oil and ketogenic diets can support brain health, particularly for Alzheimer's disease and cognitive function."
+keywords: "coconut oil, brain health, ketogenic diet, Alzheimer's disease, Dr. Mary Newport, cognitive function"
+category: "Brain Health & Stress Management"
+author: "Dr. Mary Newport"
+podcast: "Fitness Confidential Podcast"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=Xk5_8v5qLNo"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Your Brain on Coconut Oil with Dr. Mary Newport - Episode 2201](https://www.youtube.com/watch?v=Xk5_8v5qLNo)
-
-**Podcast**: [Fitness Confidential Podcast](https://vinnietortorich.com/) | **Guest**: Dr. Mary Newport
+**🎧 Podcast**: [Fitness Confidential Podcast](https://vinnietortorich.com/) | **👨‍⚕️ Expert**: Dr. Mary Newport  
+**🎯 Topic**: Coconut Oil and Brain Health  
+**⏱️ Key Takeaway**: Coconut oil provides ketones that can fuel the brain and potentially help with Alzheimer's disease
 
 #### **Introduction**
 - **Host**: Vinnie Tortorich

@@ -1,17 +1,19 @@
 ---
 title: "Simplifying Death (with Zach Bush)"
+description: "Dr. Zach Bush explores the process of death and dying, offering insights on letting go, emotional release, and finding peace in life's ultimate transition."
+keywords: "Dr. Zach Bush, death, dying, letting go, hospice care, emotional release, The Minimalists, end of life"
+category: "Happiness & Spirituality"
+author: "Dr. Zach Bush"
+podcast: "The Minimalists Podcast"
+date: 2023-01-01
 link: "https://www.youtube.com/watch?v=Y1WNVJDQyCA"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Ep. 362 | Simplifying Death (with Zach Bush)](https://www.youtube.com/watch?v=Y1WNVJDQyCA)
-
-**Podcast**: [The Minimalists Podcast](http://minimalists.com/podcast) | **Guest**: Zach Bush MD
-
-### **Overview:**
-- **Hosts:** Joshua Fields Milburn and Ryan Nicodemus (The Minimalists)
-- **Guest:** Dr. Zack Bush, MD, specializing in Internal Medicine, Endocrinology, and Hospice Care.
+**🎧 Podcast**: [The Minimalists Podcast](http://minimalists.com/podcast) | **👨‍⚕️ Expert**: Dr. Zach Bush  
+**🎯 Topic**: Simplifying Death and the Dying Process  
+**⏱️ Key Takeaway**: Death involves a natural release process that allows for profound letting go and emotional healing
 
 ### **Key Discussion:**
 

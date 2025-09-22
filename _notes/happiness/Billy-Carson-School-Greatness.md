@@ -1,12 +1,19 @@
 ---
 title: "Manifesting Reality: Ancient Wisdom, Modern Science, and the Power Within"
+description: "Billy Carson explores the intersection of ancient wisdom and modern science, revealing how consciousness and intention can manifest reality."
+keywords: "Billy Carson, manifesting, ancient wisdom, consciousness, quantum physics, School of Greatness, Lewis Howes"
+category: "Happiness & Spirituality"
+author: "Billy Carson"
+podcast: "The School of Greatness"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=nHb1YPqUH1Y"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Manifesting Reality: Ancient Wisdom, Modern Science, and the Power Within](https://www.youtube.com/watch?v=nHb1YPqUH1Y)
-
-**Podcast**: [The School of Greatness](https://www.youtube.com/playlist?list=PLMG5w22POeeykqONbfGi00m4AqxhnzmWc) | **Guest**: [Billy Carson](https://www.4biddenknowledge.com/)
+**🎧 Podcast**: [The School of Greatness](https://www.youtube.com/playlist?list=PLMG5w22POeeykqONbfGi00m4AqxhnzmWc) | **👨‍🔬 Expert**: [Billy Carson](https://www.4biddenknowledge.com/)  
+**🎯 Topic**: Manifesting Reality Through Ancient Wisdom and Modern Science  
+**⏱️ Key Takeaway**: Consciousness and intention are powerful forces that can shape reality when aligned with universal principles
 
 #### **Introduction**
 - **Host**: Lewis Howes

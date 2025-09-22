@@ -1,16 +1,19 @@
 ---
 title: "44 Harsh Truths About Human Nature - Naval Ravikant"
+description: "Entrepreneur and philosopher Naval Ravikant explores the tension between happiness and success, sharing insights on human nature, satisfaction, and freedom."
+keywords: "Naval Ravikant, happiness, success, human nature, philosophy, satisfaction, Modern Wisdom, Chris Williamson"
+category: "Happiness & Spirituality"
+author: "Naval Ravikant"
+podcast: "Modern Wisdom"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=KyfUysrNaco"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [44 Harsh Truths About Human Nature - Naval Ravikant](https://www.youtube.com/watch?v=KyfUysrNaco)
-
-**Podcast**: [Modern Wisdom](https://www.youtube.com/playlist?list=PLkL7BvJXiqSQu3i72hSrG4vUkDuaneHuB) | **Guest**: Naval Ravikant
-
-#### **Introduction**
-- **Host**: Chris Williamson
-- **Guest**: Naval Ravikant, entrepreneur and philosopher, explores happiness, success, and freedom in a rare, conversational podcast appearance.
+**🎧 Podcast**: [Modern Wisdom](https://www.youtube.com/playlist?list=PLkL7BvJXiqSQu3i72hSrG4vUkDuaneHuB) | **👨‍💼 Expert**: Naval Ravikant  
+**🎯 Topic**: Human Nature, Happiness, and Success  
+**⏱️ Key Takeaway**: True happiness comes from satisfaction with what you have, while success often requires dissatisfaction
 
 #### **Happiness vs. Success**
 - **Core Tension**: Happiness stems from satisfaction with what you have; success from dissatisfaction with what you don’t. Naval questions if success is worth it if it sacrifices peace.

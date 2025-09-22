@@ -1,12 +1,19 @@
 ---
-title: "Her Near Death Expericence Might Save YOUR Life"
+title: "Her Near Death Experience Might Save YOUR Life"
+description: "Anita Moorjani shares her profound near-death experience and how it transformed her understanding of life, healing, and the power of self-love."
+keywords: "Anita Moorjani, near death experience, NDE, healing, self-love, spirituality, consciousness, life transformation"
+category: "Happiness & Spirituality"
+author: "Anita Moorjani"
+podcast: "Aubrey Marcus Podcast"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=6Po0qnuA3Vo"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Her Near Death Expericence Might Save YOUR Life](https://www.youtube.com/watch?v=6Po0qnuA3Vo)
-
-**Podcast**: [Aubrey Marcus Podcast](https://www.aubreymarcus.com/blogs/aubrey-marcus-podcast) | **Guest**: Anita Moorjani
+**🎧 Podcast**: [Aubrey Marcus Podcast](https://www.aubreymarcus.com/blogs/aubrey-marcus-podcast) | **👩‍✨ Expert**: Anita Moorjani  
+**🎯 Topic**: Near-Death Experience and Spiritual Transformation  
+**⏱️ Key Takeaway**: Self-love and understanding our infinite nature can lead to profound healing and life transformation
 
 #### **Introduction**
 - **Host**: Aubrey Marcus

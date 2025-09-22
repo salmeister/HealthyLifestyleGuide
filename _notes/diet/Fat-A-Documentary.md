@@ -1,14 +1,19 @@
 ---
 title: "Fat: A Documentary"
+description: "Explore the myths and misconceptions about health, diet, and nutrition in America, examining the war on fat and dietary guidelines through compelling stories."
+keywords: "Fat documentary, Vinnie Tortorich, nutrition myths, ketogenic diet, dietary guidelines, health misconceptions"
+category: "Diet & Nutrition"
+author: "Vinnie Tortorich"
+podcast: "Documentary"
+date: 2019-01-01
+link: "https://www.youtube.com/watch?v=iVJM_0XEiBI"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Fat: A Documentary](https://www.youtube.com/watch?v=iVJM_0XEiBI)
-
-**Overview:**
-- **Director/Host:** Vinnie Tortorich
-- **Focus:** The documentary examines the myths and misconceptions about health, diet, and nutrition in the United States, particularly critiquing the dietary guidelines and the war on fat.
+**🎥 Documentary**: [Fat: A Documentary](https://www.youtube.com/watch?v=iVJM_0XEiBI) | **🎬 Director**: Vinnie Tortorich  
+**🎯 Topic**: Nutrition Myths and the War on Fat  
+**⏱️ Key Takeaway**: The medical community has neglected dietary interventions while promoting flawed nutritional guidelines
 
 **Key Points:**
 

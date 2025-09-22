@@ -135,10 +135,6 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 - [Colin O'Brady](https://x.com/colinobrady) [🔗](https://www.colinobrady.com/)
 - [Rangan Chatterjee](https://x.com/drchatterjeeuk) [🔗](https://drchatterjee.com/)
 
----
-
-*Ready to transform your health? Start with one category that resonates most with you and dive into the expert-curated content above. Your journey to optimal wellness begins with a single step.*
-
 <div style="text-align: center; margin: 40px 0;">
   <a href="#quick-navigation" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
     ⬆️ Back to Top

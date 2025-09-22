@@ -1,15 +1,19 @@
 ---
 title: "The Optimal Morning Routine - Andrew Huberman"
+description: "Learn the science-based optimal morning routine from Dr. Andrew Huberman to enhance alertness, focus, and overall daily performance through foundational behaviors."
+keywords: "morning routine, Andrew Huberman, optimization, neurobiology, daily performance, circadian rhythm, alertness"
+category: "Sleep Optimization"
+author: "Dr. Andrew Huberman"
+podcast: "After Skool YouTube"
+date: 2023-01-01
+link: "https://youtu.be/gR_f-iwUGY4?si=ToyBFRHMwhTv3aCS"
 ---
 
-## [⬅️](/)
+## Overview
 
-## **[The Optimal Morning Routine - Andrew Huberman](https://youtu.be/gR_f-iwUGY4?si=ToyBFRHMwhTv3aCS)**
-
-**Source**: [After Skool](https://www.youtube.com/@AfterSkool) YouTube
-
-#### **Introduction**
-- **Host**: Andrew Huberman, Professor of Neurobiology and Ophthalmology at Stanford School of Medicine, host of the Huberman Lab podcast.
+**🎧 Source**: [After Skool](https://www.youtube.com/@AfterSkool) YouTube | **👨‍⚕️ Expert**: Dr. Andrew Huberman  
+**🎯 Topic**: Science-Based Morning Optimization  
+**⏱️ Key Takeaway**: Foundational morning behaviors can dramatically impact alertness, focus, and overall daily performance
 
 #### **Foundational Behaviors for Daily Optimization**
 

@@ -1,16 +1,19 @@
 ---
-title: "Joe Rogan Experience #1766 - Ben Patrick"
+title: "Joe Rogan Experience #1766 - Ben Patrick (Knees Over Toes Guy)"
+description: "Learn revolutionary knee health and rehabilitation techniques from Ben Patrick, the Knees Over Toes Guy, focusing on natural movement and injury prevention."
+keywords: "Ben Patrick, Knees Over Toes Guy, knee health, rehabilitation, Joe Rogan, injury prevention, natural movement"
+category: "Exercise & Fitness"
+author: "Ben Patrick"
+podcast: "The Joe Rogan Experience"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=Lqi12hqe_lQ"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Joe Rogan Experience #1766 - Ben Patrick](https://www.youtube.com/watch?v=Lqi12hqe_lQ)
-
-**Podcast**: [The Joe Rogan Experience](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk) | **Guest**: Ben Patrick
-
-#### **Introduction**
-- **Host**: Joe Rogan
-- **Guest**: Ben Patrick, known as Knees Over Toes Guy, discussing knee health and rehabilitation.
+**🎧 Podcast**: [The Joe Rogan Experience](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk) | **👨‍🏋️ Expert**: Ben Patrick (Knees Over Toes Guy)  
+**🎯 Topic**: Knee Health and Rehabilitation  
+**⏱️ Key Takeaway**: Revolutionary approach to knee health through natural movement patterns and targeted exercises
 
 #### **Knee Injuries and Recovery**
 

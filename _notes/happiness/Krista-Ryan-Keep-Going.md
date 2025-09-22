@@ -1,12 +1,19 @@
 ---
-title: "Only the Important Stuff - Krista Ryan - KFG"
+title: "Only the Important Stuff - Krista Ryan - Keep Going"
+description: "Krista Ryan shares her inspiring journey of resilience, perseverance, and the importance of keeping going through life's challenges."
+keywords: "Krista Ryan, resilience, perseverance, keep going, motivation, inspiration, personal growth, overcoming challenges"
+category: "Happiness & Spirituality"
+author: "Krista Ryan"
+podcast: "Only the Important Stuff"
+date: 2023-01-01
+link: "https://open.spotify.com/episode/5cUHRSIQ3XV9WpGC6Yugdb"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Only the Important Stuff - Krista Ryan - KFG](https://open.spotify.com/episode/5cUHRSIQ3XV9WpGC6Yugdb)
-
-**Podcast**: [Only the Important Stuff](https://open.spotify.com/show/15xY5xN0SQkhlOKDn89AhZ) | **Guest**: Krista Ryan
+**🎧 Podcast**: [Only the Important Stuff](https://open.spotify.com/show/15xY5xN0SQkhlOKDn89AhZ) | **👩‍✨ Guest**: Krista Ryan  
+**🎯 Topic**: Resilience and the Power of Perseverance  
+**⏱️ Key Takeaway**: The key to overcoming life's challenges is to keep going, one step at a time, with unwavering determination
 
 #### **Introduction**
 - **Host**: Jeff Heinrich
