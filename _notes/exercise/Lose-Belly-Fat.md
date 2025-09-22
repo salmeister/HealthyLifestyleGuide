@@ -1,5 +1,19 @@
 ---
-title: "The 4 Types of Belly Fat & How to Lose it for Good - Dr. Sean O’Mara"
+title: "The 4 Types of Belly Fat & How to Lose it for Good - Dr. Sean O'Mara"
+description: "Understand the four different types of belly fat and learn effective strategies to eliminate visceral fat for better health with Dr. Sean O'Mara."
+keywords: "belly fat, visceral fat, Dr. Sean O'Mara, weight loss, Thomas DeLauer, fat loss, health"
+category: "Exercise & Fitness"
+author: "Dr. Sean O'Mara"
+podcast: "Thomas DeLauer YouTube"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=eDJzxlcNiNA"
+---
+
+## Overview
+
+**🎧 Source**: [Thomas DeLauer](https://www.youtube.com/@ThomasDeLauerOfficial) YouTube | **👨‍⚕️ Expert**: Dr. Sean O'Mara  
+**🎯 Topic**: Types of Belly Fat and Fat Loss Strategies  
+**⏱️ Key Takeaway**: Understanding different types of belly fat is crucial for developing effective, targeted fat loss strategies "The 4 Types of Belly Fat & How to Lose it for Good - Dr. Sean O’Mara"
 ---
 
 ## [⬅️](/)

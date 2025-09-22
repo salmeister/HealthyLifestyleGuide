@@ -1,14 +1,19 @@
 ---
 title: "Decluttering the Gut (with Zach Bush MD)"
+description: "Dr. Zach Bush explores gut health optimization and the importance of decluttering digestive systems for overall wellness and immune function."
+keywords: "Dr. Zach Bush, gut health, digestive wellness, microbiome, The Minimalists, gut decluttering, immune function"
+category: "Diet & Nutrition"
+author: "Dr. Zach Bush"
+podcast: "The Minimalists Podcast"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=U4VKuviM-pM"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Ep. 398 | Decluttering the Gut (with Zach Bush MD)](https://www.youtube.com/watch?v=U4VKuviM-pM)
-
-**Podcast**: [The Minimalists Podcast](http://minimalists.com/podcast) | **Guest**: Dr. Zach Bush
-
-
+**🎧 Podcast**: [The Minimalists Podcast](http://minimalists.com/podcast) | **👨‍⚕️ Expert**: Dr. Zach Bush  
+**🎯 Topic**: Gut Health and Digestive Decluttering  
+**⏱️ Key Takeaway**: A healthy gut microbiome is foundational to overall wellness and requires intentional decluttering of harmful substances
 
 #### **Introduction**
 - **Guest Details**: Dr. Zach Bush, a triple board-certified physician specializing in the microbiome, health, disease, and food systems.

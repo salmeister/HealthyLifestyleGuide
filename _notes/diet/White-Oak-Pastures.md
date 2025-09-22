@@ -1,15 +1,19 @@
 ---
 title: "Joe Rogan Experience #1893 - Will Harris"
+description: "Fourth-generation farmer Will Harris discusses regenerative agriculture, sustainable farming practices, and the White Oak Pastures approach to ethical meat production."
+keywords: "Will Harris, White Oak Pastures, regenerative agriculture, sustainable farming, Joe Rogan, ethical meat, farming practices"
+category: "Diet & Nutrition"
+author: "Will Harris"
+podcast: "The Joe Rogan Experience"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=ozNK2sgJmcg"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Joe Rogan Experience #1893 - Will Harris](https://www.youtube.com/watch?v=ozNK2sgJmcg)
-
-**Podcast**: [The Joe Rogan Experience](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk) | **Guest**: Will Harris
-
-**Guest Details:**
-- Will Harris, fourth-generation farmer of White Oak Pastures.
+**🎧 Podcast**: [The Joe Rogan Experience](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk) | **👨‍🌾 Expert**: Will Harris  
+**🎯 Topic**: Regenerative Agriculture and Sustainable Farming  
+**⏱️ Key Takeaway**: Regenerative farming practices can restore soil health while producing nutrient-dense, ethically-raised meat
 
 **Key Discussion Points:**
 
@@ -52,5 +56,3 @@ title: "Joe Rogan Experience #1893 - Will Harris"
 
 **Conclusion:**
 - Will Harris provides a compelling argument for why regenerative agriculture could be a sustainable future for farming, emphasizing the need for consumers to understand and support these practices for broader adoption. His commitment to education and local economic revitalization through farming is a central theme of his work.
-
-## [⬅️](/)

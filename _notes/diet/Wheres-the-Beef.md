@@ -1,5 +1,19 @@
 ---
-title: "Where’s the Beef?"
+title: "Where's the Beef? with Vinnie Tortorich"
+description: "Fitness trainer and filmmaker Vinnie Tortorich shares insights on nutrition, health, and his journey as a cancer survivor on The Way I Heard It podcast."
+keywords: "Vinnie Tortorich, nutrition, fitness, cancer survivor, health, Mike Rowe, The Way I Heard It"
+category: "Diet & Nutrition"
+author: "Vinnie Tortorich"
+podcast: "The Way I Heard It"
+date: 2023-01-01
+link: "https://podcasts.apple.com/us/podcast/244-wheres-the-beef/id1087110764?i=1000555585865"
+---
+
+## Overview
+
+**🎧 Podcast**: [The Way I Heard It](https://mikerowe.com/podcast/) | **👨‍🏋️ Expert**: Vinnie Tortorich  
+**🎯 Topic**: Nutrition, Fitness, and Health Journey  
+**⏱️ Key Takeaway**: Personal health transformation through proper nutrition and fitness principles"Where’s the Beef?"
 ---
 
 ## [⬅️](/)

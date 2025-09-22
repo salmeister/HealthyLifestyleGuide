@@ -1,14 +1,19 @@
 ---
 title: "Dr. Stacy Sims: Female-Specific Exercise & Nutrition for Health, Performance & Longevity"
+description: "Dr. Stacy Sims reveals how women's unique physiology requires different approaches to exercise and nutrition for optimal health, performance, and longevity."
+keywords: "Dr. Stacy Sims, female nutrition, women's health, exercise physiology, hormones, Andrew Huberman, longevity"
+category: "Diet & Nutrition"
+author: "Dr. Stacy Sims"
+podcast: "Andrew Huberman Podcast"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=pZX8ikmWvEU"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Dr. Stacy Sims: Female-Specific Exercise & Nutrition for Health, Performance & Longevity](https://www.youtube.com/watch?v=pZX8ikmWvEU)
-
-**Podcast**: [Andrew Huberman Podcast](https://www.hubermanlab.com/) | **Guest**: Dr. Stacy Sims
-
-**Introduction:**
+**🎧 Podcast**: [Andrew Huberman Podcast](https://www.hubermanlab.com/) | **👩‍⚕️ Expert**: Dr. Stacy Sims  
+**🎯 Topic**: Female-Specific Exercise and Nutrition  
+**⏱️ Key Takeaway**: Women are not small men - they require specialized nutrition and exercise approaches based on their unique hormonal physiology
 
 - **Host:** Andrew Huberman, Professor of Neurobiology and Ophthalmology at Stanford School of Medicine.
 - **Guest:** Dr. Stacy Sims, an exercise physiologist and nutrition scientist, specializing in women's training and nutrition.

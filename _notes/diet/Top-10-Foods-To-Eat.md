@@ -1,12 +1,19 @@
 ---
-title: "Top 10 Foods"
+title: "Top 10 Foods for Optimal Health"
+description: "Discover the top 10 nutrient-dense foods including avocados, olives, berries, and more that provide essential vitamins, healthy fats, and antioxidants."
+keywords: "top foods, healthy eating, nutrition, avocado, berries, olives, nutrient dense foods, Vinnie Tortorich"
+category: "Diet & Nutrition"
+author: "Vinnie Tortorich"
+podcast: "Vinnie Tortorich YouTube"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=2-fHQIhVAGA"
 ---
 
-## [⬅️](/)
+## Overview
 
-## **[Top 10 Foods](https://www.youtube.com/watch?v=pgWnbRg5-cg):**
-
-**Source**: [Vinnie Tortorich](https://www.youtube.com/watch?v=2-fHQIhVAGA) YouTube
+**🎧 Source**: [Vinnie Tortorich](https://www.youtube.com/watch?v=2-fHQIhVAGA) YouTube | **👨‍🍳 Expert**: Vinnie Tortorich  
+**🎯 Topic**: Top 10 Nutrient-Dense Foods  
+**⏱️ Key Takeaway**: Focus on whole, unprocessed foods rich in healthy fats, antioxidants, and essential nutrients
 
 1. **Avocado** - High in monounsaturated fats, vitamins B, C, E, K, and minerals like potassium and magnesium. Versatile for smoothies, guacamole, or omelets.
 

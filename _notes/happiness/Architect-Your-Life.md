@@ -1,14 +1,19 @@
 ---
 title: "Become the Architect of Your Health, Happiness, and Purpose | Dr. Rangan Chatterjee"
+description: "Dr. Rangan Chatterjee shares how to take control of your health, happiness, and purpose by becoming the architect of your own well-being."
+keywords: "Dr. Rangan Chatterjee, health, happiness, purpose, well-being, architect, life design, holistic health"
+category: "Happiness & Spirituality"
+author: "Dr. Rangan Chatterjee"
+podcast: "Know Thyself Podcast"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=oFmNKGL0gU0"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Become the Architect of Your Health, Happiness, and Purpose | Dr. Rangan Chatterjee](https://www.youtube.com/watch?v=oFmNKGL0gU0)
-
-**Podcast**: [Know Thyself Podcast](https://www.youtube.com/playlist?list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q) | **Guest**: Dr. Rangan Chatterjee
-
-**Summary:**
+**🎧 Podcast**: [Know Thyself Podcast](https://www.youtube.com/playlist?list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q) | **👨‍⚕️ Expert**: Dr. Rangan Chatterjee  
+**🎯 Topic**: Architecting Health, Happiness, and Purpose  
+**⏱️ Key Takeaway**: Taking ownership of your health and happiness requires intentional design and consistent action
 
 1. **Personal Empowerment:**
    - Dr. Rangan Chatterjee emphasizes that individuals can be the architects of their own health and happiness. The core idea is shifting from external validation to internal trust, questioning why we no longer trust ourselves rather than which expert to follow.

@@ -1,10 +1,19 @@
 ---
 title: "Brain Health Revolution with Dr. Daniel Amen"
+description: "Discover the risk factors destroying your brain and learn how to optimize brain health through SPECT imaging insights and practical strategies."
+keywords: "brain health, Dr. Daniel Amen, SPECT imaging, mental health, brain optimization, risk factors"
+category: "Brain Health & Stress Management"
+author: "Dr. Daniel Amen"
+podcast: "Modern Wisdom"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=RUApBlqr7FM"
 ---
 
-## [Brain Health Revolution with Dr. Daniel Amen](https://www.youtube.com/watch?v=RUApBlqr7FM)
+## Overview
 
-**Podcast**: Modern Wisdom | **Guest**: Dr. Daniel Amen
+**🎧 Podcast**: [Modern Wisdom](https://modernwisdom.libsyn.com/) | **👨‍⚕️ Expert**: Dr. Daniel Amen  
+**🎯 Topic**: Brain Health Revolution and Mental Health Transformation  
+**⏱️ Key Takeaway**: Mental health issues are often brain health issues that can be diagnosed and treated through brain imaging
 
 #### **Introduction**
 - **Host**: Chris Williamson

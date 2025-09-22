@@ -1,12 +1,19 @@
 ---
 title: "Gut-Brain Health with Dr. Andrew Huberman"
+description: "Explore the gut-brain axis and learn how food affects neurons in your gut that communicate directly with your brain and influence mood and cognition."
+keywords: "gut-brain axis, Dr. Andrew Huberman, neuroscience, gut health, brain health, nutrition"
+category: "Diet & Nutrition"
+author: "Dr. Andrew Huberman"
+podcast: "Virtusan App"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=pvI1vLHV0Mo"
 ---
 
-## [⬅️](/)
+## Overview
 
-## **[Gut-Brain Health with Dr. Andrew Huberman](https://www.youtube.com/watch?v=pvI1vLHV0Mo)**
-
-**Source**: [Virtusan App](https://www.youtube.com/@virtusan) YouTube
+**🎧 Podcast**: [Virtusan App](https://www.youtube.com/@virtusan) YouTube | **👨‍⚕️ Expert**: Dr. Andrew Huberman  
+**🎯 Topic**: Gut-Brain Health Connection  
+**⏱️ Key Takeaway**: Neurons in the gut communicate directly with the brain, affecting alertness and motivation through food choices
 
 #### **Gut-Brain Axis Explained**
 

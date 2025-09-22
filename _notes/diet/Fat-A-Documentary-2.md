@@ -1,14 +1,19 @@
 ---
 title: "Fat: A Documentary 2"
+description: "Vinnie Tortorich's follow-up documentary continues exposing nutrition myths and the truth about dietary fat, exploring the ongoing war against proper nutrition."
+keywords: "Fat documentary 2, Vinnie Tortorich, nutrition myths, dietary fat, health documentary, food industry"
+category: "Diet & Nutrition"
+author: "Vinnie Tortorich"
+podcast: "Documentary"
+date: 2021-01-01
+link: "https://www.youtube.com/watch?v=AoPisYHbMcg"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [Fat: A Documentary 2](https://www.youtube.com/watch?v=AoPisYHbMcg)
-
-**Overview:**
-- **Title:** ""
-- **Director/Host:** Vinnie Tortorich
+**🎥 Documentary**: [Fat: A Documentary 2](https://www.youtube.com/watch?v=AoPisYHbMcg) | **🎬 Director**: Vinnie Tortorich  
+**🎯 Topic**: Nutrition Myths and the War on Fat (Part 2)  
+**⏱️ Key Takeaway**: The continued fight against nutrition misinformation and the importance of understanding real dietary science
 - **Focus:** Vinnie Tortorich, a health and fitness expert, explores the myths and truths behind dietary recommendations, focusing on how historical, scientific, and cultural factors have shaped our understanding of nutrition.
 
 **Key Discussion Points:**

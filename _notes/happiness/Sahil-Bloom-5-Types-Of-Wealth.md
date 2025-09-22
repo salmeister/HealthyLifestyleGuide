@@ -1,14 +1,19 @@
 ---
 title: "The 5 Types of Wealth You Need More Than Money"
+description: "Sahil Bloom reveals the 5 essential types of wealth beyond money that create true abundance and fulfillment in life, exploring holistic approaches to prosperity."
+keywords: "Sahil Bloom, wealth types, abundance, fulfillment, prosperity, life wealth, The Genius Life, holistic wealth"
+category: "Happiness & Spirituality"
+author: "Sahil Bloom"
+podcast: "The Genius Life"
+date: 2023-01-01
+link: "https://www.youtube.com/watch?v=iNBoeOGMHTE"
 ---
 
-## [⬅️](/)
+## Overview
 
-## [The 5 Types of Wealth You Need More Than Money](https://www.youtube.com/watch?v=iNBoeOGMHTE)
-
-**Podcast**: [The Genius Life](https://www.youtube.com/@maxlugavere) | **Guest**: Sahil Bloom
-
-#### **Introduction**
+**🎧 Podcast**: [The Genius Life](https://www.youtube.com/@maxlugavere) | **👨‍💼 Expert**: Sahil Bloom  
+**🎯 Topic**: The 5 Types of Wealth Beyond Money  
+**⏱️ Key Takeaway**: True wealth encompasses health, relationships, time, knowledge, and experiences - not just financial assets
 - **Host**: Max Lugavere
 - **Guest**: Sahil Bloom, author and entrepreneur exploring wealth beyond finances.
 
