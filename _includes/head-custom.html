@@ -55,7 +55,7 @@
     "name": "{{ site.title }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://thrivinghealthy.com//assets/images/thehealthylifestyleguide-thumbnail.png"
+      "url": "https://thrivinghealthy.com/assets/images/thehealthylifestyleguide-thumbnail.png"
     }
   },
   "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
@@ -64,7 +64,7 @@
     "@type": "WebPage",
     "@id": "{{ page.url | absolute_url }}"
   },
-  "image": "https://thrivinghealthy.com//assets/images/thehealthylifestyleguide-thumbnail.png",
+  "image": "https://thrivinghealthy.com/assets/images/thehealthylifestyleguide-thumbnail.png",
   "url": "{{ page.url | absolute_url }}",
   "articleSection": "{% if page.category %}{{ page.category }}{% else %}Health & Wellness{% endif %}",
   "keywords": "{% if page.keywords %}{{ page.keywords }}{% else %}healthy lifestyle, nutrition, fitness, mental health, wellness{% endif %}"

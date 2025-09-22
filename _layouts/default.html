@@ -146,26 +146,5 @@
         'floating-chat.donateButton.text-color': '#fff'
       });
     </script>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const toggleButton = document.querySelector('.toggle-involvement');
-        const involvementDetails = document.querySelector('.involvement-details');
-      
-        // Only add event listener if the elements exist
-        if (toggleButton && involvementDetails) {
-          toggleButton.addEventListener('click', function() {
-            this.classList.toggle('active'); // Toggle the active class for icon change
-            if (involvementDetails.style.display === "none" || involvementDetails.style.display === "") {
-              involvementDetails.style.display = "block";
-              involvementDetails.classList.add('show');
-            } else {
-              involvementDetails.style.display = "none";
-              involvementDetails.classList.remove('show');
-            }
-          });
-        }
-      });
-    </script>
   </body>
 </html>
