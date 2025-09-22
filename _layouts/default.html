@@ -52,16 +52,32 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      <!-- Breadcrumb Navigation for Notes -->
+      <!-- Simplified Breadcrumb Navigation for Notes -->
       {% if page.collection == 'notes' %}
       <nav aria-label="Breadcrumb" class="breadcrumb">
         <ol>
           <li><a href="/">Home</a></li>
-          <li><a href="/notes/">Notes</a></li>
           {% if page.category %}
-          <li><a href="/notes/{{ page.category | slugify }}/">{{ page.category }}</a></li>
+            {% assign category_slug = page.category | downcase | replace: ' ', '-' | replace: '&', '' | append: '-' %}
+            {% case page.category %}
+              {% when 'Diet & Nutrition' %}
+                <li><a href="/#diet--nutrition-">{{ page.category }}</a></li>
+              {% when 'Health & Wellness' %}
+                <li><a href="/#health--wellness-️">{{ page.category }}</a></li>
+              {% when 'Exercise & Fitness' %}
+                <li><a href="/#exercise--fitness-">{{ page.category }}</a></li>
+              {% when 'Sleep Optimization' %}
+                <li><a href="/#sleep-optimization-">{{ page.category }}</a></li>
+              {% when 'Brain Health & Stress Management' %}
+                <li><a href="/#brain-health--stress-management-">{{ page.category }}</a></li>
+              {% when 'Happiness & Spirituality' %}
+                <li><a href="/#happiness--spirituality-">{{ page.category }}</a></li>
+              {% else %}
+                <li><a href="/">{{ page.category }}</a></li>
+            {% endcase %}
+          {% else %}
+            <li><a href="/#quick-navigation">Health & Wellness</a></li>
           {% endif %}
-          <li aria-current="page">{{ page.title }}</li>
         </ol>
       </nav>
       {% endif %}

@@ -93,10 +93,6 @@ We continuously evaluate and update our resource collection to ensure:
 - **Diversity**: Multiple perspectives from various expert backgrounds
 - **Accessibility**: Complex topics explained in understandable terms
 
-## Get Started
-
-Ready to optimize your health journey? Use our [Quick Navigation](#quick-navigation) to explore the areas most relevant to your goals, or browse our featured content to discover new insights from leading health experts.
-
 ---
 
 *Remember: This guide provides educational information only. Always consult with qualified healthcare professionals before making significant changes to your diet, exercise, or health routines.*
