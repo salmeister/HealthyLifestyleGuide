@@ -7,14 +7,14 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 ---
 
 <div class="intro-text">
-  <p>Expert-curated health and wellness resources covering nutrition, fitness, mental health, and sustainable lifestyle practices backed by science and real-world experience.</p>
+  <p>Health and wellness resources covering nutrition, fitness, mental health, and sustainable lifestyle practices backed by science and real-world experience.</p>
 </div>
 
 <div class="quick-navigation">
   <h2>Quick Navigation</h2>
   <ul>
     <li><a href="#diet--nutrition-">🍖 Diet & Nutrition - Evidence-based nutrition guidance</a></li>
-    <li><a href="#health--wellness-">⚕️ General Health - Holistic health approaches</a></li>
+    <li><a href="#health--wellness-️">⚕️ General Health - Holistic health approaches</a></li>
     <li><a href="#exercise--fitness-">💪 Exercise & Fitness - Effective workout strategies</a></li>
     <li><a href="#sleep-optimization-">😴 Sleep Optimization - Better rest for better health</a></li>
     <li><a href="#brain-health--stress-management-">🧠 Brain Health & Stress - Mental wellness techniques</a></li>
