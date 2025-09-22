@@ -8,12 +8,6 @@ podcast: "Know Thyself Podcast"
 date: 2023-12-15
 ---
 
-# The Miracle Of Fasting, Hormones & Women's Cycles | Dr. Mindy Pelz
-
-<nav aria-label="breadcrumb">
-  <a href="/" aria-label="Return to homepage">⬅️ Home</a> > <a href="/notes/diet/">Diet & Nutrition</a> > Fasting Guide
-</nav>
-
 ## Overview
 
 **🎧 Podcast**: [Know Thyself Podcast](https://www.knowthyself.one) | **👨‍⚕️ Expert**: Dr. Mindy Pelz  
@@ -144,14 +138,6 @@ Dr. Mindy Pelz reveals how strategic fasting can transform your health by activa
 - Intermittent fasting and metabolic health studies
 - Women's hormonal health and fasting research
 
----
-
-{% include affiliate-products.html category="Fasting" %}
-
-<div class="call-to-action">
-  <h3>🚀 Ready to Start Your Fasting Journey?</h3>
-  <p>Begin with a simple 12-hour overnight fast and gradually extend as your body adapts. Remember: health is a verb, not a destination - focus on consistent progress over perfection.</p>
-</div>
 
 ---
 
