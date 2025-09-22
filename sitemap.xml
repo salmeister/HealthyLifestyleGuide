@@ -1,0 +1,42 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage -->
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Notes/Articles -->
+  {% for note in site.notes %}
+  <url>
+    <loc>{{ note.url | absolute_url }}</loc>
+    <lastmod>{% if note.date %}{{ note.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    {% if note.image %}
+    <image:image>
+      <image:loc>{{ note.image | absolute_url }}</image:loc>
+      <image:title>{{ note.title | xml_escape }}</image:title>
+    </image:image>
+    {% endif %}
+  </url>
+  {% endfor %}
+  
+  <!-- Static Pages -->
+  {% for page in site.pages %}
+    {% unless page.url contains '/404' or page.url contains '/search' %}
+    <url>
+      <loc>{{ page.url | absolute_url }}</loc>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    {% endunless %}
+  {% endfor %}
+</urlset>

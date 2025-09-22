@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://thrivinghealthy.com/sitemap.xml
+
+# Block access to search results and admin areas
+Disallow: /search
+Disallow: /admin/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_sass/
+
+# Allow crawling of important directories
+Allow: /notes/
+Allow: /assets/
+Allow: /images/
+
+# Crawl delay (optional - helps prevent overwhelming the server)
+Crawl-delay: 1

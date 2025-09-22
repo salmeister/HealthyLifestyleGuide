@@ -1,0 +1,102 @@
+<!-- Affiliate Product Recommendations -->
+{% if include.category %}
+<div class="affiliate-section">
+  <h3>🛒 Recommended {{ include.category }} Products</h3>
+  <p>Carefully selected products that align with the evidence-based health principles discussed above.</p>
+  
+  <div class="product-grid">
+    {% case include.category %}
+      {% when 'Fasting' %}
+        <div class="product-card">
+          <div class="product-title">Electrolyte Supplements</div>
+          <div class="product-description">Essential minerals to support safe fasting practices and prevent depletion.</div>
+          <a href="#" class="cta-button" onclick="trackAffiliate('electrolytes', 'fasting')">Shop Now</a>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-title">Quality Sleep Tracker</div>
+          <div class="product-description">Monitor recovery during fasting cycles and optimize your sleep quality.</div>
+          <a href="#" class="cta-button" onclick="trackAffiliate('sleep_tracker', 'fasting')">Learn More</a>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-title">Grass-Fed Collagen</div>
+          <div class="product-description">High-quality protein for breaking fasts and supporting cellular repair.</div>
+          <a href="#" class="cta-button" onclick="trackAffiliate('collagen', 'fasting')">View Details</a>
+        </div>
+        
+      {% when 'Exercise' %}
+        <div class="product-card">
+          <div class="product-title">Resistance Bands Set</div>
+          <div class="product-description">Versatile equipment for strength training and mobility work at home.</div>
+          <a href="#" class="cta-button" onclick="trackAffiliate('resistance_bands', 'exercise')">Shop Now</a>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-title">Foam Roller</div>
+          <div class="product-description">Essential recovery tool for muscle health and injury prevention.</div>
+          <a href="#" class="cta-button" onclick="trackAffiliate('foam_roller', 'exercise')">Learn More</a>
+        </div>
+        
+      {% when 'Sleep' %}
+        <div class="product-card">
+          <div class="product-title">Blue Light Blocking Glasses</div>
+          <div class="product-description">Protect your circadian rhythm and improve sleep quality naturally.</div>
+          <a href="#" class="cta-button" onclick="trackAffiliate('blue_light_glasses', 'sleep')">Shop Now</a>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-title">Magnesium Supplement</div>
+          <div class="product-description">Natural sleep support and muscle relaxation mineral.</div>
+          <a href="#" class="cta-button" onclick="trackAffiliate('magnesium', 'sleep')">View Details</a>
+        </div>
+        
+      {% when 'Brain Health' %}
+        <div class="product-card">
+          <div class="product-title">Omega-3 Fish Oil</div>
+          <div class="product-description">Premium brain-supporting fatty acids for cognitive health.</div>
+          <a href="#" class="cta-button" onclick="trackAffiliate('omega3', 'brain')">Shop Now</a>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-title">Meditation App Subscription</div>
+          <div class="product-description">Guided mindfulness practices for stress reduction and mental clarity.</div>
+          <a href="#" class="cta-button" onclick="trackAffiliate('meditation_app', 'brain')">Try Free</a>
+        </div>
+        
+      {% else %}
+        <div class="product-card">
+          <div class="product-title">Health Tracking Bundle</div>
+          <div class="product-description">Complete kit for monitoring your wellness journey with precision.</div>
+          <a href="#" class="cta-button" onclick="trackAffiliate('health_bundle', 'general')">Explore Bundle</a>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-title">Organic Superfood Powder</div>
+          <div class="product-description">Nutrient-dense blend to support overall health and vitality.</div>
+          <a href="#" class="cta-button" onclick="trackAffiliate('superfood_powder', 'general')">Learn More</a>
+        </div>
+    {% endcase %}
+  </div>
+  
+  <div class="affiliate-disclaimer">
+    <strong>Affiliate Disclosure:</strong> This page contains affiliate links. We may earn a small commission when you purchase through these links, at no additional cost to you. All recommendations are based on our research and align with our evidence-based health philosophy. We only recommend products we genuinely believe in.
+  </div>
+</div>
+
+<script>
+function trackAffiliate(product, category) {
+  // Track affiliate click for analytics
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'click', {
+      'event_category': 'affiliate',
+      'event_label': product,
+      'custom_parameter_1': category
+    });
+  }
+  
+  console.log(`Affiliate link clicked: ${product} in ${category} category`);
+  // The actual affiliate link redirection would happen here
+}
+</script>
+{% endif %}

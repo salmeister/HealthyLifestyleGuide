@@ -1,15 +1,160 @@
 <footer class="site-footer">
-  <span class="site-footer-owner">
-    <a href="https://x.com/andysalmela" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn.simpleicons.org/x/gray" alt="Follow me on X" width="16" height="16">
-    </a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="{{ site.github.owner_url }}" target="_blank" rel="noopener noreferrer">
-      <img src="https://cdn.simpleicons.org/github/gray" alt="My GitHub Profile" width="16" height="16">
-    </a>
-  </span>
-  <span class="site-footer-credits">© 2025 Salmeister. All rights reserved.</span>
-  <br />
-  <br />
-  <br />
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="/notes/diet/">Diet & Nutrition</a></li>
+        <li><a href="/notes/exercise/">Exercise & Fitness</a></li>
+        <li><a href="/notes/sleep/">Sleep Optimization</a></li>
+        <li><a href="/notes/brain/">Brain Health</a></li>
+        <li><a href="/notes/happiness/">Mindfulness</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="/about/">About This Guide</a></li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+        <li><a href="/terms/">Terms of Service</a></li>
+        <li><a href="/contact/">Contact Us</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Connect</h4>
+      <div class="social-links">
+        <a href="https://x.com/andysalmela" target="_blank" rel="noopener noreferrer" aria-label="Follow on X">
+          <img src="https://cdn.simpleicons.org/x/gray" alt="X (Twitter)" width="20" height="20">
+        </a>
+        <a href="{{ site.github.owner_url }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+          <img src="https://cdn.simpleicons.org/github/gray" alt="GitHub" width="20" height="20">
+        </a>
+        <a href="mailto:info@salmeister.com" aria-label="Email us">
+          <img src="https://cdn.simpleicons.org/gmail/gray" alt="Email" width="20" height="20">
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <div class="footer-legal">
+      <span class="site-footer-credits">© 2025 Thriving Healthy. All rights reserved.</span>
+      <span class="disclaimer">
+        This website provides educational information only. Always consult with healthcare professionals before making health decisions.
+      </span>
+    </div>
+    
+    <div class="footer-disclosure">
+      <small>
+        <strong>Affiliate Disclosure:</strong> This site may contain affiliate links. We may earn commissions from purchases made through these links at no additional cost to you.
+      </small>
+    </div>
+  </div>
 </footer>
+
+<style>
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-bottom: 30px;
+  padding: 30px 0;
+  border-top: 1px solid #eee;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  color: #159957;
+  font-weight: bold;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #159957;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-links a {
+  transition: opacity 0.3s ease;
+}
+
+.social-links a:hover {
+  opacity: 0.7;
+}
+
+.footer-bottom {
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+
+.footer-legal {
+  margin-bottom: 15px;
+}
+
+.site-footer-credits {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.disclaimer {
+  display: block;
+  font-size: 0.9em;
+  color: #666;
+  font-style: italic;
+}
+
+.footer-disclosure {
+  font-size: 0.8em;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Dark mode footer styles */
+.dark-mode .footer-content {
+  border-top-color: #444;
+}
+
+.dark-mode .footer-section h4 {
+  color: #64b5f6;
+}
+
+.dark-mode .footer-section ul li a {
+  color: #bbb;
+}
+
+.dark-mode .footer-section ul li a:hover {
+  color: #64b5f6;
+}
+
+.dark-mode .footer-bottom {
+  border-top-color: #444;
+}
+
+.dark-mode .disclaimer,
+.dark-mode .footer-disclosure {
+  color: #bbb;
+}
+</style>

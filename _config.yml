@@ -1,18 +1,62 @@
 # Site settings
 title: "Thriving Healthy"
 description: "Health & Wellness Guide: Tips for Nutrition, Fitness, and Mental Health."
+url: "https://thrivinghealthy.com/"
+baseurl: ""
+author: "Thriving Healthy"
 ga4_id: <%= ENV['GOOGLE_ANALYTICS_ID'] %>
+
+# SEO Settings
+lang: "en-US"
+timezone: "America/New_York"
+
+# Social Media
+social:
+  twitter: "@thrivinghealth"
+  
+# Jekyll Settings
 remote_theme: pages-themes/cayman@v0.2.0
 permalink: pretty
+
+# Plugins
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections
 collections:
   notes:
     output: true
     permalink: /notes/:path/
+
+# Defaults
 defaults:
   - scope:
       path: ""
       type: "notes"
     values:
       layout: "default"
+      author: "Thriving Healthy"
+      category: "Health & Wellness"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# SEO tag settings
+tag_manager:
+  gtm_id: ""
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
