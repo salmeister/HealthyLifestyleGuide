@@ -1,0 +1,14 @@
+{%- comment -%}
+Reusable tag badge renderer.
+Usage: {% include tag-badges.html tags="Nutrition,Fitness,Brain" %}
+Generates span.badge elements with color variants based on normalized tag name.
+{%- endcomment -%}
+{%- assign raw = include.tags | default: '' -%}
+{%- assign list = raw | split: ',' -%}
+{%- for tag in list -%}
+  {%- assign t = tag | strip -%}
+  {%- if t != '' -%}
+    {%- assign slug = t | downcase | replace: ' ', '-' -%}
+    <span class="badge badge-{{ slug }}" data-tag="{{ slug }}">{{ t }}</span>
+  {%- endif -%}
+{%- endfor -%}
