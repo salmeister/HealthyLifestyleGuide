@@ -5,7 +5,7 @@ keywords: "intermittent fasting, autophagy, women's hormones, Dr. Mindy Pelz, fa
 category: "Diet & Nutrition"
 author: "Dr. Mindy Pelz"
 podcast: "Know Thyself Podcast"
-date: 2023-12-15
+date: 2024-12-24
 link: "https://www.youtube.com/watch?v=pgWnbRg5-cg"
 ---
 

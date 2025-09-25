@@ -5,7 +5,7 @@ keywords: "Dr. Sean O'Mara, health optimization, tracking health, wellness metri
 category: "Diet & Nutrition"
 author: "Dr. Sean O'Mara"
 podcast: "Dr. Sean O'Mara YouTube"
-date: 2023-01-01
+date: 2023-05-18
 link: "https://youtu.be/XuFD5tMz9M0?si=f8SKPcSGIEqInaWs"
 ---
 

@@ -5,7 +5,7 @@ keywords: "Colorado Experiment, Dr. Ben Bocchicchio, high-intensity training, Na
 category: "Exercise & Fitness"
 author: "Dr. Ben Bocchicchio"
 podcast: "Fitness Confidential Podcast"
-date: 2023-01-01
+date: 2022-06-03
 link: "https://youtu.be/P4hq8sIvb3c?si=UDeE7TohFACTllJF"
 ---
 

@@ -5,7 +5,7 @@ keywords: "Dr. Rangan Chatterjee, health, happiness, purpose, well-being, archit
 category: "Happiness & Spirituality"
 author: "Dr. Rangan Chatterjee"
 podcast: "Know Thyself Podcast"
-date: 2023-01-01
+date: 2024-12-17
 link: "https://www.youtube.com/watch?v=oFmNKGL0gU0"
 ---
 

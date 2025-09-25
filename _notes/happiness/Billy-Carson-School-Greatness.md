@@ -5,7 +5,7 @@ keywords: "Billy Carson, manifesting, ancient wisdom, consciousness, quantum phy
 category: "Happiness & Spirituality"
 author: "Billy Carson"
 podcast: "The School of Greatness"
-date: 2023-01-01
+date: 2025-03-31
 link: "https://www.youtube.com/watch?v=nHb1YPqUH1Y"
 ---
 

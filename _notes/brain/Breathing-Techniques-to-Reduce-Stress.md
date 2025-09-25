@@ -5,7 +5,7 @@ keywords: "breathing techniques, stress reduction, anxiety, Dr. Andrew Huberman,
 category: "Brain Health & Stress Management"
 author: "Dr. Andrew Huberman"
 podcast: "Tim Ferriss"
-date: 2023-01-01
+date: 2021-10-25
 link: "https://www.youtube.com/watch?v=kSZKIupBUuc"
 ---
 

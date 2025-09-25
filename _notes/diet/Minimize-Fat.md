@@ -5,7 +5,7 @@ keywords: "Dr. Sean O'Mara, minimize fat, The Minimalists, fat loss, nutrition, 
 category: "Diet & Nutrition"
 author: "Dr. Sean O'Mara"
 podcast: "The Minimalists Podcast"
-date: 2023-01-01
+date: 2023-09-04
 link: "https://www.youtube.com/watch?v=ZaK2ohcDlzo"
 ---
 

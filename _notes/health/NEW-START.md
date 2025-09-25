@@ -5,7 +5,7 @@ keywords: "vitamin D, Dr. Roger Seheult, sunlight, dementia prevention, health, 
 category: "Health & Wellness"
 author: "Dr. Roger Seheult"
 podcast: "The Diary of a CEO"
-date: 2023-01-01
+date: 2025-07-17
 link: "https://www.youtube.com/watch?v=wQJlGHVmdrA"
 ---
 

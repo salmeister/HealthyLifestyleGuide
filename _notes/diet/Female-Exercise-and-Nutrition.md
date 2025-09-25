@@ -5,7 +5,7 @@ keywords: "Dr. Stacy Sims, female nutrition, women's health, exercise physiology
 category: "Diet & Nutrition"
 author: "Dr. Stacy Sims"
 podcast: "Andrew Huberman Podcast"
-date: 2023-01-01
+date: 2024-07-22
 link: "https://www.youtube.com/watch?v=pZX8ikmWvEU"
 ---
 

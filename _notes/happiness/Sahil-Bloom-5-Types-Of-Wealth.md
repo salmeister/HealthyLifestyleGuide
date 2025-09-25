@@ -5,7 +5,7 @@ keywords: "Sahil Bloom, wealth types, abundance, fulfillment, prosperity, life w
 category: "Happiness & Spirituality"
 author: "Sahil Bloom"
 podcast: "The Genius Life"
-date: 2023-01-01
+date: 2025-03-17
 link: "https://www.youtube.com/watch?v=iNBoeOGMHTE"
 ---
 

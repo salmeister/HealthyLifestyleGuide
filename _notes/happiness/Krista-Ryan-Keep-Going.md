@@ -5,7 +5,7 @@ keywords: "Krista Ryan, resilience, perseverance, keep going, motivation, inspir
 category: "Happiness & Spirituality"
 author: "Krista Ryan"
 podcast: "Only the Important Stuff"
-date: 2023-01-01
+date: 2023-10-16
 link: "https://open.spotify.com/episode/5cUHRSIQ3XV9WpGC6Yugdb"
 ---
 

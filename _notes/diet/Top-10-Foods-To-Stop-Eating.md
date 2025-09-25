@@ -5,7 +5,7 @@ keywords: "top foods to avoid, anti-aging, Vinnie Tortorich, healthy foods myths
 category: "Diet & Nutrition"
 author: "Vinnie Tortorich"
 podcast: "Vinnie Tortorich YouTube"
-date: 2023-01-01
+date: 2023-03-30
 link: "https://youtu.be/3oVdksMTJ50?si=h5iZRlqMw9UgcXPb"
 ---
 

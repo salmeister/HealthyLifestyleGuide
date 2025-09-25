@@ -5,7 +5,7 @@ keywords: "coconut oil, brain health, ketogenic diet, Alzheimer's disease, Dr. M
 category: "Brain Health & Stress Management"
 author: "Dr. Mary Newport"
 podcast: "Fitness Confidential Podcast"
-date: 2023-01-01
+date: 2022-09-30
 link: "https://www.youtube.com/watch?v=Xk5_8v5qLNo"
 ---
 

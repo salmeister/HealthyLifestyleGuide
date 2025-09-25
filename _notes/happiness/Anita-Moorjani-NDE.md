@@ -5,7 +5,7 @@ keywords: "Anita Moorjani, near death experience, NDE, healing, self-love, spiri
 category: "Happiness & Spirituality"
 author: "Anita Moorjani"
 podcast: "Aubrey Marcus Podcast"
-date: 2023-01-01
+date: 2024-12-11
 link: "https://www.youtube.com/watch?v=6Po0qnuA3Vo"
 ---
 

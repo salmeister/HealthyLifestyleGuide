@@ -5,7 +5,7 @@ keywords: "Dr. Zach Bush, gut health, digestive wellness, microbiome, The Minima
 category: "Diet & Nutrition"
 author: "Dr. Zach Bush"
 podcast: "The Minimalists Podcast"
-date: 2023-01-01
+date: 2023-06-26
 link: "https://www.youtube.com/watch?v=U4VKuviM-pM"
 ---
 
