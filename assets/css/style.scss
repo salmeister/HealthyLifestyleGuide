@@ -909,7 +909,7 @@ a.note-card:hover {
 
 // YouTube thumbnail background variant
 .note-card.with-thumb {
-  background: linear-gradient(135deg, rgba(248,249,250,0.9) 0%, rgba(233,236,239,0.85) 100%);
+  background: linear-gradient(135deg, rgba(248,249,250,0.95) 0%, rgba(233,236,239,0.92) 40%, rgba(227,230,233,0.90) 100%);
   position: relative;
 }
 
@@ -920,13 +920,13 @@ a.note-card:hover {
   background-image: var(--thumb);
   background-size: cover;
   background-position: center;
-  opacity: .25;
-  filter: saturate(110%) contrast(105%) blur(2px);
+  opacity: .28;
+  filter: saturate(105%) contrast(100%) blur(4px);
   transition: opacity .4s ease, filter .4s ease;
   pointer-events:none;
 }
 
-.note-card.with-thumb:hover:after {
+  .note-card.with-thumb:hover:after {
   opacity:.34;
   filter: saturate(120%) contrast(110%) blur(1.5px);
 }
@@ -934,17 +934,42 @@ a.note-card:hover {
 .note-card.with-thumb .note-card-body { position: relative; z-index: 1; }
 
 // Dark mode adjustments for thumbnail background
+
+// Foreground readability helpers
+.note-card.with-thumb .note-card-title, 
+.note-card.with-thumb .note-card-guest, 
+.note-card.with-thumb .note-card-episode, 
+.note-card.with-thumb .note-card-date {
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+
+.note-card.with-thumb .note-card-guest { background: rgba(255,255,255,0.65); color:#0f5132; }
+.note-card.with-thumb .note-card-date { background: rgba(255,255,255,0.55); padding:2px 5px; border-radius:4px; }
+
+// Dark mode adjustments for thumbnail background
 .dark-mode .note-card.with-thumb {
-  background: linear-gradient(135deg, rgba(31,41,55,0.9) 0%, rgba(17,24,39,0.9) 100%);
+  background: linear-gradient(165deg, rgba(17,24,39,0.92) 0%, rgba(17,24,39,0.90) 55%, rgba(31,41,55,0.88) 100%);
 }
 .dark-mode .note-card.with-thumb:after {
-  opacity:.18;
-  filter: brightness(.7) saturate(90%) blur(2px);
+  opacity:.22;
+  filter: brightness(.55) saturate(85%) blur(4px);
 }
 .dark-mode .note-card.with-thumb:hover:after {
-  opacity:.26;
-  filter: brightness(.8) saturate(100%) blur(1.5px);
+  opacity:.30;
+  filter: brightness(.65) saturate(95%) blur(3px);
 }
+
+.dark-mode .note-card.with-thumb .note-card-title, 
+.dark-mode .note-card.with-thumb .note-card-guest, 
+.dark-mode .note-card.with-thumb .note-card-episode, 
+.dark-mode .note-card.with-thumb .note-card-date { text-shadow: 0 1px 3px rgba(0,0,0,0.6); }
+
+.dark-mode .note-card.with-thumb .note-card-guest { background: rgba(255,255,255,0.12); color:#9dd1ff; }
+.dark-mode .note-card.with-thumb .note-card-date { background: rgba(255,255,255,0.10); }
+
+// High contrast utility (optional future toggle)
+.note-card.high-contrast.with-thumb:after { opacity:.40; filter: saturate(110%) contrast(115%) blur(3px); }
+.dark-mode .note-card.high-contrast.with-thumb:after { opacity:.35; filter: brightness(.6) saturate(95%) blur(3px); }
 
 a.note-card:hover:before { opacity: 1; }
 
