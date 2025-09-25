@@ -22,7 +22,28 @@ Parameters:
       <time class="note-card-date" datetime="{{ display_date | date_to_xmlschema }}">{{ display_date | date: '%Y-%m-%d' }}</time>
       {%- endif -%}
     </div>
-    <h3 class="note-card-title">{{ include.title }}</h3>
+    {%- comment -%}
+      Title splitting logic: expect patterns like "Guest – Episode Title" or "Guest - Episode Title".
+      If no delimiter present, render entire title as episode line only.
+    {%- endcomment -%}
+    {%- assign raw_title = include.title | strip -%}
+    {%- if raw_title contains ' – ' -%}
+      {%- assign parts = raw_title | split: ' – ' -%}
+    {%- elsif raw_title contains ' - ' -%}
+      {%- assign parts = raw_title | split: ' - ' -%}
+    {%- else -%}
+      {%- assign parts = raw_title | split: '||' -%} {# produces single-element array #}
+    {%- endif -%}
+    {%- assign guest_name = parts[0] | strip -%}
+    {%- assign episode_title = parts[1] | default: '' | strip -%}
+    <div class="note-card-title-block">
+      {%- if episode_title != '' -%}
+        <div class="note-card-guest">{{ guest_name }}</div>
+        <h3 class="note-card-title"><span class="note-card-episode">“{{ episode_title }}”</span></h3>
+      {%- else -%}
+        <h3 class="note-card-title"><span class="note-card-episode">{{ guest_name }}</span></h3>
+      {%- endif -%}
+    </div>
     <div class="note-card-tags">
       {%- for t in tag_list -%}
         {%- assign clean = t | strip -%}
