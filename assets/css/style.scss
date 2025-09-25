@@ -915,9 +915,9 @@ a.note-card:hover:before { opacity: 1; }
 .note-card-date { font-size:.62rem; font-weight:600; color:#6b7280; line-height:1; }
 
 .note-card-title { font-size: .92rem; margin:0; line-height:1.3; font-weight:600; color:#1f2937; }
-.note-card-title-block { display:flex; flex-direction:column; gap:2px; }
+.note-card-title-block { display:flex; flex-direction:column; gap:1px; }
 .note-card-guest { font-size:.68rem; font-weight:600; letter-spacing:.3px; color:#374151; text-transform:uppercase; opacity:.85; }
-.note-card-episode { font-style:italic; font-weight:500; }
+.note-card-episode { font-style:normal; font-weight:600; }
 .note-card-tags { display:flex; flex-wrap:wrap; margin:-3px; }
 .note-card-tags .badge { margin:3px; font-size:.55rem; padding:3px 7px 2px; }
 
