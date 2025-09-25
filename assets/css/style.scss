@@ -106,7 +106,7 @@ h2[id], h3[id], h4[id] {
   }
 }
 
-// Mobile responsiveness for quick navigation
+// Mobile responsiveness for quick navigation and header
 @media (max-width: 768px) {
   .quick-navigation {
     margin: 15px 0 30px 0;
@@ -122,6 +122,36 @@ h2[id], h3[id], h4[id] {
       }
     }
   }
+  
+  // Mobile header optimizations
+  .page-header {
+    padding: 0.5rem 1rem; // Even more compact on mobile
+  }
+  
+  .theme-toggle {
+    top: 0.5rem;
+    right: 0.75rem;
+    transform: scale(0.9); // Slightly smaller on mobile
+  }
+  
+  .project-name {
+    font-size: 1.75rem !important; // Slightly smaller title on mobile
+    margin-bottom: 0.25rem !important;
+  }
+  
+  .project-tagline {
+    font-size: 1rem !important; // Smaller tagline on mobile
+    margin-bottom: 0.75rem !important;
+  }
+  
+  .search-container {
+    margin: 0.5rem auto 0;
+    
+    .search-input {
+      padding: 10px 16px; // Slightly smaller search input on mobile
+      font-size: 15px;
+    }
+  }
 }
 
 .project-name a {
@@ -129,24 +159,52 @@ h2[id], h3[id], h4[id] {
   @extend .project-name;
   
   // Specific styles for the link
-  color: white; // White text
+  color: #159957; // Green theme color for light mode
   text-decoration: none; // Remove underline
 
   // No change on hover
   &:hover {
-    color: white;
+    color: #1e7e34; // Darker green on hover
     text-decoration: none;
   }
 }
 
-// Custom header styles to make it smaller
+// Custom header styles to override Cayman theme and make it smaller
 .page-header {
-  padding-top: 1rem; // Reduce top padding
-  padding-bottom: 1rem; // Reduce bottom padding
-  min-height: auto; // Remove minimum height if set
-  background-image: url('../images/thehealthylifestyleguide.png'); // Add background image
-  background-size: cover; // Ensure the image covers the entire header
-  background-position: center; // Center the image
+  // Override Cayman theme's default header styling
+  background: transparent !important; // Remove any theme background
+  background-image: none !important; // Explicitly remove background image
+  background-color: transparent !important; // Remove background color
+  color: inherit !important; // Use body text color
+  
+  // Custom styling
+  padding: 0.75rem 1rem; // Reduced and unified padding
+  min-height: auto !important; // Remove minimum height set by theme
+  position: relative; // For absolute positioning of theme toggle
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef; // Subtle separator between header and content
+  
+  // Override any gradient backgrounds from Cayman theme
+  background-image: none !important;
+  background: inherit !important;
+}
+
+// Header content wrapper for better organization
+.header-content {
+  text-align: center;
+  width: 100%;
+  max-width: 800px; // Constrain width for better readability
+}
+
+// Optimize project name and tagline spacing
+.project-name {
+  margin-bottom: 0.5rem !important; // Reduce spacing below title
+}
+
+.project-tagline {
+  margin-bottom: 1rem !important; // Reduce spacing below tagline
 }
 
 // SEO and Accessibility Improvements
@@ -360,6 +418,10 @@ h2[id], h3[id], h4[id] {
   display: inline-flex;
   align-items: center;
   user-select: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  z-index: 10;
 }
 
 .theme-label {
@@ -487,20 +549,28 @@ body.dark-mode {
   color: #8ab4f8;
 }
 
+.dark-mode .page-header {
+  border-bottom-color: #444; // Darker border for dark mode
+}
+
 .dark-mode .project-name a {
   // Specific styles for the link
-  color: white; // White text
+  color: #64b5f6; // Light blue for dark mode
   text-decoration: none; // Remove underline
 
   // No change on hover
   &:hover {
-    color: white;
+    color: #90caf9; // Lighter blue on hover
     text-decoration: none;
   }
 }
 
+.dark-mode .project-tagline {
+  color: #e0e0e0; // Light gray for tagline in dark mode
+}
+
 .search-container {
-  margin: 20px auto;
+  margin: 0.75rem auto 0;
   max-width: 600px;
   position: relative;
 }
