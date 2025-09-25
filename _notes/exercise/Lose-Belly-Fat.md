@@ -5,7 +5,7 @@ keywords: "belly fat, visceral fat, Dr. Sean O'Mara, weight loss, Thomas DeLauer
 category: "Exercise & Fitness"
 author: "Dr. Sean O'Mara"
 podcast: "Thomas DeLauer YouTube"
-date: 2023-01-01
+date: 2025-01-04
 link: "https://www.youtube.com/watch?v=eDJzxlcNiNA"
 ---
 

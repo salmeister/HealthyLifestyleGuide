@@ -5,7 +5,7 @@ keywords: "Dr. Paul Saladino, food clutter, carnivore diet, nutrition simplifica
 category: "Diet & Nutrition"
 author: "Dr. Paul Saladino"
 podcast: "The Minimalists Podcast"
-date: 2023-01-01
+date: 2023-03-20
 link: "https://youtu.be/dp8iNUrwFO8"
 ---
 

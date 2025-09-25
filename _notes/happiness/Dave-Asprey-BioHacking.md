@@ -5,7 +5,7 @@ keywords: "Dave Asprey, biohacking, sexual energy, emotional triggers, optimizat
 category: "Happiness & Spirituality"
 author: "Dave Asprey"
 podcast: "Know Thyself Podcast"
-date: 2023-01-01
+date: 2024-10-29
 link: "https://www.youtube.com/watch?v=ipe3GM30wZw"
 ---
 

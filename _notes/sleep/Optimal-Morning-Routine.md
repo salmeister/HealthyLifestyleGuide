@@ -5,7 +5,7 @@ keywords: "morning routine, Andrew Huberman, optimization, neurobiology, daily p
 category: "Sleep Optimization"
 author: "Dr. Andrew Huberman"
 podcast: "After Skool YouTube"
-date: 2023-01-01
+date: 2022-09-27
 link: "https://youtu.be/gR_f-iwUGY4?si=ToyBFRHMwhTv3aCS"
 ---
 

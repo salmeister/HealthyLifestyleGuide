@@ -5,7 +5,7 @@ keywords: "Arthur Brooks, happiness, well-being, Tim Ferriss, Harvard, social sc
 category: "Happiness & Spirituality"
 author: "Arthur C. Brooks"
 podcast: "The Tim Ferriss Show"
-date: 2023-01-01
+date: 2023-09-13
 link: "https://www.youtube.com/watch?v=LFKY1scJepM"
 ---
 

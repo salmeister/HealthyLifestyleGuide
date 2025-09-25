@@ -5,7 +5,7 @@ keywords: "sleep optimization, Huberman Lab, sleep quality, circadian rhythm, sl
 category: "Sleep Optimization"
 author: "Dr. Andrew Huberman"
 podcast: "Huberman Lab"
-date: 2023-01-01
+date: 2021-09-20
 link: "https://www.hubermanlab.com/newsletter/toolkit-for-sleep"
 ---
 

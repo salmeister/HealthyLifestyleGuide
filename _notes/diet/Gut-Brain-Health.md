@@ -5,7 +5,7 @@ keywords: "gut-brain axis, Dr. Andrew Huberman, neuroscience, gut health, brain 
 category: "Diet & Nutrition"
 author: "Dr. Andrew Huberman"
 podcast: "Virtusan App"
-date: 2023-01-01
+date: 2022-07-29
 link: "https://www.youtube.com/watch?v=pvI1vLHV0Mo"
 ---
 

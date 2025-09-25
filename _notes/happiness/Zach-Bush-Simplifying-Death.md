@@ -5,7 +5,7 @@ keywords: "Dr. Zach Bush, death, dying, letting go, hospice care, emotional rele
 category: "Happiness & Spirituality"
 author: "Dr. Zach Bush"
 podcast: "The Minimalists Podcast"
-date: 2023-01-01
+date: 2022-10-17
 link: "https://www.youtube.com/watch?v=Y1WNVJDQyCA"
 ---
 

@@ -5,7 +5,7 @@ keywords: "brain health, Dr. Daniel Amen, SPECT imaging, mental health, brain op
 category: "Brain Health & Stress Management"
 author: "Dr. Daniel Amen"
 podcast: "Modern Wisdom"
-date: 2023-01-01
+date: 2025-06-23
 link: "https://www.youtube.com/watch?v=RUApBlqr7FM"
 ---
 

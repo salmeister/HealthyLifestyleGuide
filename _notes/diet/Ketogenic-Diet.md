@@ -5,7 +5,7 @@ keywords: "ketogenic diet, Dr. Rhonda Patrick, ketosis, brain health, metabolism
 category: "Diet & Nutrition"
 author: "Dr. Rhonda Patrick"
 podcast: "The Joe Rogan Experience"
-date: 2023-01-01
+date: 2024-06-27
 link: "https://www.youtube.com/watch?v=Yx9viPghp4o"
 ---
 

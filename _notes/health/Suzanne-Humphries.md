@@ -5,7 +5,7 @@ keywords: "Dr. Suzanne Humphries, vaccines, health history, Dissolving Illusions
 category: "Health & Wellness"
 author: "Dr. Suzanne Humphries"
 podcast: "The Joe Rogan Experience"
-date: 2023-01-01
+date: 2025-03-26
 link: "https://www.youtube.com/watch?v=207W1A_bJqI"
 ---
 

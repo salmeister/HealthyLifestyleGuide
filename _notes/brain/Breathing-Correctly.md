@@ -5,7 +5,7 @@ keywords: "breathing techniques, James Nestor, health, wellness, Wim Hof, breath
 category: "Brain Health & Stress Management"
 author: "James Nestor"
 podcast: "Fitness Confidential Podcast"
-date: 2023-01-01
+date: 2022-02-25
 link: "https://www.youtube.com/watch?v=5OKoZLS-h5g"
 ---
 

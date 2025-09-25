@@ -5,7 +5,7 @@ keywords: "Naval Ravikant, happiness, success, human nature, philosophy, satisfa
 category: "Happiness & Spirituality"
 author: "Naval Ravikant"
 podcast: "Modern Wisdom"
-date: 2023-01-01
+date: 2025-03-31
 link: "https://www.youtube.com/watch?v=KyfUysrNaco"
 ---
 

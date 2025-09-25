@@ -5,7 +5,7 @@ keywords: "Vinnie Tortorich, nutrition, fitness, cancer survivor, health, Mike R
 category: "Diet & Nutrition"
 author: "Vinnie Tortorich"
 podcast: "The Way I Heard It"
-date: 2023-01-01
+date: 2022-03-29
 link: "https://podcasts.apple.com/us/podcast/244-wheres-the-beef/id1087110764?i=1000555585865"
 ---
 

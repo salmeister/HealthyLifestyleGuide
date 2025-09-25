@@ -5,7 +5,7 @@ keywords: "Will Harris, White Oak Pastures, regenerative agriculture, sustainabl
 category: "Diet & Nutrition"
 author: "Will Harris"
 podcast: "The Joe Rogan Experience"
-date: 2023-01-01
+date: 2024-06-27
 link: "https://www.youtube.com/watch?v=ozNK2sgJmcg"
 ---
 

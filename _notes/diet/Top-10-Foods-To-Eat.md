@@ -5,7 +5,7 @@ keywords: "top foods, healthy eating, nutrition, avocado, berries, olives, nutri
 category: "Diet & Nutrition"
 author: "Vinnie Tortorich"
 podcast: "Vinnie Tortorich YouTube"
-date: 2023-01-01
+date: 2023-08-22
 link: "https://www.youtube.com/watch?v=2-fHQIhVAGA"
 ---
 

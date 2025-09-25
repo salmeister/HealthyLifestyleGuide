@@ -5,7 +5,7 @@ keywords: "Sadhguru, spirituality, consciousness, inner engineering, Joe Rogan, 
 category: "Happiness & Spirituality"
 author: "Sadhguru"
 podcast: "The Joe Rogan Experience"
-date: 2023-01-01
+date: 2024-06-27
 link: "https://www.youtube.com/watch?v=_cPD7l1LEDA"
 ---
 
