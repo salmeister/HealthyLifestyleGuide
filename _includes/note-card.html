@@ -30,6 +30,7 @@ Behavior:
 {%- assign video_link = note_match.link | default: include.link | default: '' -%}
 {%- assign platform_type = include.platform | default: 'generic' -%}
 {%- assign youtube_id = '' -%}
+{%- assign thumb_url = '' -%}
 {%- if platform_type == 'youtube' or video_link contains 'youtube.com' or video_link contains 'youtu.be' -%}
   {%- if video_link contains 'v=' -%}
     {%- assign query_part = video_link | split: 'v=' | last -%}
@@ -40,6 +41,8 @@ Behavior:
 {%- endif -%}
 {%- if youtube_id != '' -%}
   {%- assign thumb_url = 'https://img.youtube.com/vi/' | append: youtube_id | append: '/hqdefault.jpg' -%}
+{%- else -%}
+  {%- assign thumb_url = '' -%}
 {%- endif -%}
 
 <a class="note-card platform-{{ platform_type }}{% if thumb_url %} with-thumb{% endif %}" href="{{ include.url }}"{% if thumb_url %} style="--thumb:url('{{ thumb_url }}');"{% endif %}>
