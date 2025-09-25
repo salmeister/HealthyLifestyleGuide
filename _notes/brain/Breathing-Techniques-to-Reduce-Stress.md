@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=kSZKIupBUuc"
 **🎯 Topic**: Breathing Techniques to Reduce Stress and Anxiety  
 **⏱️ Key Takeaway**: The physiological sigh is the fastest real-time stress reduction technique
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/kSZKIupBUuc/maxresdefault.jpg" alt="Dr. Andrew Huberman - Breathing Techniques on Tim Ferriss" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 
 #### **Background**
 - **Research Focus**: The Huberman Lab has been studying human stress, particularly focusing on breathing patterns that can rapidly reduce stress.

@@ -14,6 +14,10 @@ link: "https://www.youtube.com/watch?v=ZaK2ohcDlzo"
 **🎧 Podcast**: [The Minimalists Podcast](http://minimalists.com/podcast) | **👨‍⚕️ Expert**: Dr. Sean O'Mara  
 **🎯 Topic**: Minimalist Approach to Fat Loss  
 **⏱️ Key Takeaway**: Simplifying your approach to nutrition and fat loss leads to more sustainable and effective results
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/ZaK2ohcDlzo/maxresdefault.jpg" alt="Dr. Sean O'Mara - Minimize Fat on The Minimalists" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
 - Dr. Sean O'Mara, a physician specializing in performance optimization and disease reversal.
 
 **Key Discussion Points:**

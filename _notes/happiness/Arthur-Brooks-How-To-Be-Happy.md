@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=LFKY1scJepM"
 **🎯 Topic**: Science of Happiness and Well-being  
 **⏱️ Key Takeaway**: True happiness requires avoiding the four false idols and focusing on meaningful connections and purpose
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/LFKY1scJepM/maxresdefault.jpg" alt="Arthur Brooks on Tim Ferriss - How to Be Happy" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **Background**
 - **Personal Journey**: Brooks shares his life transition from a professional French horn player to an academic, focusing on happiness after personal health scares and career shifts.
 

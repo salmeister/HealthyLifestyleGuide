@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=RUApBlqr7FM"
 **🎯 Topic**: Brain Health Revolution and Mental Health Transformation  
 **⏱️ Key Takeaway**: Mental health issues are often brain health issues that can be diagnosed and treated through brain imaging
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/RUApBlqr7FM/maxresdefault.jpg" alt="Dr. Daniel Amen on Modern Wisdom - Brain Health" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **Introduction**
 - **Host**: Chris Williamson
 - **Guest**: Dr. Daniel Amen, psychiatrist and founder of Amen Clinics, known for the world’s largest database of brain SPECT scans (nearly 250,000), focusing on brain health to transform mental health treatment.

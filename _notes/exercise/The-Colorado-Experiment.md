@@ -15,6 +15,10 @@ link: "https://youtu.be/P4hq8sIvb3c?si=UDeE7TohFACTllJF"
 **🎯 Topic**: The Colorado Experiment and High-Intensity Training  
 **⏱️ Key Takeaway**: Scientific approach to exercise using Nautilus equipment and high-intensity training principles for maximum results
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/P4hq8sIvb3c/maxresdefault.jpg" alt="Dr. Ben Bocchicchio - The Colorado Experiment on Fitness Confidential" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **Nautilus Machines**
 
 - **Historical Context**: 

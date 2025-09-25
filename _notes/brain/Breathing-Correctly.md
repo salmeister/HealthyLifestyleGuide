@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=5OKoZLS-h5g"
 **🎯 Topic**: Breathing Techniques for Health and Wellness  
 **⏱️ Key Takeaway**: Proper breathing can dramatically improve health and performance
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/5OKoZLS-h5g/maxresdefault.jpg" alt="James Nestor on Fitness Confidential - Breathing Correctly" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **Introduction**
 - **Host**: Vinnie Tortorich
 - **Guest**: James Nestor, author of books like "Breathe," "Deep," and "Get High Now (Without Drugs)," discussing breathing techniques, health, and physiology.

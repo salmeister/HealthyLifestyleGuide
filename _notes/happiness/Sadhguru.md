@@ -14,6 +14,10 @@ link: "https://www.youtube.com/watch?v=_cPD7l1LEDA"
 **🎧 Podcast**: [The Joe Rogan Experience](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk) | **📖 Expert**: Sadhguru  
 **🎯 Topic**: Consciousness and Inner Engineering  
 **⏱️ Key Takeaway**: True well-being comes from inner engineering and understanding the nature of consciousness
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/_cPD7l1LEDA/maxresdefault.jpg" alt="Sadhguru on Joe Rogan Experience - Consciousness and Inner Engineering" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
 - **Speaker:** Sadhguru, founder of the Isha Foundation.
 - **Topics:** Soil health, yoga, human consciousness, and experiences with extraterrestrial life.
 

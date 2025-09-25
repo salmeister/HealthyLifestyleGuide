@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=wQJlGHVmdrA"
 **🎯 Topic**: Vitamin D, Sunlight, and Dementia Prevention  
 **⏱️ Key Takeaway**: Proper vitamin D levels and sunlight exposure are critical for preventing dementia and supporting overall health
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/wQJlGHVmdrA/maxresdefault.jpg" alt="Dr. Roger Seheult on Diary of a CEO - Vitamin D and Health" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **Dr. Seheult's Background and Work**
 - **Expertise**: Specializes in lung health, critical care, and sleep disorders; manages ICU patients with life-threatening conditions like strokes, infections, and organ failure; emphasizes lifestyle interventions to prevent chronic diseases and extend life.
 - **Approach**: Views health as a chain of organ systems; modern medicine often treats one "weak link" at the expense of others via medications with side effects; advocates strengthening all links through lifestyle to avoid erosion leading to diseases like heart disease, diabetes, and dementia.

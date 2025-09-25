@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=207W1A_bJqI"
 **🎯 Topic**: Vaccine History and Health Perspectives  
 **⏱️ Key Takeaway**: Historical examination of vaccine narratives reveals complex truths about public health interventions
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/207W1A_bJqI/maxresdefault.jpg" alt="Dr. Suzanne Humphries on Joe Rogan - Dissolving Illusions" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **The Vaccine Paradigm Shift**
 - **Initial Belief**: Both Rogan and Humphries once viewed vaccines as humanity’s saviors—polio, smallpox—until evidence unraveled this belief.
 - **Humphries’ Journey**: As a kidney specialist, she observed vaccine-related injuries (e.g., kidney failure post-flu shot in 2008-2009), sparking a deep dive into medical history.

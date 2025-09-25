@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=KyfUysrNaco"
 **🎯 Topic**: Human Nature, Happiness, and Success  
 **⏱️ Key Takeaway**: True happiness comes from satisfaction with what you have, while success often requires dissatisfaction
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/KyfUysrNaco/maxresdefault.jpg" alt="Naval Ravikant - 44 Harsh Truths on Modern Wisdom" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **Happiness vs. Success**
 - **Core Tension**: Happiness stems from satisfaction with what you have; success from dissatisfaction with what you don’t. Naval questions if success is worth it if it sacrifices peace.
 - **Socrates’ Wisdom**: Naval cites Socrates marveling at marketplace luxuries he doesn’t want—freedom lies in not needing, not just in having.

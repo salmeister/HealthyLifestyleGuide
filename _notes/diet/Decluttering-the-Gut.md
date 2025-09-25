@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=U4VKuviM-pM"
 **🎯 Topic**: Gut Health and Digestive Decluttering  
 **⏱️ Key Takeaway**: A healthy gut microbiome is foundational to overall wellness and requires intentional decluttering of harmful substances
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/U4VKuviM-pM/maxresdefault.jpg" alt="Dr. Zach Bush on The Minimalists - Decluttering the Gut" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **Introduction**
 - **Guest Details**: Dr. Zach Bush, a triple board-certified physician specializing in the microbiome, health, disease, and food systems.
 

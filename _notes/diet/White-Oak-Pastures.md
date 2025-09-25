@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=ozNK2sgJmcg"
 **🎯 Topic**: Regenerative Agriculture and Sustainable Farming  
 **⏱️ Key Takeaway**: Regenerative farming practices can restore soil health while producing nutrient-dense, ethically-raised meat
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/ozNK2sgJmcg/maxresdefault.jpg" alt="Will Harris White Oak Pastures on Joe Rogan" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 **Key Discussion Points:**
 
 - **Introduction to Will Harris:**

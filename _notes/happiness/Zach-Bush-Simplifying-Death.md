@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=Y1WNVJDQyCA"
 **🎯 Topic**: Simplifying Death and the Dying Process  
 **⏱️ Key Takeaway**: Death involves a natural release process that allows for profound letting go and emotional healing
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/Y1WNVJDQyCA/maxresdefault.jpg" alt="Dr. Zach Bush - Simplifying Death on The Minimalists" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 ### **Key Discussion:**
 
 #### **Letting Go:**

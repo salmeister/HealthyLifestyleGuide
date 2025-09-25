@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=pgWnbRg5-cg"
 **🎯 Topic**: Intermittent Fasting, Hormones & Women's Health  
 **⏱️ Key Takeaway**: Fasting activates powerful healing systems through autophagy and hormonal optimization
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/pgWnbRg5-cg/maxresdefault.jpg" alt="Dr. Mindy Pelz - The Miracle of Fasting" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 ### Quick Summary
 Dr. Mindy Pelz reveals how strategic fasting can transform your health by activating autophagy (cellular self-cleaning), optimizing hormones, and providing mental clarity. Learn evidence-based fasting protocols specifically designed for women's unique hormonal cycles.
 
