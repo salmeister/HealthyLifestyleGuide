@@ -1,20 +1,48 @@
 {%- comment -%}
 Reusable Note Card
-Usage:
-{% include note-card.html url="/notes/diet/The-Miracle-of-Fasting" show="Know Thyself" title="Dr. Mindy Pelz – The Miracle of Fasting" tags="Nutrition,Brain" platform="youtube" %}
+
+Primary patterns supported:
+1. Delimited title   -> title="Guest – Episode Title"
+2. Explicit params   -> guest="Guest Name" episode="Episode Title"
+3. Episode only      -> episode="Short Episode Title" (no guest line)
+
 Parameters:
-- url: internal notes URL
-- show: source show/podcast name
-- title: descriptive episode or resource title
-- tags: comma list
-- platform: youtube|spotify|apple|amazon|generic (for icon accent)
+- url (required)          : internal notes URL
+- show (required)         : show/podcast/source label
+- title (fallback)        : original combined string; still parsed if guest/episode not provided
+- guest (optional)        : explicit guest; overrides parsed guest
+- episode (optional)      : explicit episode; overrides parsed episode
+- tags (optional)         : comma-delimited tag names
+- date (optional)         : override date if different from note front matter
+- platform (optional)     : youtube|spotify|apple|amazon|generic (affects accent bar)
+
+Behavior:
+- If guest empty and episode present -> render single line episode only.
+- If neither guest nor episode determined -> fall back to raw title entire line.
 {%- endcomment -%}
 {%- assign tag_list = include.tags | default: '' | split: ',' -%}
 {%- comment -%} Try to find the note by matching url path (strip leading slash) {%- endcomment -%}
 {%- assign target_path = include.url | remove: site.baseurl | replace: '//','/' -%}
 {%- assign note_match = site.notes | where: 'url', target_path | first -%}
 {%- assign display_date = include.date | default: note_match.date -%}
-<a class="note-card platform-{{ include.platform | default: 'generic' }}" href="{{ include.url }}">
+
+{%- comment -%} Derive youtube thumbnail if platform youtube or note link indicates youtube {%- endcomment -%}
+{%- assign video_link = note_match.link | default: include.link | default: '' -%}
+{%- assign platform_type = include.platform | default: 'generic' -%}
+{%- assign youtube_id = '' -%}
+{%- if platform_type == 'youtube' or video_link contains 'youtube.com' or video_link contains 'youtu.be' -%}
+  {%- if video_link contains 'v=' -%}
+    {%- assign query_part = video_link | split: 'v=' | last -%}
+    {%- assign youtube_id = query_part | split: '&' | first -%}
+  {%- elsif video_link contains 'youtu.be/' -%}
+    {%- assign youtube_id = video_link | split: 'youtu.be/' | last | split: '?' | first -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if youtube_id != '' -%}
+  {%- assign thumb_url = 'https://img.youtube.com/vi/' | append: youtube_id | append: '/hqdefault.jpg' -%}
+{%- endif -%}
+
+<a class="note-card platform-{{ platform_type }}{% if thumb_url %} with-thumb{% endif %}" href="{{ include.url }}"{% if thumb_url %} style="--thumb:url('{{ thumb_url }}');"{% endif %}>
   <div class="note-card-body">
     <div class="note-card-top">
       <span class="note-card-show">{{ include.show }}</span>
@@ -26,22 +54,40 @@ Parameters:
       Title splitting logic: expect patterns like "Guest – Episode Title" or "Guest - Episode Title".
       If no delimiter present, render entire title as episode line only.
     {%- endcomment -%}
-    {%- assign raw_title = include.title | strip -%}
-    {%- if raw_title contains ' – ' -%}
-      {%- assign parts = raw_title | split: ' – ' -%}
-    {%- elsif raw_title contains ' - ' -%}
-      {%- assign parts = raw_title | split: ' - ' -%}
+    {%- assign explicit_guest = include.guest | default: '' | strip -%}
+    {%- assign explicit_episode = include.episode | default: '' | strip -%}
+    {%- assign raw_title = include.title | default: explicit_episode | default: explicit_guest | strip -%}
+    {%- if explicit_guest != '' or explicit_episode != '' -%}
+      {%- assign guest_name = explicit_guest -%}
+      {%- assign episode_title = explicit_episode -%}
     {%- else -%}
-      {%- assign parts = raw_title | split: '||' -%} {# produces single-element array #}
-    {%- endif -%}
-    {%- assign guest_name = parts[0] | strip -%}
-    {%- assign episode_title = parts[1] | default: '' | strip -%}
-    <div class="note-card-title-block">
-      {%- if episode_title != '' -%}
-        <div class="note-card-guest">{{ guest_name }}</div>
-  <h3 class="note-card-title"><span class="note-card-episode">{{ episode_title }}</span></h3>
+      {%- if raw_title contains ' – ' -%}
+        {%- assign parts = raw_title | split: ' – ' -%}
+      {%- elsif raw_title contains ' - ' -%}
+        {%- assign parts = raw_title | split: ' - ' -%}
       {%- else -%}
-        <h3 class="note-card-title"><span class="note-card-episode">{{ guest_name }}</span></h3>
+        {%- assign parts = raw_title | split: '||' -%}
+      {%- endif -%}
+      {%- assign guest_name = parts[0] | strip -%}
+      {%- assign episode_title = parts[1] | default: '' | strip -%}
+    {%- endif -%}
+
+    {%- comment -%}If guest looks identical to episode or episode empty, collapse to single line.{%- endcomment -%}
+    {%- if episode_title == '' -%}
+      {%- assign single_line = true -%}
+    {%- elsif guest_name == episode_title -%}
+      {%- assign single_line = true -%}
+    {%- elsif guest_name == '' -%}
+      {%- assign single_line = true -%}
+    {%- else -%}
+      {%- assign single_line = false -%}
+    {%- endif -%}
+    <div class="note-card-title-block">
+      {%- if single_line -%}
+        <h3 class="note-card-title single-line"><span class="note-card-episode">{{ episode_title | default: guest_name | default: raw_title }}</span></h3>
+      {%- else -%}
+        <div class="note-card-guest">{{ guest_name }}</div>
+        <h3 class="note-card-title"><span class="note-card-episode">{{ episode_title }}</span></h3>
       {%- endif -%}
     </div>
     <div class="note-card-tags">

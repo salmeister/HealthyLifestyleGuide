@@ -907,6 +907,45 @@ a.note-card:hover {
   background: linear-gradient(135deg,#ffffff 0%, #f1f3f5 100%);
 }
 
+// YouTube thumbnail background variant
+.note-card.with-thumb {
+  background: linear-gradient(135deg, rgba(248,249,250,0.9) 0%, rgba(233,236,239,0.85) 100%);
+  position: relative;
+}
+
+.note-card.with-thumb:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--thumb);
+  background-size: cover;
+  background-position: center;
+  opacity: .25;
+  filter: saturate(110%) contrast(105%) blur(2px);
+  transition: opacity .4s ease, filter .4s ease;
+  pointer-events:none;
+}
+
+.note-card.with-thumb:hover:after {
+  opacity:.34;
+  filter: saturate(120%) contrast(110%) blur(1.5px);
+}
+
+.note-card.with-thumb .note-card-body { position: relative; z-index: 1; }
+
+// Dark mode adjustments for thumbnail background
+.dark-mode .note-card.with-thumb {
+  background: linear-gradient(135deg, rgba(31,41,55,0.9) 0%, rgba(17,24,39,0.9) 100%);
+}
+.dark-mode .note-card.with-thumb:after {
+  opacity:.18;
+  filter: brightness(.7) saturate(90%) blur(2px);
+}
+.dark-mode .note-card.with-thumb:hover:after {
+  opacity:.26;
+  filter: brightness(.8) saturate(100%) blur(1.5px);
+}
+
 a.note-card:hover:before { opacity: 1; }
 
 .note-card-body { display:flex; flex-direction:column; gap:10px; }
@@ -918,6 +957,8 @@ a.note-card:hover:before { opacity: 1; }
 .note-card-title-block { display:flex; flex-direction:column; gap:1px; }
 .note-card-guest { font-size:.68rem; font-weight:600; letter-spacing:.3px; color:#374151; text-transform:uppercase; opacity:.85; }
 .note-card-episode { font-style:normal; font-weight:600; }
+.note-card-title .note-card-episode { display:-webkit-box; -webkit-line-clamp:2; line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.note-card-title.single-line .note-card-episode { -webkit-line-clamp:1; line-clamp:1; }
 .note-card-tags { display:flex; flex-wrap:wrap; margin:-3px; }
 .note-card-tags .badge { margin:3px; font-size:.55rem; padding:3px 7px 2px; }
 

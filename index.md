@@ -36,7 +36,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 
 ### Essential Reading
 <div class="note-grid">
-  {% include note-card.html url="/notes/diet/Intro-To-NSNG/" show="Vinnie Tortorich" title="Intro to NSNG" tags="Nutrition" platform="generic" %}
+  {% include note-card.html url="/notes/diet/Intro-To-NSNG/" show="Vinnie Tortorich" episode="Intro to NSNG" tags="Nutrition" platform="generic" %}
 </div>
 
 ### Documentaries
