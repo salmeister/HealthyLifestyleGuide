@@ -10,11 +10,17 @@ Parameters:
 - platform: youtube|spotify|apple|amazon|generic (for icon accent)
 {%- endcomment -%}
 {%- assign tag_list = include.tags | default: '' | split: ',' -%}
+{%- comment -%} Try to find the note by matching url path (strip leading slash) {%- endcomment -%}
+{%- assign target_path = include.url | remove: site.baseurl | replace: '//','/' -%}
+{%- assign note_match = site.notes | where: 'url', target_path | first -%}
+{%- assign display_date = include.date | default: note_match.date -%}
 <a class="note-card platform-{{ include.platform | default: 'generic' }}" href="{{ include.url }}">
   <div class="note-card-body">
     <div class="note-card-top">
       <span class="note-card-show">{{ include.show }}</span>
-      <span class="note-card-icon" aria-hidden="true">→</span>
+      {%- if display_date -%}
+      <time class="note-card-date" datetime="{{ display_date | date_to_xmlschema }}">{{ display_date | date: '%Y-%m-%d' }}</time>
+      {%- endif -%}
     </div>
     <h3 class="note-card-title">{{ include.title }}</h3>
     <div class="note-card-tags">
