@@ -1,0 +1,29 @@
+{%- comment -%}
+Reusable Note Card
+Usage:
+{% include note-card.html url="/notes/diet/The-Miracle-of-Fasting" show="Know Thyself" title="Dr. Mindy Pelz – The Miracle of Fasting" tags="Nutrition,Brain" platform="youtube" %}
+Parameters:
+- url: internal notes URL
+- show: source show/podcast name
+- title: descriptive episode or resource title
+- tags: comma list
+- platform: youtube|spotify|apple|amazon|generic (for icon accent)
+{%- endcomment -%}
+{%- assign tag_list = include.tags | default: '' | split: ',' -%}
+<a class="note-card platform-{{ include.platform | default: 'generic' }}" href="{{ include.url }}">
+  <div class="note-card-body">
+    <div class="note-card-top">
+      <span class="note-card-show">{{ include.show }}</span>
+      <span class="note-card-icon" aria-hidden="true">→</span>
+    </div>
+    <h3 class="note-card-title">{{ include.title }}</h3>
+    <div class="note-card-tags">
+      {%- for t in tag_list -%}
+        {%- assign clean = t | strip -%}
+        {%- if clean != '' -%}
+          <span class="badge badge-{{ clean | downcase | replace: ' ', '-' }}">{{ clean }}</span>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</a>

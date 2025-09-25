@@ -22,101 +22,133 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 *Master the fundamentals of healthy eating with evidence-based nutritional guidance*
 
 ### Featured Podcast Episodes
-- [[Know Thyself] Dr. Mindy Pelz - The Miracle of Fasting](/notes/diet/The-Miracle-of-Fasting) 
-- [[Rich Roll] Robin Berzin - LONGEVITY PROTOCOL For Women](/notes/diet/Longevity-Protocol-For-Women/) {% include tag-badges.html tags="Fitness" %}
-- [[Andrew Huberman]Dr. Stacy Sims - Female Exercise & Nutrition](/notes/diet/Female-Exercise-and-Nutrition) {% include tag-badges.html tags="Fitness" %}
-- [[The Minimalists] Dr. Sean O'Mara — Minimize Fat](/notes/diet/Minimize-Fat) {% include tag-badges.html tags="Fitness" %} 
-- [[The Minimalists] Dr. Paul Saladino — Food Clutter](/notes/diet/Food-Clutter/)
-- [[Joe Rogan] Will Harris — White Oak Pastures](/notes/diet/White-Oak-Pastures/)
-- [[The Minimalists] Dr. Zach Bush — Decluttering the Gut](/notes/diet/Decluttering-the-Gut/)
-- [[The Way I Heard It with Mike Rowe] Vinnie Tortorich — Where's the Beef?](/notes/diet/Wheres-the-Beef/) {% include tag-badges.html tags="Fitness" %}
-- [[Joe Rogan] Dr. Rhonda Patrick — Ketogenic Diet](/notes/diet/Ketogenic-Diet/)
+<div class="note-grid">
+  {% include note-card.html url="/notes/diet/The-Miracle-of-Fasting" show="Know Thyself" title="Dr. Mindy Pelz – The Miracle of Fasting" tags="Nutrition" platform="youtube" %}
+  {% include note-card.html url="/notes/diet/Longevity-Protocol-For-Women/" show="Rich Roll" title="Robin Berzin – Longevity Protocol for Women" tags="Nutrition,Fitness" platform="youtube" %}
+  {% include note-card.html url="/notes/diet/Female-Exercise-and-Nutrition" show="Andrew Huberman" title="Dr. Stacy Sims – Female Exercise & Nutrition" tags="Fitness,Nutrition" platform="youtube" %}
+  {% include note-card.html url="/notes/diet/Minimize-Fat" show="The Minimalists" title="Dr. Sean O'Mara – Minimize Fat" tags="Fitness,Nutrition" platform="generic" %}
+  {% include note-card.html url="/notes/diet/Food-Clutter/" show="The Minimalists" title="Dr. Paul Saladino – Food Clutter" tags="Nutrition" platform="generic" %}
+  {% include note-card.html url="/notes/diet/White-Oak-Pastures/" show="Joe Rogan" title="Will Harris – White Oak Pastures" tags="Nutrition" platform="spotify" %}
+  {% include note-card.html url="/notes/diet/Decluttering-the-Gut/" show="The Minimalists" title="Dr. Zach Bush – Decluttering the Gut" tags="Nutrition,Brain" platform="generic" %}
+  {% include note-card.html url="/notes/diet/Wheres-the-Beef/" show="Mike Rowe Show" title="Vinnie Tortorich – Where's the Beef?" tags="Nutrition,Fitness" platform="generic" %}
+  {% include note-card.html url="/notes/diet/Ketogenic-Diet/" show="Joe Rogan" title="Dr. Rhonda Patrick – Ketogenic Diet" tags="Nutrition,Brain" platform="spotify" %}
+</div>
 
 ### Essential Reading
-- [[Vinnie Tortorich] Intro to NSNG](/notes/diet/Intro-To-NSNG/)
+<div class="note-grid">
+  {% include note-card.html url="/notes/diet/Intro-To-NSNG/" show="Vinnie Tortorich" title="Intro to NSNG" tags="Nutrition" platform="generic" %}
+</div>
 
 ### Documentaries
-- [[Vinnie Tortorich] Fat A Documentary](/notes/diet/Fat-A-Documentary/)
-- [[Vinnie Tortorich] Fat A Documentary 2](/notes/diet/Fat-A-Documentary-2/)
+<div class="note-grid">
+  {% include note-card.html url="/notes/diet/Fat-A-Documentary/" show="Vinnie Tortorich" title="Fat: A Documentary (1)" tags="Nutrition" platform="youtube" %}
+  {% include note-card.html url="/notes/diet/Fat-A-Documentary-2/" show="Vinnie Tortorich" title="Fat: A Documentary 2" tags="Nutrition" platform="youtube" %}
+</div>
 
 ### Practical Videos
-- [[Vinnie Tortorich] Top 10 Foods That You Should Be Eating](/notes/diet/Top-10-Foods-To-Eat/)
-- [[Vinnie Tortorich] Top 10 Foods That You Should Stop Eating](/notes/diet/Top-10-Foods-To-Stop-Eating/)
-- [[Dr. Sean O'Mara] Optimize Your Health](/notes/diet/Optimize-Your-Health/) {% include tag-badges.html tags="Fitness" %}
-- [[Dr. Andrew Huberman] Gut-Brain Health](/notes/diet/Gut-Brain-Health/)
+<div class="note-grid">
+  {% include note-card.html url="/notes/diet/Top-10-Foods-To-Eat/" show="Vinnie Tortorich" title="Top 10 Foods You Should Be Eating" tags="Nutrition" platform="youtube" %}
+  {% include note-card.html url="/notes/diet/Top-10-Foods-To-Stop-Eating/" show="Vinnie Tortorich" title="Top 10 Foods You Should Stop Eating" tags="Nutrition" platform="youtube" %}
+  {% include note-card.html url="/notes/diet/Optimize-Your-Health/" show="Dr. Sean O'Mara" title="Optimize Your Health" tags="Fitness,Nutrition" platform="youtube" %}
+  {% include note-card.html url="/notes/diet/Gut-Brain-Health/" show="Andrew Huberman" title="Gut-Brain Health" tags="Brain,Nutrition" platform="youtube" %}
+</div>
 
-## Health & Wellness ⚕️
+## Health & Wellness
 *Comprehensive approaches to optimal health and disease prevention*
 
 ### Expert Insights
-- [[DOAC] Dr. Roger Seheul - Nutrition, Exercise, Water, Sunlight, Temperance, Air, Rest, Trust](/notes/health/NEW-START/) {% include tag-badges.html tags="Nutrition,Fitness,Brain,Sleep,Spirituality" %}
-- [[Joe Rogan] Dr. Suzanne Humphries - Dissolving Illusions: Vaccines, Health, and the Untold History](/notes/health/Suzanne-Humphries/)
+<div class="note-grid">
+  {% include note-card.html url="/notes/health/NEW-START/" show="DOAC" title="Dr. Roger Seheul – NEW START Protocol" tags="Nutrition,Fitness,Sleep,Spirituality" platform="youtube" %}
+  {% include note-card.html url="/notes/health/Suzanne-Humphries/" show="Joe Rogan" title="Dr. Suzanne Humphries – Dissolving Illusions" tags="Health" platform="spotify" %}
+</div>
 
 ## Exercise & Fitness {% include tag-badges.html tags="Fitness" %}
 *Science-backed exercise strategies for strength, mobility, and longevity*
 
 ### Movement & Recovery
-- [[Fitness Confidential] Dr. Ben Bocchicchio - The Colorado Experiment](/notes/exercise/The-Colorado-Experiment/)
-- [[Joe Rogan] Ben Patrick — Knees Over Toes Guy](/notes/exercise/Knees-Over-Toes-Guy/)
+<div class="note-grid">
+  {% include note-card.html url="/notes/exercise/The-Colorado-Experiment/" show="Fitness Confidential" title="Dr. Ben Bocchicchio – The Colorado Experiment" tags="Fitness" platform="youtube" %}
+  {% include note-card.html url="/notes/exercise/Knees-Over-Toes-Guy/" show="Joe Rogan" title="Ben Patrick – Knees Over Toes Guy" tags="Fitness" platform="spotify" %}
+</div>
 
 ### Targeted Training
-- [[Thomas DeLauer] Dr. Sean O'Mara — The 4 Types of Belly Fat & How to Lose it for Good](/notes/exercise/Lose-Belly-Fat/) {% include tag-badges.html tags="Nutrition" %}
+<div class="note-grid">
+  {% include note-card.html url="/notes/exercise/Lose-Belly-Fat/" show="Thomas DeLauer" title="Dr. Sean O'Mara – 4 Types of Belly Fat" tags="Nutrition,Fitness" platform="youtube" %}
+</div>
 
 ## Sleep Optimization {% include tag-badges.html tags="Sleep" %}
 *Master your sleep for enhanced recovery, performance, and health*
 
 ### Morning Routines
-- [[Dr. Andrew Huberman] The Optimal Morning Routine](/notes/sleep/Optimal-Morning-Routine/) {% include tag-badges.html tags="Spirituality,Brain" %}
+<div class="note-grid">
+  {% include note-card.html url="/notes/sleep/Optimal-Morning-Routine/" show="Andrew Huberman" title="The Optimal Morning Routine" tags="Sleep,Brain,Spirituality" platform="youtube" %}
+</div>
 
 ### Sleep Science
-- [[Dr. Andrew Huberman] Toolkit for Sleep](/notes/sleep/Toolkit-For-Sleep/)
+<div class="note-grid">
+  {% include note-card.html url="/notes/sleep/Toolkit-For-Sleep/" show="Andrew Huberman" title="Toolkit for Sleep" tags="Sleep" platform="generic" %}
+</div>
 
 ### Recovery Protocols
-- [[Dr. Andrew Huberman] Non-Sleep Deep Rest](https://www.youtube.com/watch?v=YrubXRXwxJc)
+<div class="note-grid">
+  {% include note-card.html url="/notes/brain/Breathing-Techniques-to-Reduce-Stress/" show="Andrew Huberman" title="(See also) Breathing Techniques for Stress" tags="Sleep,Brain,Stress" platform="youtube" %}
+</div>
 
 ## Brain Health & Stress Management {% include tag-badges.html tags="Brain,Stress" %}
 *Optimize cognitive function and build resilience against stress*
 
 ### Cognitive Health
-- [[Modern Wisdom] Dr. Daniel Amen — 11 Risk Factors That Are Destroying Your Brain](/notes/brain/Risk-Factors-Destroying-Brain/) {% include tag-badges.html tags="Brain" %}
-- [[Fitness Confidential] Dr. Mary Newport — Your Brain on Coconut Oil](/notes/brain/Your-Brain-on-Coconut-Oil/) {% include tag-badges.html tags="Brain" %}
-- [[Fitness Confidential] James Nestor — Breathing Correctly](/notes/brain/Breathing-Correctly/) {% include tag-badges.html tags="Brain" %}
+<div class="note-grid">
+  {% include note-card.html url="/notes/brain/Risk-Factors-Destroying-Brain/" show="Modern Wisdom" title="Dr. Daniel Amen – 11 Brain Risk Factors" tags="Brain" platform="youtube" %}
+  {% include note-card.html url="/notes/brain/Your-Brain-on-Coconut-Oil/" show="Fitness Confidential" title="Dr. Mary Newport – Your Brain on Coconut Oil" tags="Brain,Nutrition" platform="youtube" %}
+  {% include note-card.html url="/notes/brain/Breathing-Correctly/" show="Fitness Confidential" title="James Nestor – Breathing Correctly" tags="Brain" platform="youtube" %}
+</div>
 
 ### Stress Reduction Techniques
-- [[Tim Ferriss] Dr. Andrew Huberman — Breathing Techniques to Reduce Stress and Anxiety](/notes/brain/Breathing-Techniques-to-Reduce-Stress/) {% include tag-badges.html tags="Brain,Stress" %}
+<div class="note-grid">
+  {% include note-card.html url="/notes/brain/Breathing-Techniques-to-Reduce-Stress/" show="Tim Ferriss" title="Dr. Andrew Huberman – Breathing Techniques for Stress" tags="Brain,Stress" platform="youtube" %}
+</div>
 
 ## Happiness & Spirituality {% include tag-badges.html tags="Spirituality" %}
 *Cultivate mental well-being and find meaning in your health journey*
 
 ### Mindset & Psychology
-- [[School of Greatness] CREATOR of "THE SECRET" Reveals How The LAW of ATTRACTION Actually Works! - Rhonda Byrne](/notes/happiness/Rhonda-Byrne-Law-of-Attraction/)
-- [[School of Greatness] Manifesting Reality: Ancient Wisdom, Modern Science, and the Power Within - Billy Carson](/notes/happiness/Billy-Carson-School-Greatness/) {% include tag-badges.html tags="Brain" %}
-- [[Modern Wisdom] 44 Harsh Truths About Human Nature - Naval Ravikant](/notes/happiness/Naval-Modern-Wisdom/)
-- [[The Genius Life] The 5 Types of Wealth - Sahil Bloom](/notes/happiness/Sahil-Bloom-5-Types-Of-Wealth/) {% include tag-badges.html tags="Fitness" %}
-- [[Know Thyself] Become the Architect of Your Life - Dr. Rangan Chatterjee](/notes/happiness/Architect-Your-Life/) {% include tag-badges.html tags="Nutrition" %}
-- [[Aubrey Marcus] NDE Survivor - Anita Moorjani](/notes/happiness/Anita-Moorjani-NDE/) {% include tag-badges.html tags="Brain" %}
-- [[Know Thyself] BioHacking - Dave Asprey](/notes/happiness/Dave-Asprey-BioHacking/) {% include tag-badges.html tags="Nutrition,Brain" %}
-- [[Otherworld] The Valley](/notes/happiness/The-Valley/)
-- [[Only the Important Stuff] Andy Salmela — Kids, Marriage, Loss](/notes/happiness/Andy-Salmela/) {% include tag-badges.html tags="Spirituality" %}
-- [[Only the Important Stuff] Krista Ryan — Keep F*!#ing Going](/notes/happiness/Krista-Ryan-Keep-Going/) {% include tag-badges.html tags="Spirituality" %}
-- [[Tim Ferriss] Arthur C. Brooks — How to Be Happy](/notes/happiness/Arthur-Brooks-How-To-Be-Happy/)
-- [[The Minimalists] Zach Bush — Simplifying Death](/notes/happiness/Zach-Bush-Simplifying-Death/)
-- [[Joe Rogan] Sadhguru](/notes/happiness/Sadhguru/)
+<div class="note-grid">
+  {% include note-card.html url="/notes/happiness/Rhonda-Byrne-Law-of-Attraction/" show="School of Greatness" title="Rhonda Byrne – Law of Attraction" tags="Spirituality" platform="youtube" %}
+  {% include note-card.html url="/notes/happiness/Billy-Carson-School-Greatness/" show="School of Greatness" title="Billy Carson – Manifesting Reality" tags="Brain,Spirituality" platform="youtube" %}
+  {% include note-card.html url="/notes/happiness/Naval-Modern-Wisdom/" show="Modern Wisdom" title="Naval Ravikant – 44 Harsh Truths" tags="Brain" platform="youtube" %}
+  {% include note-card.html url="/notes/happiness/Sahil-Bloom-5-Types-Of-Wealth/" show="The Genius Life" title="Sahil Bloom – 5 Types of Wealth" tags="Fitness,Brain" platform="youtube" %}
+  {% include note-card.html url="/notes/happiness/Architect-Your-Life/" show="Know Thyself" title="Dr. Rangan Chatterjee – Architect Your Life" tags="Nutrition,Spirituality" platform="youtube" %}
+  {% include note-card.html url="/notes/happiness/Anita-Moorjani-NDE/" show="Aubrey Marcus" title="Anita Moorjani – NDE Survivor" tags="Spirituality,Brain" platform="youtube" %}
+  {% include note-card.html url="/notes/happiness/Dave-Asprey-BioHacking/" show="Know Thyself" title="Dave Asprey – BioHacking" tags="Nutrition,Brain" platform="youtube" %}
+  {% include note-card.html url="/notes/happiness/The-Valley/" show="Otherworld" title="The Valley" tags="Spirituality" platform="spotify" %}
+  {% include note-card.html url="/notes/happiness/Andy-Salmela/" show="Only the Important Stuff" title="Andy Salmela – Kids, Marriage, Loss" tags="Spirituality" platform="spotify" %}
+  {% include note-card.html url="/notes/happiness/Krista-Ryan-Keep-Going/" show="Only the Important Stuff" title="Krista Ryan – Keep Going" tags="Spirituality" platform="spotify" %}
+  {% include note-card.html url="/notes/happiness/Arthur-Brooks-How-To-Be-Happy/" show="Tim Ferriss" title="Arthur C. Brooks – How to Be Happy" tags="Brain" platform="generic" %}
+  {% include note-card.html url="/notes/happiness/Zach-Bush-Simplifying-Death/" show="The Minimalists" title="Zach Bush – Simplifying Death" tags="Spirituality" platform="generic" %}
+  {% include note-card.html url="/notes/happiness/Sadhguru/" show="Joe Rogan" title="Sadhguru" tags="Spirituality" platform="spotify" %}
+</div>
 
 ### Transformational Reading
-- [[Rhonda Byrne] The Greatest Secret](/notes/happiness/The-Greatest-Secret/) {% include tag-badges.html tags="Spirituality" %}
-- [[Napoleon Hill] Think and Grow Rich](/notes/happiness/Think-And-Grow-Rich/)
+<div class="note-grid">
+  {% include note-card.html url="/notes/happiness/The-Greatest-Secret/" show="Rhonda Byrne" title="The Greatest Secret" tags="Spirituality" platform="amazon" %}
+  {% include note-card.html url="/notes/happiness/Think-And-Grow-Rich/" show="Napoleon Hill" title="Think and Grow Rich" tags="Spirituality" platform="amazon" %}
+</div>
 
 ### Inspiring Clips
-- [[Unstoppable] Zach Bush — Rabbits and Pesticides Study](https://youtube.com/clip/Ugkx1mJ0yyrcWatebI5KA_ByXTdwd3c0mabA?si=BETEpvHDvMyG7F9Q)
-- [[Unstoppable] Zach Bush — Eating Together](https://youtube.com/clip/Ugkx5aGBx3qXld3O6Qn1lC4Dj_8O70jW1DcK?si=e-e0h9WpGWpy4UIo)
+<ul>
+  <li><a href="https://youtube.com/clip/Ugkx1mJ0yyrcWatebI5KA_ByXTdwd3c0mabA?si=BETEpvHDvMyG7F9Q" target="_blank" rel="noopener">[Unstoppable] Zach Bush — Rabbits and Pesticides Study</a></li>
+  <li><a href="https://youtube.com/clip/Ugkx5aGBx3qXld3O6Qn1lC4Dj_8O70jW1DcK?si=e-e0h9WpGWpy4UIo" target="_blank" rel="noopener">[Unstoppable] Zach Bush — Eating Together</a></li>
+</ul>
 
 ### Recommended Podcasts
-- [[The Telepathy Tapes] - With Ky Dickens](https://thetelepathytapes.com/)
-- [[Know Thyself] - Andre Duqum](https://www.youtube.com/playlist?list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q)
-- [[Aubrey Marcus Podcast] - Aubrey Marcus](https://www.aubreymarcus.com/blogs/aubrey-marcus-podcast)
-- [[Think Tank] - Robert Edward Grant](https://robertedwardgrant.com/podcast/)
-- [[The Rich Roll Podcast] - Rich Roll](https://www.richroll.com/all-episodes/)
+<ul>
+  <li><a href="https://thetelepathytapes.com/" target="_blank" rel="noopener">[The Telepathy Tapes] – Ky Dickens</a></li>
+  <li><a href="https://www.youtube.com/playlist?list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q" target="_blank" rel="noopener">[Know Thyself] – Andre Duqum</a></li>
+  <li><a href="https://www.aubreymarcus.com/blogs/aubrey-marcus-podcast" target="_blank" rel="noopener">[Aubrey Marcus Podcast] – Aubrey Marcus</a></li>
+  <li><a href="https://robertedwardgrant.com/podcast/" target="_blank" rel="noopener">[Think Tank] – Robert Edward Grant</a></li>
+  <li><a href="https://www.richroll.com/all-episodes/" target="_blank" rel="noopener">[The Rich Roll Podcast] – Rich Roll</a></li>
+</ul>
 
 ### Health & Wellness Experts
 - [Zach Bush](https://x.com/DrZachBush) [🔗](https://zachbushmd.com/) 

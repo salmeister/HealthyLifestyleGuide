@@ -863,3 +863,76 @@ li > .badge { margin-left: 8px; }
 
 // Utility class for a group of badges (future use)
 .badge-group { display:inline-flex; flex-wrap:wrap; gap:4px; margin-left:6px; }
+
+// --------------------------------------------------
+// Note Card Grid
+// --------------------------------------------------
+.note-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+  gap: 18px;
+  margin: 24px 0 40px;
+  padding: 0;
+  list-style: none;
+}
+
+a.note-card {
+  text-decoration: none;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 18px 18px 16px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow .3s ease, transform .25s ease, border-color .3s ease;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+a.note-card:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 15%, rgba(21,153,87,0.12), transparent 70%);
+  opacity: 0;
+  transition: opacity .4s ease;
+}
+
+a.note-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px -4px rgba(0,0,0,0.15);
+  border-color: #159957;
+}
+
+a.note-card:hover:before { opacity: 1; }
+
+.note-card-body { display:flex; flex-direction:column; gap:10px; }
+.note-card-top { display:flex; justify-content:space-between; align-items:center; }
+.note-card-show { font-size: .7rem; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:#159957; }
+.note-card-icon { font-size: 1rem; line-height:1; color:#159957; transition: transform .3s ease; }
+a.note-card:hover .note-card-icon { transform: translateX(4px); }
+
+.note-card-title { font-size: 1rem; margin:0; line-height:1.35; font-weight:600; color:#1f2937; }
+.note-card-tags { display:flex; flex-wrap:wrap; margin:-2px; }
+.note-card-tags .badge { margin:2px; }
+
+// Platform accent borders (based on external origin)
+.note-card.platform-youtube { border-top:4px solid #ff0000; padding-top:14px; }
+.note-card.platform-spotify { border-top:4px solid #1ed760; padding-top:14px; }
+.note-card.platform-apple { border-top:4px solid #000; padding-top:14px; }
+.note-card.platform-amazon { border-top:4px solid #ff9900; padding-top:14px; }
+.note-card.platform-generic { border-top:4px solid #159957; padding-top:14px; }
+
+// Dark mode
+.dark-mode a.note-card { background:#1f2937; border-color:#374151; box-shadow:0 1px 2px rgba(0,0,0,0.6); }
+.dark-mode a.note-card:before { background: radial-gradient(circle at 20% 15%, rgba(100,181,246,0.15), transparent 70%); }
+.dark-mode a.note-card:hover { border-color:#64b5f6; }
+.dark-mode .note-card-show { color:#64b5f6; }
+.dark-mode .note-card-title { color:#f3f4f6; }
+.dark-mode .note-card-icon { color:#64b5f6; }
+
+@media (max-width:600px){
+  .note-grid { grid-template-columns: repeat(auto-fill,minmax(180px,1fr)); gap:14px; }
+  .note-card-title { font-size:.95rem; }
+}
