@@ -15,6 +15,14 @@ link: "https://open.spotify.com/episode/5d5E5LUmBOLlazJ93wPRMT"
 **🎯 Topic**: Life Transitions, Marriage, and Healing Through Loss  
 **⏱️ Key Takeaway**: The birth of new life can provide healing and continuity amidst grief and loss
 
+<div style="text-align: center; margin: 20px 0;">
+  <div style="background: linear-gradient(45deg, #1DB954, #191414); padding: 20px; border-radius: 8px; color: white;">
+    <h3 style="margin: 0 0 10px 0;">🎧 Spotify Episode</h3>
+    <p style="margin: 0; font-style: italic;">Andy Salmela - The Big Cat Returns</p>
+    <p style="margin: 5px 0 0 0; font-size: 0.9em;">Only the Important Stuff Podcast</p>
+  </div>
+</div>
+
 #### **Recent Updates**
 - **Andy's Vacation**: Celebrated his 20th anniversary in St. Lucia, describing the experience of staying at a unique resort with open-air rooms and privacy. They enjoyed beach time, snorkeling, and local excursions including a visit to a drive-in volcano and mineral baths.
 

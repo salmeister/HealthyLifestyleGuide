@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=ipe3GM30wZw"
 **🎯 Topic**: Advanced Biohacking and Biological Optimization  
 **⏱️ Key Takeaway**: Understanding sexual energy and emotional triggers is key to optimizing biological performance and overall well-being
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/ipe3GM30wZw/maxresdefault.jpg" alt="Dave Asprey Biohacking on Know Thyself Podcast" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **Introduction**
 - **Host**: Andre Duqum
 - **Guest**: Dave Asprey, known as the "Father of Modern Biohacking," author, and entrepreneur in health optimization.

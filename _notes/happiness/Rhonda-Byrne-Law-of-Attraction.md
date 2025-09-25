@@ -1,11 +1,11 @@
 ---
-title: "CREATOR of 'THE SECRET' Reveals How The LAW of ATTRACTION Actually Works! 🤯 | Rhonda Byrne"
+title: "CREATOR of 'THE SECRET' Reveals How The LAW of ATTRACTION Actually Works! | Rhonda Byrne"
 description: "The creator of The Secret, Rhonda Byrne, reveals the true mechanics of the Law of Attraction, manifestation techniques, and how to overcome limiting beliefs to create your desired reality."
 keywords: "Rhonda Byrne, The Secret, Law of Attraction, manifestation, Lewis Howes, School of Greatness, abundance, thoughts, feelings, gratitude"
 category: "Happiness & Spirituality"
 author: "Rhonda Byrne"
 podcast: "School of Greatness"
-date: 2025-09-25
+date: 2023-11-06
 link: "https://www.youtube.com/watch?v=5ypFjAkwVZ4"
 ---
 

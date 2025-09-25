@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=Yx9viPghp4o"
 **🎯 Topic**: Ketogenic Diet and Metabolic Health  
 **⏱️ Key Takeaway**: Ketosis provides enhanced brain function through efficient energy production and beneficial gene activation
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/Yx9viPghp4o/maxresdefault.jpg" alt="Dr. Rhonda Patrick - Ketogenic Diet on Joe Rogan" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 **Key Discussion Points:**
 
 - **Ketogenic Diet Experience:**

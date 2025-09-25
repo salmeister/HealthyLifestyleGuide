@@ -13,7 +13,11 @@ link: "https://www.youtube.com/watch?v=eDJzxlcNiNA"
 
 **🎧 Source**: [Thomas DeLauer](https://www.youtube.com/@ThomasDeLauerOfficial) YouTube | **👨‍⚕️ Expert**: Dr. Sean O'Mara  
 **🎯 Topic**: Types of Belly Fat and Fat Loss Strategies  
-**⏱️ Key Takeaway**: Understanding different types of belly fat is crucial for developing effective, targeted fat loss strategies "The 4 Types of Belly Fat & How to Lose it for Good - Dr. Sean O’Mara"
+**⏱️ Key Takeaway**: Understanding different types of belly fat is crucial for developing effective, targeted fat loss strategies
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/eDJzxlcNiNA/maxresdefault.jpg" alt="Dr. Sean O'Mara - 4 Types of Belly Fat on Thomas DeLauer" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div> "The 4 Types of Belly Fat & How to Lose it for Good - Dr. Sean O’Mara"
 ---
 
 <div style="text-align: center; margin: 40px 0;">

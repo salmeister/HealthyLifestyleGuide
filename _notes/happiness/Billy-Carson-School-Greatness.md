@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=nHb1YPqUH1Y"
 **🎯 Topic**: Manifesting Reality Through Ancient Wisdom and Modern Science  
 **⏱️ Key Takeaway**: Consciousness and intention are powerful forces that can shape reality when aligned with universal principles
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/nHb1YPqUH1Y/maxresdefault.jpg" alt="Billy Carson on School of Greatness - Manifesting Reality" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **Introduction**
 - **Host**: Lewis Howes
 - **Guest**: Billy Carson, founder of Forbidden Knowledge and author of bestsellers like *Fractal Holographic Universe*, dives into manifestation, consciousness, and the universe’s hidden mechanics.

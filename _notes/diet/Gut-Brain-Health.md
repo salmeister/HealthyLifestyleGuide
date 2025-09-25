@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=pvI1vLHV0Mo"
 **🎯 Topic**: Gut-Brain Health Connection  
 **⏱️ Key Takeaway**: Neurons in the gut communicate directly with the brain, affecting alertness and motivation through food choices
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/pvI1vLHV0Mo/maxresdefault.jpg" alt="Dr. Andrew Huberman - Gut-Brain Health" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **Gut-Brain Axis Explained**
 
 - **Structure**: Neurons in the gut (stomach and intestines) communicate directly with the brain, particularly areas like the ventral tegmental area (VTA) which is linked to alertness, motivation, and dopamine release.

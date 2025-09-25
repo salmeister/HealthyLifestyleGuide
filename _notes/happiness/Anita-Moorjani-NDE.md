@@ -15,6 +15,10 @@ link: "https://www.youtube.com/watch?v=6Po0qnuA3Vo"
 **🎯 Topic**: Near-Death Experience and Spiritual Transformation  
 **⏱️ Key Takeaway**: Self-love and understanding our infinite nature can lead to profound healing and life transformation
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://img.youtube.com/vi/6Po0qnuA3Vo/maxresdefault.jpg" alt="Anita Moorjani NDE Experience on Aubrey Marcus Podcast" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 #### **Introduction**
 - **Host**: Aubrey Marcus
 - **Guest**: Anita Moorjani, known for her near-death experience (NDE) and miraculous recovery from terminal cancer.
