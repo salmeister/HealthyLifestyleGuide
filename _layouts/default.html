@@ -23,31 +23,36 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <div class="theme-toggle">
-        <span class="theme-label">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z"/>
-          </svg>
-        </span>
-        <label class="switch">
-          <input type="checkbox" id="theme-toggle">
-          <span class="slider round"></span>
-        </label>
-        <span class="theme-label">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-          </svg>
-        </span>
-      </div>
-      
-      <div class="header-content">
-        <h1 class="project-name"><a href="/">{{ site.title }}</a></h1>
-        <h2 class="project-tagline">{{ site.description }}</h2>
+      <div class="header-flex">
+        <!-- Left side: Title and Subtitle -->
+        <div class="header-left">
+          <h1 class="project-name"><a href="/">{{ site.title }}</a></h1>
+          <h2 class="project-tagline">Health and wellness resources covering nutrition, fitness, mental health, and sustainable lifestyle practices backed by science and real-world experience.</h2>
+        </div>
         
-        <!-- Add search box -->
-        <div class="search-container">
-          <input type="text" id="search-input" placeholder="Search Notes..." class="search-input" aria-label="Search health and wellness content">
-          <div id="search-results" class="search-results" role="region" aria-live="polite"></div>
+        <!-- Right side: Search and Theme Toggle -->
+        <div class="header-right">
+          <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search Notes..." class="search-input" aria-label="Search health and wellness content">
+            <div id="search-results" class="search-results" role="region" aria-live="polite"></div>
+          </div>
+          
+          <div class="theme-toggle">
+            <span class="theme-label">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z"/>
+              </svg>
+            </span>
+            <label class="switch">
+              <input type="checkbox" id="theme-toggle">
+              <span class="slider round"></span>
+            </label>
+            <span class="theme-label">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+              </svg>
+            </span>
+          </div>
         </div>
       </div>
     </header>
