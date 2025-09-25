@@ -6,10 +6,6 @@ keywords: "healthy lifestyle, nutrition tips, fitness guide, mental health, well
 image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 ---
 
-<div class="intro-text">
-  <p>Health and wellness resources covering nutrition, fitness, mental health, and sustainable lifestyle practices backed by science and real-world experience.</p>
-</div>
-
 <div class="quick-navigation">
   <h2>Quick Navigation</h2>
   <ul>
