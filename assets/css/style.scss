@@ -169,16 +169,26 @@ h2[id], h3[id], h4[id] {
   }
 }
 
-// Custom header styles to make it smaller and more efficient
+// Custom header styles to override Cayman theme and make it smaller
 .page-header {
+  // Override Cayman theme's default header styling
+  background: transparent !important; // Remove any theme background
+  background-image: none !important; // Explicitly remove background image
+  background-color: transparent !important; // Remove background color
+  color: inherit !important; // Use body text color
+  
+  // Custom styling
   padding: 0.75rem 1rem; // Reduced and unified padding
-  min-height: auto; // Remove minimum height if set
-  background: inherit; // Use same background as body
+  min-height: auto !important; // Remove minimum height set by theme
   position: relative; // For absolute positioning of theme toggle
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid #e9ecef; // Subtle separator between header and content
+  
+  // Override any gradient backgrounds from Cayman theme
+  background-image: none !important;
+  background: inherit !important;
 }
 
 // Header content wrapper for better organization
