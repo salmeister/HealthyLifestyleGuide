@@ -93,6 +93,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 *Cultivate mental well-being and find meaning in your health journey*
 
 ### Mindset & Psychology
+- [📝](/notes/happiness/Rhonda-Byrne-Law-of-Attraction/) [[School of Greatness] CREATOR of "THE SECRET" Reveals How The LAW of ATTRACTION Actually Works! - Rhonda Byrne](https://www.youtube.com/watch?v=5ypFjAkwVZ4)
 - [📝](/notes/happiness/Billy-Carson-School-Greatness/) [[School of Greatness] Manifesting Reality: Ancient Wisdom, Modern Science, and the Power Within - Billy Carson](https://www.youtube.com/watch?v=nHb1YPqUH1Y)🧠
 - [📝](/notes/happiness/Naval-Modern-Wisdom/) [[Modern Wisdom] 44 Harsh Truths About Human Nature - Naval Ravikant](https://www.youtube.com/watch?v=KyfUysrNaco)
 - [📝](/notes/happiness/Sahil-Bloom-5-Types-Of-Wealth/) [[The Genius Life] The 5 Types of Wealth - Sahil Bloom](https://www.youtube.com/watch?v=iNBoeOGMHTE) 💪
