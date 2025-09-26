@@ -7,7 +7,6 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 ---
 
 <div class="quick-navigation">
-  <h2>Quick Navigation</h2>
   <ul>
   <li><a href="#diet-nutrition">Diet & Nutrition</a></li>
   <li><a href="#health-wellness">Health & Wellness</a></li>
@@ -136,7 +135,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 
 #### Clips
 <div class="note-grid">
-  {% include note-card.html url="https://youtube.com/clip/Ugkx1mJ0yyrcWatebI5KA_ByXTdwd3c0mabA?si=BETEpvHDvMyG7F9Q" show="Unstoppable" title="Zach Bush — Rabbits and Pesticides Study" tags="Nutrition,Health" platform="youtube" %}
+  {% include note-card.html url="https://youtube.com/clip/Ugkx1mJ0yyrcWatebI5KA_ByXTdwd3c0mabA?si=BETEpvHDvMyG7F9Q" show="Unstoppable" title="Zach Bush — Rabbits and Pesticides Study" tags="Nutrition,Spirituality" platform="youtube" %}
   {% include note-card.html url="https://youtube.com/clip/Ugkx5aGBx3qXld3O6Qn1lC4Dj_8O70jW1DcK?si=e-e0h9WpGWpy4UIo" show="Unstoppable" title="Zach Bush — Eating Together" tags="Nutrition,Spirituality" platform="youtube" %}
 </div>
 
