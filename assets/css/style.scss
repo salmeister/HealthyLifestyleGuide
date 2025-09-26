@@ -852,6 +852,10 @@ body.dark-mode {
   fill: #1ed760;
 }
 
+.instagram-link:hover svg {
+  fill: #c13584;
+}
+
 .apple-link:hover svg {
   fill: #007aff;
 }
@@ -1182,6 +1186,15 @@ a.note-card:hover:before { opacity: 1; }
       }
     }
 
+    // Instagram icon
+    &[title*="Follow on Instagram"] {
+      &:hover {
+        background: #e4405f;
+        color: white;
+        border-color: #e4405f;
+      }
+    }
+
     // Website icon
     &[title*="Visit Website"] {
       &:hover {
@@ -1231,6 +1244,15 @@ a.note-card:hover:before { opacity: 1; }
         background: #1da1f2;
         color: white;
         border-color: #1da1f2;
+      }
+    }
+
+    // Instagram icon - dark mode
+    &[title*="Follow on Instagram"] {
+      &:hover {
+        background: #e4405f;
+        color: white;
+        border-color: #e4405f;
       }
     }
 
