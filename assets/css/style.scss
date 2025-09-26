@@ -150,7 +150,9 @@ h2[id], h3[id], h4[id] {
   /* Hide desktop tools on mobile; they will appear inside hamburger menu */
   #desktop-tools { display: none; }
 
-  .title-row { display:flex; align-items:center; gap:.75rem; width:100%; }
+  .title-row { display:flex; align-items:center; gap:.75rem; width:100%; justify-content:space-between; }
+  .title-row .project-name { flex:1; }
+  .title-row .hamburger { margin-left:1rem; }
 
   .hamburger {
     display: inline-flex;
