@@ -193,6 +193,10 @@ h2[id], h3[id], h4[id] {
     border-radius: 14px;
     padding: 16px 18px 20px;
     margin-top: 10px;
+    /* Align menu card to right side */
+    width: 90%;
+    max-width: 360px;
+    margin-left: auto;
     box-shadow: 0 6px 18px -6px rgba(0,0,0,0.2);
   }
 
