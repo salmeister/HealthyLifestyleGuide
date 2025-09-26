@@ -146,6 +146,69 @@ h2[id], h3[id], h4[id] {
     align-items: center;
     min-width: auto;
   }
+
+  /* Hide desktop tools on mobile; they will appear inside hamburger menu */
+  #desktop-tools { display: none; }
+
+  .title-row { display:flex; align-items:center; gap:.75rem; width:100%; }
+
+  .hamburger {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    width: 40px;
+    height: 40px;
+    background: #159957;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 8px;
+    cursor: pointer;
+    position: relative;
+    transition: background .3s ease, transform .3s ease;
+  }
+  .hamburger:focus { outline: 2px solid #1e7e34; outline-offset:2px; }
+  .hamburger:hover { background:#1e7e34; }
+  .hamburger .bar {
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    border-radius: 2px;
+    transition: transform .35s ease, opacity .25s ease;
+  }
+  .hamburger.is-active .bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .hamburger.is-active .bar:nth-child(2) { opacity: 0; }
+  .hamburger.is-active .bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  /* Mobile menu panel */
+  .mobile-menu {
+    position: relative;
+    width: 100%;
+    animation: slideDown .4s ease;
+  }
+  .mobile-menu[hidden] { display:none !important; }
+  .mobile-menu-inner {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #d1d5db;
+    border-radius: 14px;
+    padding: 16px 18px 20px;
+    margin-top: 10px;
+    box-shadow: 0 6px 18px -6px rgba(0,0,0,0.2);
+  }
+
+  .mobile-tools { display:flex; flex-direction:column; gap:18px; }
+  .mobile-theme-toggle { justify-content:center; }
+  .mobile-search { width:100%; }
+  .mobile-search .search-input { width:100%; }
+
+  @keyframes slideDown {
+    from { opacity:0; transform:translateY(-8px); }
+    to { opacity:1; transform:translateY(0); }
+  }
+
+  body.dark-mode .hamburger { background:#64b5f6; }
+  body.dark-mode .hamburger:hover { background:#3b82f6; }
+  body.dark-mode .mobile-menu-inner { background: linear-gradient(135deg,#2d2d2d 0%, #1a1a1a 100%); border-color:#374151; }
   
   .theme-toggle {
     transform: scale(0.9); // Slightly smaller on mobile
@@ -212,6 +275,12 @@ h2[id], h3[id], h4[id] {
   margin: 0 auto; // Center the content
   gap: 2rem;
 }
+
+/* Default hide hamburger on desktop */
+.hamburger { display:none; }
+
+/* Mobile menu base styles (also used for transition when toggled by JS) */
+.mobile-menu { width:100%; }
 
 // Left side styling with full-width subtitle support
 .header-left {

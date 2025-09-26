@@ -9,16 +9,17 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 <div class="quick-navigation">
   <h2>Quick Navigation</h2>
   <ul>
-  <li><a href="#diet--nutrition">Diet & Nutrition</a></li>
-  <li><a href="#health--wellness">General Health</a></li>
-  <li><a href="#exercise--fitness">Exercise & Fitness</a></li>
+  <li><a href="#diet-nutrition">Diet & Nutrition</a></li>
+  <li><a href="#health-wellness">General Health</a></li>
+  <li><a href="#exercise-fitness">Exercise & Fitness</a></li>
   <li><a href="#sleep-optimization">Sleep Optimization</a></li>
-  <li><a href="#brain-health--stress-management">Brain Health & Stress</a></li>
-  <li><a href="#happiness--spirituality">Happiness & Spirituality</a></li>
+  <li><a href="#brain-health-stress-management">Brain Health & Stress</a></li>
+  <li><a href="#happiness-spirituality">Happiness & Spirituality</a></li>
   </ul>
 </div>
 
-## Diet & Nutrition {% include tag-badges.html tags="Nutrition" %}
+## Diet & Nutrition {#diet-nutrition}
+{% include tag-badges.html tags="Nutrition" %}
 *Master the fundamentals of healthy eating with evidence-based nutritional guidance*
 
 ### Featured Podcast Episodes
@@ -53,7 +54,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
   {% include note-card.html url="/notes/diet/Gut-Brain-Health/" show="Andrew Huberman" title="Gut-Brain Health" tags="Brain,Nutrition" platform="youtube" %}
 </div>
 
-## Health & Wellness
+## Health & Wellness {#health-wellness}
 *Comprehensive approaches to optimal health and disease prevention*
 
 ### Expert Insights
@@ -62,7 +63,8 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
   {% include note-card.html url="/notes/health/Suzanne-Humphries/" show="Joe Rogan" title="Dr. Suzanne Humphries – Dissolving Illusions" tags="Health" platform="spotify" %}
 </div>
 
-## Exercise & Fitness {% include tag-badges.html tags="Fitness" %}
+## Exercise & Fitness {#exercise-fitness}
+{% include tag-badges.html tags="Fitness" %}
 *Science-backed exercise strategies for strength, mobility, and longevity*
 
 ### Movement & Recovery
@@ -76,7 +78,8 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
   {% include note-card.html url="/notes/exercise/Lose-Belly-Fat/" show="Thomas DeLauer" title="Dr. Sean O'Mara – 4 Types of Belly Fat" tags="Nutrition,Fitness" platform="youtube" %}
 </div>
 
-## Sleep Optimization {% include tag-badges.html tags="Sleep" %}
+## Sleep Optimization {#sleep-optimization}
+{% include tag-badges.html tags="Sleep" %}
 *Master your sleep for enhanced recovery, performance, and health*
 
 ### Morning Routines
@@ -94,7 +97,8 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
   {% include note-card.html url="/notes/brain/Breathing-Techniques-to-Reduce-Stress/" show="Andrew Huberman" title="(See also) Breathing Techniques for Stress" tags="Sleep,Brain,Stress" platform="youtube" %}
 </div>
 
-## Brain Health & Stress Management {% include tag-badges.html tags="Brain,Stress" %}
+## Brain Health & Stress Management {#brain-health-stress-management}
+{% include tag-badges.html tags="Brain,Stress" %}
 *Optimize cognitive function and build resilience against stress*
 
 ### Cognitive Health
@@ -109,7 +113,8 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
   {% include note-card.html url="/notes/brain/Breathing-Techniques-to-Reduce-Stress/" show="Tim Ferriss" title="Dr. Andrew Huberman – Breathing Techniques for Stress" tags="Brain,Stress" platform="youtube" %}
 </div>
 
-## Happiness & Spirituality {% include tag-badges.html tags="Spirituality" %}
+## Happiness & Spirituality {#happiness-spirituality}
+{% include tag-badges.html tags="Spirituality" %}
 *Cultivate mental well-being and find meaning in your health journey*
 
 ### Mindset & Psychology
