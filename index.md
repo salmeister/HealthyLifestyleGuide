@@ -353,7 +353,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Vinnie Tortorich <span class="badge badge-nutrition">Nutrition</span><span class="badge badge-fitness">Fitness</span></span>
     <div class="resource-icons">
       <a href="https://x.com/VinnieTortorich" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.vinnietalks.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+      <a href="https://vinnietortorich.com" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
 </div>
