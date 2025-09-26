@@ -282,6 +282,11 @@ h2[id], h3[id], h4[id] {
 /* Mobile menu base styles (also used for transition when toggled by JS) */
 .mobile-menu { width:100%; }
 
+/* Ensure hamburger shows on small screens (override desktop default at end for safety) */
+@media (max-width: 768px) {
+  .hamburger { display:inline-flex; }
+}
+
 // Left side styling with full-width subtitle support
 .header-left {
   flex: 1;
