@@ -2,7 +2,7 @@
 title: "Breathing Techniques to Reduce Stress and Anxiety | Dr. Andrew Huberman"
 description: "Learn the physiological sigh and other breathing techniques to rapidly reduce stress and anxiety, backed by scientific research from the Huberman Lab."
 keywords: "breathing techniques, stress reduction, anxiety, Dr. Andrew Huberman, physiological sigh, stress management"
-category: "Brain Health & Stress Management"
+category: "Brain & Stress"
 author: "Dr. Andrew Huberman"
 podcast: "Tim Ferriss"
 date: 2021-10-25

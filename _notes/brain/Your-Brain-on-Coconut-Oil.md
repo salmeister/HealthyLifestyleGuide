@@ -2,7 +2,7 @@
 title: "Your Brain on Coconut Oil with Dr. Mary Newport"
 description: "Learn how coconut oil and ketogenic diets can support brain health, particularly for Alzheimer's disease and cognitive function."
 keywords: "coconut oil, brain health, ketogenic diet, Alzheimer's disease, Dr. Mary Newport, cognitive function"
-category: "Brain Health & Stress Management"
+category: "Brain & Stress"
 author: "Dr. Mary Newport"
 podcast: "Fitness Confidential Podcast"
 date: 2022-09-30

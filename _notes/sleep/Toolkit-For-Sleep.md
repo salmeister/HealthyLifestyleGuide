@@ -2,7 +2,7 @@
 title: "Toolkit for Sleep - Huberman Lab"
 description: "12 actionable steps to improve your sleep quality based on scientific insights from the Huberman Lab, covering light exposure, temperature, and optimization strategies."
 keywords: "sleep optimization, Huberman Lab, sleep quality, circadian rhythm, sleep toolkit, Andrew Huberman"
-category: "Sleep Optimization"
+category: "Sleep & Rest"
 author: "Dr. Andrew Huberman"
 podcast: "Huberman Lab"
 date: 2021-09-20

@@ -2,7 +2,7 @@
 title: "Breathing Correctly with James Nestor - Episode 2046"
 description: "Learn proper breathing techniques for health and wellness with James Nestor, author of 'Breathe' and expert on breathing practices."
 keywords: "breathing techniques, James Nestor, health, wellness, Wim Hof, breath control, physiology"
-category: "Brain Health & Stress Management"
+category: "Brain & Stress"
 author: "James Nestor"
 podcast: "Fitness Confidential Podcast"
 date: 2022-02-25

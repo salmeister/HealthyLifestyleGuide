@@ -2,7 +2,7 @@
 title: "Brain Health Revolution with Dr. Daniel Amen"
 description: "Discover the risk factors destroying your brain and learn how to optimize brain health through SPECT imaging insights and practical strategies."
 keywords: "brain health, Dr. Daniel Amen, SPECT imaging, mental health, brain optimization, risk factors"
-category: "Brain Health & Stress Management"
+category: "Brain & Stress"
 author: "Dr. Daniel Amen"
 podcast: "Modern Wisdom"
 date: 2025-06-23
