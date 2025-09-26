@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=pvI1vLHV0Mo"
 **⏱️ Key Takeaway**: Neurons in the gut communicate directly with the brain, affecting alertness and motivation through food choices
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/pvI1vLHV0Mo/maxresdefault.jpg" alt="Dr. Andrew Huberman - Gut-Brain Health" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=pvI1vLHV0Mo" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/pvI1vLHV0Mo/maxresdefault.jpg" alt="Dr. Andrew Huberman - Gut-Brain Health" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 #### **Gut-Brain Axis Explained**

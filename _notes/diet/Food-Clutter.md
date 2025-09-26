@@ -16,7 +16,9 @@ link: "https://youtu.be/dp8iNUrwFO8"
 **⏱️ Key Takeaway**: Simplifying food choices through ancestral eating patterns can eliminate nutritional confusion and improve health
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/dp8iNUrwFO8/maxresdefault.jpg" alt="Dr. Paul Saladino - Food Clutter on The Minimalists" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=dp8iNUrwFO8" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/dp8iNUrwFO8/maxresdefault.jpg" alt="Dr. Paul Saladino - Food Clutter on The Minimalists" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 - **Food Clutter and Diet Simplification:**

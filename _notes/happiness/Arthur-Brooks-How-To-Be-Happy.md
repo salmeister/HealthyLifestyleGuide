@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=LFKY1scJepM"
 **⏱️ Key Takeaway**: True happiness requires avoiding the four false idols and focusing on meaningful connections and purpose
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/LFKY1scJepM/maxresdefault.jpg" alt="Arthur Brooks on Tim Ferriss - How to Be Happy" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=LFKY1scJepM" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/LFKY1scJepM/maxresdefault.jpg" alt="Arthur Brooks on Tim Ferriss - How to Be Happy" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 #### **Background**

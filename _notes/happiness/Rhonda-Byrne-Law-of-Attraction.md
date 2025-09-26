@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=5ypFjAkwVZ4"
 **⏱️ Key Takeaway**: Every human being is a creator, and we create our life through our thoughts. The key is focusing on what we want rather than what we don't want.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/5ypFjAkwVZ4/maxresdefault.jpg" alt="Rhonda Byrne on School of Greatness - The Law of Attraction" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=5ypFjAkwVZ4" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/5ypFjAkwVZ4/maxresdefault.jpg" alt="Rhonda Byrne on School of Greatness - The Law of Attraction" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 #### **The Law of Attraction Explained**

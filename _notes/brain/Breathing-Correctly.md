@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=5OKoZLS-h5g"
 **⏱️ Key Takeaway**: Proper breathing can dramatically improve health and performance
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/5OKoZLS-h5g/maxresdefault.jpg" alt="James Nestor on Fitness Confidential - Breathing Correctly" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=5OKoZLS-h5g" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/5OKoZLS-h5g/maxresdefault.jpg" alt="James Nestor on Fitness Confidential - Breathing Correctly" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 #### **Introduction**

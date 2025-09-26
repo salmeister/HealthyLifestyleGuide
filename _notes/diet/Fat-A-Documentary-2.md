@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=AoPisYHbMcg"
 **⏱️ Key Takeaway**: The continued fight against nutrition misinformation and the importance of understanding real dietary science
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/AoPisYHbMcg/maxresdefault.jpg" alt="Fat: A Documentary 2 by Vinnie Tortorich" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=AoPisYHbMcg" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/AoPisYHbMcg/maxresdefault.jpg" alt="Fat: A Documentary 2 by Vinnie Tortorich" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 - **Focus:** Vinnie Tortorich, a health and fitness expert, explores the myths and truths behind dietary recommendations, focusing on how historical, scientific, and cultural factors have shaped our understanding of nutrition.
 

@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=207W1A_bJqI"
 **⏱️ Key Takeaway**: Historical examination of vaccine narratives reveals complex truths about public health interventions
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/207W1A_bJqI/maxresdefault.jpg" alt="Dr. Suzanne Humphries on Joe Rogan - Dissolving Illusions" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=207W1A_bJqI" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/207W1A_bJqI/maxresdefault.jpg" alt="Dr. Suzanne Humphries on Joe Rogan - Dissolving Illusions" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 #### **The Vaccine Paradigm Shift**

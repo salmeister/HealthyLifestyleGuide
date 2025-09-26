@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=P28Pqr9BSWw"
 **⏱️ Key Takeaway**: Women require specific lifestyle medicine approaches to optimize longevity and healthy aging
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/P28Pqr9BSWw/maxresdefault.jpg" alt="Dr. Robin Berzin - Longevity Protocol for Women on Rich Roll" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=P28Pqr9BSWw" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/P28Pqr9BSWw/maxresdefault.jpg" alt="Dr. Robin Berzin - Longevity Protocol for Women on Rich Roll" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 - **Traditional vs. Functional Medicine:** The current healthcare system often manages symptoms rather than curing diseases. Functional medicine, which Dr. Robin Berzin promotes, focuses on treating the root cause, leading to better health outcomes.

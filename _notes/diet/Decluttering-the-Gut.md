@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=U4VKuviM-pM"
 **⏱️ Key Takeaway**: A healthy gut microbiome is foundational to overall wellness and requires intentional decluttering of harmful substances
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/U4VKuviM-pM/maxresdefault.jpg" alt="Dr. Zach Bush on The Minimalists - Decluttering the Gut" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=U4VKuviM-pM" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/U4VKuviM-pM/maxresdefault.jpg" alt="Dr. Zach Bush on The Minimalists - Decluttering the Gut" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 #### **Introduction**

@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=nHb1YPqUH1Y"
 **⏱️ Key Takeaway**: Consciousness and intention are powerful forces that can shape reality when aligned with universal principles
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/nHb1YPqUH1Y/maxresdefault.jpg" alt="Billy Carson on School of Greatness - Manifesting Reality" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=nHb1YPqUH1Y" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/nHb1YPqUH1Y/maxresdefault.jpg" alt="Billy Carson on School of Greatness - Manifesting Reality" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 #### **Introduction**

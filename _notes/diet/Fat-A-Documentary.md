@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=iVJM_0XEiBI"
 **⏱️ Key Takeaway**: The medical community has neglected dietary interventions while promoting flawed nutritional guidelines
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/iVJM_0XEiBI/maxresdefault.jpg" alt="Fat: A Documentary by Vinnie Tortorich" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=iVJM_0XEiBI" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/iVJM_0XEiBI/maxresdefault.jpg" alt="Fat: A Documentary by Vinnie Tortorich" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 **Key Points:**
