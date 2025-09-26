@@ -10,10 +10,10 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
   <h2>Quick Navigation</h2>
   <ul>
   <li><a href="#diet-nutrition">Diet & Nutrition</a></li>
-  <li><a href="#health-wellness">General Health</a></li>
+  <li><a href="#health-wellness">Health & Wellness</a></li>
   <li><a href="#exercise-fitness">Exercise & Fitness</a></li>
-  <li><a href="#sleep-optimization">Sleep Optimization</a></li>
-  <li><a href="#brain-health-stress-management">Brain Health & Stress</a></li>
+  <li><a href="#sleep-rest">Sleep & Rest</a></li>
+  <li><a href="#brain-stress">Brain & Stress</a></li>
   <li><a href="#happiness-spirituality">Happiness & Spirituality</a></li>
   </ul>
 </div>
@@ -252,7 +252,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Arthur C. Brooks <span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/arthurbrooks" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/arthurcbrooks/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/arthurcbrooks/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://arthurbrooks.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -260,7 +264,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Bruce Lipton <span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/biologyofbelief" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/brucelipton_official/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/brucelipton_official/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://www.brucelipton.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -268,7 +276,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Colin O'Brady <span class="badge badge-fitness">Fitness</span><span class="badge badge-brain">Brain</span></span>
     <div class="resource-icons">
       <a href="https://x.com/colinobrady" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/colinobrady/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/colinobrady/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://www.colinobrady.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -276,7 +288,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Dr. Andrew Huberman <span class="badge badge-brain">General</span></span>
     <div class="resource-icons">
       <a href="https://x.com/hubermanlab" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/hubermanlab/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/hubermanlab/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://hubermanlab.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -284,7 +300,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Dr. Rangan Chatterjee <span class="badge badge-nutrition">Nutrition</span><span class="badge badge-health">Health</span></span>
     <div class="resource-icons">
       <a href="https://x.com/drchatterjeeuk" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/drchatterjee/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/drchatterjee/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://drchatterjee.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -292,7 +312,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Dr. Sean O'Mara <span class="badge badge-fitness">Fitness</span><span class="badge badge-nutrition">Nutrition</span></span>
     <div class="resource-icons">
       <a href="https://x.com/DrSeanOMara" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/drseanomara/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/drseanomara/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://drseanomara.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -320,7 +344,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Joe Dispenza <span class="badge badge-spirituality">Spirituality</span><span class="badge badge-brain">Brain</span></span>
     <div class="resource-icons">
       <a href="https://x.com/DrJoeDispenza" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/drjoedispenza/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/drjoedispenza/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://drjoedispenza.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -328,7 +356,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Kute Blackson <span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/kuteblackson" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/kuteblackson/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/kuteblackson/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://kuteblackson.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -343,7 +375,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Paul Chek <span class="badge badge-fitness">Fitness</span><span class="badge badge-brain">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/PaulChek" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/paul.chek/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/paul.chek/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://chekinstitute.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -351,7 +387,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Sadhguru <span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/SadhguruJV" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/sadhguru/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/sadhguru/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://isha.sadhguru.org/us/en" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -359,7 +399,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Tim Ferriss <span class="badge badge-brain">General</span></span>
     <div class="resource-icons">
       <a href="https://x.com/tferriss" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/timferriss/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/timferriss/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.40s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://tim.blog/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -367,7 +411,11 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Vinnie Tortorich <span class="badge badge-nutrition">Nutrition</span><span class="badge badge-fitness">Fitness</span></span>
     <div class="resource-icons">
       <a href="https://x.com/VinnieTortorich" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/vinnietortorich/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/vinnietortorich/" target="_blank" rel="noopener" title="Follow on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F" style="vertical-align: middle;">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
       <a href="https://vinnietortorich.com" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>

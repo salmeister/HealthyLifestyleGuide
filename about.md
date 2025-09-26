@@ -27,14 +27,14 @@ Each resource includes comprehensive AI-generated summaries that:
 - **Preserve Context**: Maintain the expert's original intent and nuance
 - **Enable Quick Reference**: Find specific information when you need it
 
-### 📚 **Organized by Category**
+### **Organized by Category**
 Our content spans six core areas of wellness:
-- **🍖 Diet & Nutrition**: Evidence-based eating strategies
-- **⚕️ General Health**: Holistic approaches to wellness
-- **💪 Exercise & Fitness**: Movement and strength optimization
-- **😴 Sleep Optimization**: Recovery and performance enhancement
-- **🧠 Brain Health & Stress**: Cognitive function and mental resilience
-- **😇 Happiness & Spirituality**: Mental well-being and life purpose
+- **Diet & Nutrition**: Evidence-based eating strategies
+- **Health & Wellness**: Holistic approaches to wellness  
+- **Exercise & Fitness**: Movement and strength optimization
+- **Sleep & Rest**: Recovery and performance enhancement
+- **Brain & Stress**: Cognitive function and mental resilience
+- **Happiness & Spirituality**: Mental well-being and life purpose
 
 ## Our Content Sources
 
