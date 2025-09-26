@@ -82,7 +82,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 
 #### Podcast Episodes
 <div class="note-grid">
-  {% include note-card.html url="/notes/brain/Breathing-Techniques-to-Reduce-Stress/" show="Tim Ferriss" title="(See also) Breathing Techniques for Stress" tags="Sleep,Brain,Stress" platform="youtube" %}
+  {% include note-card.html url="/notes/brain/Breathing-Techniques-to-Reduce-Stress/" show="Tim Ferriss" title="Breathing Techniques for Stress" tags="Sleep,Brain,Stress" platform="youtube" %}
 </div>
 
 #### Videos
@@ -149,7 +149,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
   <li><a href="https://www.richroll.com/all-episodes/" target="_blank" rel="noopener">[The Rich Roll Podcast] – Rich Roll</a></li>
 </ul>
 
-### Health & Wellness Experts
+### Recommended Experts
 - [Zach Bush](https://x.com/DrZachBush) [🔗](https://zachbushmd.com/) 
 - [Kute Blackson](https://x.com/kuteblackson) [🔗](https://kuteblackson.com/)
 - [Federico Faggin](https://x.com/fedefaggin) [🔗](https://www.federicofaggin.com/)
