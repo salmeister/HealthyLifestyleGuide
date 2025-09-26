@@ -201,10 +201,7 @@
         const body = document.body;
         const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
         const mobileMenu = document.getElementById('mobile-menu');
-        const searchInput = document.getElementById('search-input');
-        const searchInputMobile = document.getElementById('search-input-mobile');
-        const searchResults = document.getElementById('search-results');
-        const searchResultsMobile = document.getElementById('search-results-mobile');
+  // Search inputs handled inside search.js now (no mirroring here)
       
         toggleSwitch.addEventListener('change', function() {
           body.classList.toggle('dark-mode');
@@ -268,37 +265,7 @@
           });
         }
 
-        // Sync search inputs (basic mirror). If user types in mobile search, reflect in desktop and vice versa.
-        function mirrorSearch(source, target) {
-          if (!source || !target) return;
-          source.addEventListener('input', () => { if (target.value !== source.value) target.value = source.value; });
-        }
-        mirrorSearch(searchInput, searchInputMobile);
-        mirrorSearch(searchInputMobile, searchInput);
-
-        // Ensure search results appear near active input
-        if (searchInput && searchResults && searchResultsMobile) {
-          // Observer to move result panel depending on focus (simple approach: clone content)
-          const syncResults = () => {
-            if (document.activeElement === searchInputMobile) {
-              searchResultsMobile.innerHTML = searchResults.innerHTML;
-              if (searchResults.style.display === 'block') {
-                searchResultsMobile.style.display = 'block';
-                searchResults.style.display = 'none';
-              }
-            } else if (document.activeElement === searchInput) {
-              searchResults.innerHTML = searchResultsMobile.innerHTML || searchResults.innerHTML;
-              if (searchResultsMobile.style.display === 'block') {
-                searchResults.style.display = 'block';
-                searchResultsMobile.style.display = 'none';
-              }
-            }
-          };
-          ['focus','input'].forEach(evt => {
-            if (searchInputMobile) searchInputMobile.addEventListener(evt, syncResults);
-            searchInput.addEventListener(evt, syncResults);
-          });
-        }
+        // (Search auto-initializes separately)
       });
     </script>
 
