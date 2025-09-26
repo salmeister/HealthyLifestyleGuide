@@ -144,209 +144,183 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 
 ## 📚 Resource Appendix
 
-### 🎧 Recommended Podcasts by Category
+### 🎧 Recommended Podcasts
 
-#### Diet & Nutrition
 <div class="resource-list">
   <div class="resource-item">
-    <span class="resource-name">Fitness Confidential with Vinnie Tortorich</span>
+    <span class="resource-name">Aubrey Marcus Podcast <span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
-      <a href="https://www.vinnietalks.com/" target="_blank" rel="noopener" title="Subscribe to Podcast">🎧</a>
+      <a href="https://www.aubreymarcus.com/blogs/aubrey-marcus-podcast" target="_blank" rel="noopener" title="Listen on Spotify">�</a>
     </div>
   </div>
   <div class="resource-item">
-    <span class="resource-name">The Rich Roll Podcast</span>
+    <span class="resource-name">Fitness Confidential with Vinnie Tortorich <span class="badge badge-nutrition">Nutrition</span><span class="badge badge-fitness">Fitness</span></span>
     <div class="resource-icons">
-      <a href="https://www.richroll.com/all-episodes/" target="_blank" rel="noopener" title="Subscribe to Podcast">🎧</a>
+      <a href="https://www.vinnietalks.com/" target="_blank" rel="noopener" title="Listen on Spotify">�</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Huberman Lab with Andrew Huberman <span class="badge badge-brain">Brain</span><span class="badge badge-sleep">Sleep</span></span>
+    <div class="resource-icons">
+      <a href="https://hubermanlab.com/" target="_blank" rel="noopener" title="Listen on Spotify">�</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Know Thyself with Andre Duqum <span class="badge badge-spirituality">Spirituality</span></span>
+    <div class="resource-icons">
+      <a href="https://www.youtube.com/playlist?list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q" target="_blank" rel="noopener" title="Listen on Spotify">�</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Modern Wisdom with Chris Williamson <span class="badge badge-brain">Brain</span><span class="badge badge-spirituality">Spirituality</span></span>
+    <div class="resource-icons">
+      <a href="https://modernwisdom.co/" target="_blank" rel="noopener" title="Listen on Spotify">�</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">The Joe Rogan Experience <span class="badge badge-health">Health</span></span>
+    <div class="resource-icons">
+      <a href="https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk" target="_blank" rel="noopener" title="Listen on Spotify">�</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">The Rich Roll Podcast <span class="badge badge-nutrition">Nutrition</span><span class="badge badge-fitness">Fitness</span></span>
+    <div class="resource-icons">
+      <a href="https://www.richroll.com/all-episodes/" target="_blank" rel="noopener" title="Listen on Spotify">🎵</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">The Telepathy Tapes with Ky Dickens <span class="badge badge-spirituality">Spirituality</span></span>
+    <div class="resource-icons">
+      <a href="https://thetelepathytapes.com/" target="_blank" rel="noopener" title="Listen on Spotify">�</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">The Tim Ferriss Show <span class="badge badge-brain">Brain</span></span>
+    <div class="resource-icons">
+      <a href="https://tim.blog/podcast/" target="_blank" rel="noopener" title="Listen on Spotify">�</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Think Tank with Robert Edward Grant <span class="badge badge-spirituality">Spirituality</span></span>
+    <div class="resource-icons">
+      <a href="https://robertedwardgrant.com/podcast/" target="_blank" rel="noopener" title="Listen on Spotify">�</a>
     </div>
   </div>
 </div>
 
-#### Brain Health & Sleep Optimization  
+### 👥 Recommended Experts
+
 <div class="resource-list">
   <div class="resource-item">
-    <span class="resource-name">Huberman Lab with Andrew Huberman</span>
-    <div class="resource-icons">
-      <a href="https://hubermanlab.com/" target="_blank" rel="noopener" title="Subscribe to Podcast">🎧</a>
-    </div>
-  </div>
-  <div class="resource-item">
-    <span class="resource-name">The Tim Ferriss Show</span>
-    <div class="resource-icons">
-      <a href="https://tim.blog/podcast/" target="_blank" rel="noopener" title="Subscribe to Podcast">🎧</a>
-    </div>
-  </div>
-  <div class="resource-item">
-    <span class="resource-name">Modern Wisdom with Chris Williamson</span>
-    <div class="resource-icons">
-      <a href="https://modernwisdom.co/" target="_blank" rel="noopener" title="Subscribe to Podcast">🎧</a>
-    </div>
-  </div>
-</div>
-
-#### Happiness & Spirituality
-<div class="resource-list">
-  <div class="resource-item">
-    <span class="resource-name">Know Thyself with Andre Duqum</span>
-    <div class="resource-icons">
-      <a href="https://www.youtube.com/playlist?list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q" target="_blank" rel="noopener" title="Subscribe to Podcast">🎧</a>
-    </div>
-  </div>
-  <div class="resource-item">
-    <span class="resource-name">Aubrey Marcus Podcast</span>
-    <div class="resource-icons">
-      <a href="https://www.aubreymarcus.com/blogs/aubrey-marcus-podcast" target="_blank" rel="noopener" title="Subscribe to Podcast">🎧</a>
-    </div>
-  </div>
-  <div class="resource-item">
-    <span class="resource-name">Think Tank with Robert Edward Grant</span>
-    <div class="resource-icons">
-      <a href="https://robertedwardgrant.com/podcast/" target="_blank" rel="noopener" title="Subscribe to Podcast">🎧</a>
-    </div>
-  </div>
-  <div class="resource-item">
-    <span class="resource-name">The Telepathy Tapes with Ky Dickens</span>
-    <div class="resource-icons">
-      <a href="https://thetelepathytapes.com/" target="_blank" rel="noopener" title="Subscribe to Podcast">🎧</a>
-    </div>
-  </div>
-</div>
-
-#### General Health & Wellness
-<div class="resource-list">
-  <div class="resource-item">
-    <span class="resource-name">The Joe Rogan Experience</span>
-    <div class="resource-icons">
-      <a href="https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk" target="_blank" rel="noopener" title="Subscribe on Spotify">🎵</a>
-    </div>
-  </div>
-</div>
-
-### 👥 Recommended Experts by Category
-
-#### Diet & Nutrition
-<div class="resource-list">
-  <div class="resource-item">
-    <span class="resource-name">Vinnie Tortorich</span>
-    <div class="resource-icons">
-      <a href="https://x.com/VinnieTortorich" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.vinnietalks.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
-    </div>
-  </div>
-  <div class="resource-item">
-    <span class="resource-name">Dr. Zach Bush</span>
-    <div class="resource-icons">
-      <a href="https://x.com/DrZachBush" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://zachbushmd.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
-    </div>
-  </div>
-  <div class="resource-item">
-    <span class="resource-name">Dr. Rangan Chatterjee</span>
-    <div class="resource-icons">
-      <a href="https://x.com/drchatterjeeuk" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://drchatterjee.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
-    </div>
-  </div>
-</div>
-
-#### Exercise & Fitness
-<div class="resource-list">
-  <div class="resource-item">
-    <span class="resource-name">Dr. Sean O'Mara</span>
-    <div class="resource-icons">
-      <a href="https://x.com/DrSeanOMara" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://drseanomara.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
-    </div>
-  </div>
-  <div class="resource-item">
-    <span class="resource-name">Paul Chek</span>
-    <div class="resource-icons">
-      <a href="https://x.com/PaulChek" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://chekinstitute.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
-    </div>
-  </div>
-  <div class="resource-item">
-    <span class="resource-name">Colin O'Brady</span>
-    <div class="resource-icons">
-      <a href="https://x.com/colinobrady" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.colinobrady.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
-    </div>
-  </div>
-</div>
-
-#### Brain Health & Sleep
-<div class="resource-list">
-  <div class="resource-item">
-    <span class="resource-name">Dr. Andrew Huberman</span>
-    <div class="resource-icons">
-      <a href="https://x.com/hubermanlab" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://hubermanlab.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
-    </div>
-  </div>
-  <div class="resource-item">
-    <span class="resource-name">Tim Ferriss</span>
-    <div class="resource-icons">
-      <a href="https://x.com/tferriss" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://tim.blog/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
-    </div>
-  </div>
-  <div class="resource-item">
-    <span class="resource-name">Arthur C. Brooks</span>
+    <span class="resource-name">Arthur C. Brooks <span class="badge badge-brain">Brain</span><span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/arthurbrooks" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
       <a href="https://arthurbrooks.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
   <div class="resource-item">
-    <span class="resource-name">Bruce Lipton</span>
+    <span class="resource-name">Bruce Lipton <span class="badge badge-brain">Brain</span><span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/biologyofbelief" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
       <a href="https://www.brucelipton.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
-</div>
-
-#### Happiness & Spirituality
-<div class="resource-list">
   <div class="resource-item">
-    <span class="resource-name">Joe Dispenza</span>
+    <span class="resource-name">Colin O'Brady <span class="badge badge-fitness">Fitness</span><span class="badge badge-brain">Brain</span></span>
     <div class="resource-icons">
-      <a href="https://x.com/DrJoeDispenza" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://drjoedispenza.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+      <a href="https://x.com/colinobrady" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://www.colinobrady.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
   <div class="resource-item">
-    <span class="resource-name">Sadhguru</span>
+    <span class="resource-name">Dr. Andrew Huberman <span class="badge badge-brain">Brain</span><span class="badge badge-sleep">Sleep</span></span>
     <div class="resource-icons">
-      <a href="https://x.com/SadhguruJV" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://isha.sadhguru.org/us/en" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+      <a href="https://x.com/hubermanlab" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://hubermanlab.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
   <div class="resource-item">
-    <span class="resource-name">Kute Blackson</span>
+    <span class="resource-name">Dr. Rangan Chatterjee <span class="badge badge-nutrition">Nutrition</span><span class="badge badge-health">Health</span></span>
     <div class="resource-icons">
-      <a href="https://x.com/kuteblackson" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://kuteblackson.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+      <a href="https://x.com/drchatterjeeuk" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://drchatterjee.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
   <div class="resource-item">
-    <span class="resource-name">Matias De Stefano</span>
+    <span class="resource-name">Dr. Sean O'Mara <span class="badge badge-fitness">Fitness</span><span class="badge badge-nutrition">Nutrition</span></span>
     <div class="resource-icons">
-      <a href="https://x.com/destefanomatias" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://matiasdestefano.org/en/frontpage/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+      <a href="https://x.com/DrSeanOMara" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://drseanomara.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
   <div class="resource-item">
-    <span class="resource-name">Federico Faggin</span>
+    <span class="resource-name">Dr. Zach Bush <span class="badge badge-nutrition">Nutrition</span><span class="badge badge-health">Health</span></span>
+    <div class="resource-icons">
+      <a href="https://x.com/DrZachBush" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://zachbushmd.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Federico Faggin <span class="badge badge-brain">Brain</span><span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/fedefaggin" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
       <a href="https://www.federicofaggin.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
   <div class="resource-item">
-    <span class="resource-name">James Hollis</span>
+    <span class="resource-name">James Hollis <span class="badge badge-brain">Brain</span><span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://jameshollis.net/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Joe Dispenza <span class="badge badge-spirituality">Spirituality</span><span class="badge badge-brain">Brain</span></span>
+    <div class="resource-icons">
+      <a href="https://x.com/DrJoeDispenza" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://drjoedispenza.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Kute Blackson <span class="badge badge-spirituality">Spirituality</span></span>
+    <div class="resource-icons">
+      <a href="https://x.com/kuteblackson" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://kuteblackson.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Matias De Stefano <span class="badge badge-spirituality">Spirituality</span></span>
+    <div class="resource-icons">
+      <a href="https://x.com/destefanomatias" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://matiasdestefano.org/en/frontpage/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Paul Chek <span class="badge badge-fitness">Fitness</span><span class="badge badge-health">Health</span></span>
+    <div class="resource-icons">
+      <a href="https://x.com/PaulChek" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://chekinstitute.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Sadhguru <span class="badge badge-spirituality">Spirituality</span></span>
+    <div class="resource-icons">
+      <a href="https://x.com/SadhguruJV" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://isha.sadhguru.org/us/en" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Tim Ferriss <span class="badge badge-brain">Brain</span></span>
+    <div class="resource-icons">
+      <a href="https://x.com/tferriss" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://tim.blog/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
+    </div>
+  </div>
+  <div class="resource-item">
+    <span class="resource-name">Vinnie Tortorich <span class="badge badge-nutrition">Nutrition</span><span class="badge badge-fitness">Fitness</span></span>
+    <div class="resource-icons">
+      <a href="https://x.com/VinnieTortorich" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
+      <a href="https://www.vinnietalks.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
 </div>

@@ -1126,6 +1126,19 @@ a.note-card:hover:before { opacity: 1; }
   font-size: 0.95em;
   flex: 1;
   line-height: 1.4;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  .badge {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    font-size: 0.6rem;
+    padding: 2px 6px;
+    top: 0;
+  }
 }
 
 .resource-icons {
@@ -1151,12 +1164,12 @@ a.note-card:hover:before { opacity: 1; }
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
 
-    // Podcast subscription icon
-    &[title*="Subscribe"], &[title*="Spotify"] {
+    // Spotify icon
+    &[title*="Listen on Spotify"], &[title*="Spotify"] {
       &:hover {
-        background: #159957;
+        background: #1ed760;
         color: white;
-        border-color: #159957;
+        border-color: #1ed760;
       }
     }
 
@@ -1203,12 +1216,12 @@ a.note-card:hover:before { opacity: 1; }
     border-color: rgba(255, 255, 255, 0.1);
     color: #e2e8f0;
 
-    // Podcast subscription icon - dark mode
-    &[title*="Subscribe"], &[title*="Spotify"] {
+    // Spotify icon - dark mode
+    &[title*="Listen on Spotify"], &[title*="Spotify"] {
       &:hover {
-        background: #64b5f6;
-        color: #1a202c;
-        border-color: #64b5f6;
+        background: #1ed760;
+        color: white;
+        border-color: #1ed760;
       }
     }
 
