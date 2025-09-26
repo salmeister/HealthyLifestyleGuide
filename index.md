@@ -140,8 +140,6 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
   <li><a href="https://youtube.com/clip/Ugkx5aGBx3qXld3O6Qn1lC4Dj_8O70jW1DcK?si=e-e0h9WpGWpy4UIo" target="_blank" rel="noopener">[Unstoppable] Zach Bush — Eating Together</a></li>
 </ul>
 
----
-
 <div style="text-align: center; margin: 40px 0;">
   <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
     ⬆️ Back to Top
@@ -254,7 +252,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Arthur C. Brooks <span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/arthurbrooks" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/arthurcbrooks/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/arthurcbrooks/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://arthurbrooks.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -262,7 +260,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Bruce Lipton <span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/biologyofbelief" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/brucelipton_official/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/brucelipton_official/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://www.brucelipton.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -270,7 +268,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Colin O'Brady <span class="badge badge-fitness">Fitness</span><span class="badge badge-brain">Brain</span></span>
     <div class="resource-icons">
       <a href="https://x.com/colinobrady" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/colinobrady/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/colinobrady/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://www.colinobrady.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -278,7 +276,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Dr. Andrew Huberman <span class="badge badge-brain">General</span></span>
     <div class="resource-icons">
       <a href="https://x.com/hubermanlab" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/hubermanlab/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/hubermanlab/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://hubermanlab.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -286,7 +284,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Dr. Rangan Chatterjee <span class="badge badge-nutrition">Nutrition</span><span class="badge badge-health">Health</span></span>
     <div class="resource-icons">
       <a href="https://x.com/drchatterjeeuk" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/drchatterjee/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/drchatterjee/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://drchatterjee.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -294,7 +292,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Dr. Sean O'Mara <span class="badge badge-fitness">Fitness</span><span class="badge badge-nutrition">Nutrition</span></span>
     <div class="resource-icons">
       <a href="https://x.com/DrSeanOMara" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/drseanomara/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/drseanomara/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://drseanomara.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -322,7 +320,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Joe Dispenza <span class="badge badge-spirituality">Spirituality</span><span class="badge badge-brain">Brain</span></span>
     <div class="resource-icons">
       <a href="https://x.com/DrJoeDispenza" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/drjoedispenza/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/drjoedispenza/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://drjoedispenza.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -330,7 +328,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Kute Blackson <span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/kuteblackson" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/kuteblackson/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/kuteblackson/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://kuteblackson.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -345,7 +343,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Paul Chek <span class="badge badge-fitness">Fitness</span><span class="badge badge-brain">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/PaulChek" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/paul.chek/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/paul.chek/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://chekinstitute.com/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -353,7 +351,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Sadhguru <span class="badge badge-spirituality">Spirituality</span></span>
     <div class="resource-icons">
       <a href="https://x.com/SadhguruJV" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/sadhguru/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/sadhguru/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://isha.sadhguru.org/us/en" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -361,7 +359,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Tim Ferriss <span class="badge badge-brain">General</span></span>
     <div class="resource-icons">
       <a href="https://x.com/tferriss" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/timferriss/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/timferriss/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://tim.blog/" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
@@ -369,7 +367,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
     <span class="resource-name">Vinnie Tortorich <span class="badge badge-nutrition">Nutrition</span><span class="badge badge-fitness">Fitness</span></span>
     <div class="resource-icons">
       <a href="https://x.com/VinnieTortorich" target="_blank" rel="noopener" title="Follow on X">𝕏</a>
-      <a href="https://www.instagram.com/vinnietortorich/" target="_blank" rel="noopener" title="Follow on Instagram">📷</a>
+      <a href="https://www.instagram.com/vinnietortorich/" target="_blank" rel="noopener" title="Follow on Instagram" class="instagram-icon"></a>
       <a href="https://vinnietortorich.com" target="_blank" rel="noopener" title="Visit Website">🌐</a>
     </div>
   </div>
