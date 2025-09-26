@@ -2,7 +2,7 @@
 title: "The Optimal Morning Routine - Andrew Huberman"
 description: "Learn the science-based optimal morning routine from Dr. Andrew Huberman to enhance alertness, focus, and overall daily performance through foundational behaviors."
 keywords: "morning routine, Andrew Huberman, optimization, neurobiology, daily performance, circadian rhythm, alertness"
-category: "Sleep Optimization"
+category: "Sleep & Rest"
 author: "Dr. Andrew Huberman"
 podcast: "After Skool YouTube"
 date: 2022-09-27
