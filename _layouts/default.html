@@ -102,17 +102,17 @@
             {% assign category_slug = page.category | downcase | replace: ' ', '-' | replace: '&', '' | append: '-' %}
             {% case page.category %}
               {% when 'Diet & Nutrition' %}
-                <li><a href="/#diet-nutrition-">{{ page.category }}</a></li>
+                <li><a href="/#diet-nutrition">{{ page.category }}</a></li>
               {% when 'Health & Wellness' %}
-                <li><a href="/#health-wellness-️">{{ page.category }}</a></li>
+                <li><a href="/#health-wellness">{{ page.category }}</a></li>
               {% when 'Exercise & Fitness' %}
-                <li><a href="/#exercise-fitness-">{{ page.category }}</a></li>
+                <li><a href="/#exercise-fitness">{{ page.category }}</a></li>
               {% when 'Sleep & Rest' %}
-                <li><a href="/#sleep-rest-">{{ page.category }}</a></li>
+                <li><a href="/#sleep-rest">{{ page.category }}</a></li>
               {% when 'Brain & Stress' %}
-                <li><a href="/#brain-stress-">{{ page.category }}</a></li>
+                <li><a href="/#brain-stress">{{ page.category }}</a></li>
               {% when 'Happiness & Spirituality' %}
-                <li><a href="/#happiness-spirituality-">{{ page.category }}</a></li>
+                <li><a href="/#happiness-spirituality">{{ page.category }}</a></li>
               {% else %}
                 <li><a href="/">{{ page.category }}</a></li>
             {% endcase %}
