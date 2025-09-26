@@ -41,7 +41,7 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 
 #### Documentaries
 <div class="note-grid">
-  {% include note-card.html url="/notes/diet/Fat-A-Documentary/" show="Vinnie Tortorich" title="Fat: A Documentary (1)" tags="Nutrition" platform="youtube" %}
+  {% include note-card.html url="/notes/diet/Fat-A-Documentary/" show="Vinnie Tortorich" title="Fat: A Documentary" tags="Nutrition" platform="youtube" %}
   {% include note-card.html url="/notes/diet/Fat-A-Documentary-2/" show="Vinnie Tortorich" title="Fat: A Documentary 2" tags="Nutrition" platform="youtube" %}
 </div>
 
