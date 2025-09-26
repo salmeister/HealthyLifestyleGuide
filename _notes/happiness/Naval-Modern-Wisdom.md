@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=KyfUysrNaco"
 **⏱️ Key Takeaway**: True happiness comes from satisfaction with what you have, while success often requires dissatisfaction
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/KyfUysrNaco/maxresdefault.jpg" alt="Naval Ravikant - 44 Harsh Truths on Modern Wisdom" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=KyfUysrNaco" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/KyfUysrNaco/maxresdefault.jpg" alt="Naval Ravikant - 44 Harsh Truths on Modern Wisdom" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 #### **Happiness vs. Success**

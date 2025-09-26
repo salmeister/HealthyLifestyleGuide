@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=Xk5_8v5qLNo"
 **⏱️ Key Takeaway**: Coconut oil provides ketones that can fuel the brain and potentially help with Alzheimer's disease
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/Xk5_8v5qLNo/maxresdefault.jpg" alt="Dr. Mary Newport - Your Brain on Coconut Oil" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=Xk5_8v5qLNo" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/Xk5_8v5qLNo/maxresdefault.jpg" alt="Dr. Mary Newport - Your Brain on Coconut Oil" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 #### **Introduction**

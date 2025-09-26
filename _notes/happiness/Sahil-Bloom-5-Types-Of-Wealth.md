@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=iNBoeOGMHTE"
 **⏱️ Key Takeaway**: True wealth encompasses health, relationships, time, knowledge, and experiences - not just financial assets
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/iNBoeOGMHTE/maxresdefault.jpg" alt="Sahil Bloom - 5 Types of Wealth on The Genius Life" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=iNBoeOGMHTE" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/iNBoeOGMHTE/maxresdefault.jpg" alt="Sahil Bloom - 5 Types of Wealth on The Genius Life" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 - **Host**: Max Lugavere
 - **Guest**: Sahil Bloom, author and entrepreneur exploring wealth beyond finances.

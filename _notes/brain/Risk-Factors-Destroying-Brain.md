@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=RUApBlqr7FM"
 **⏱️ Key Takeaway**: Mental health issues are often brain health issues that can be diagnosed and treated through brain imaging
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/RUApBlqr7FM/maxresdefault.jpg" alt="Dr. Daniel Amen on Modern Wisdom - Brain Health" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=RUApBlqr7FM" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/RUApBlqr7FM/maxresdefault.jpg" alt="Dr. Daniel Amen on Modern Wisdom - Brain Health" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 #### **Introduction**

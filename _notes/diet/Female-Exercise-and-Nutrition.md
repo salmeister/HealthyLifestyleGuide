@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=pZX8ikmWvEU"
 **⏱️ Key Takeaway**: Women are not small men - they require specialized nutrition and exercise approaches based on their unique hormonal physiology
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/pZX8ikmWvEU/maxresdefault.jpg" alt="Dr. Stacy Sims on Huberman Lab - Female Exercise & Nutrition" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=pZX8ikmWvEU" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/pZX8ikmWvEU/maxresdefault.jpg" alt="Dr. Stacy Sims on Huberman Lab - Female Exercise & Nutrition" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 - **Host:** Andrew Huberman, Professor of Neurobiology and Ophthalmology at Stanford School of Medicine.

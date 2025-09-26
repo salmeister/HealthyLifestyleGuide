@@ -16,7 +16,9 @@ link: "https://www.youtube.com/watch?v=oFmNKGL0gU0"
 **⏱️ Key Takeaway**: Taking ownership of your health and happiness requires intentional design and consistent action
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://img.youtube.com/vi/oFmNKGL0gU0/maxresdefault.jpg" alt="Dr. Rangan Chatterjee - Architect Your Life on Know Thyself Podcast" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=oFmNKGL0gU0" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/oFmNKGL0gU0/maxresdefault.jpg" alt="Dr. Rangan Chatterjee - Architect Your Life on Know Thyself Podcast" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </a>
 </div>
 
 1. **Personal Empowerment:**
