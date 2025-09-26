@@ -1312,3 +1312,16 @@ a.note-card:hover:before { opacity: 1; }
     }
   }
 }
+
+// Instagram icon styling - camera emoji with Instagram brand color
+a[href*="instagram.com"] {
+  color: #E4405F !important;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 8px rgba(228, 64, 95, 0.6));
+  }
+}
