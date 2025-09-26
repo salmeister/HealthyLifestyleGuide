@@ -140,28 +140,224 @@ image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
   <li><a href="https://youtube.com/clip/Ugkx5aGBx3qXld3O6Qn1lC4Dj_8O70jW1DcK?si=e-e0h9WpGWpy4UIo" target="_blank" rel="noopener">[Unstoppable] Zach Bush — Eating Together</a></li>
 </ul>
 
-### Recommended Podcasts
-<ul>
-  <li><a href="https://thetelepathytapes.com/" target="_blank" rel="noopener">[The Telepathy Tapes] – Ky Dickens</a></li>
-  <li><a href="https://www.youtube.com/playlist?list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q" target="_blank" rel="noopener">[Know Thyself] – Andre Duqum</a></li>
-  <li><a href="https://www.aubreymarcus.com/blogs/aubrey-marcus-podcast" target="_blank" rel="noopener">[Aubrey Marcus Podcast] – Aubrey Marcus</a></li>
-  <li><a href="https://robertedwardgrant.com/podcast/" target="_blank" rel="noopener">[Think Tank] – Robert Edward Grant</a></li>
-  <li><a href="https://www.richroll.com/all-episodes/" target="_blank" rel="noopener">[The Rich Roll Podcast] – Rich Roll</a></li>
-</ul>
+---
 
-### Recommended Experts
-- [Zach Bush](https://x.com/DrZachBush) [🔗](https://zachbushmd.com/) 
-- [Kute Blackson](https://x.com/kuteblackson) [🔗](https://kuteblackson.com/)
-- [Federico Faggin](https://x.com/fedefaggin) [🔗](https://www.federicofaggin.com/)
-- [Paul Chek](https://x.com/PaulChek) [🔗](https://chekinstitute.com/)
-- [Joe Dispenza](https://x.com/DrJoeDispenza) [🔗](https://drjoedispenza.com/)
-- [Bruce Lipton](https://x.com/biologyofbelief) [🔗](https://www.brucelipton.com/)
-- [Sadhguru](https://x.com/SadhguruJV) [🔗](https://isha.sadhguru.org/us/en)
-- [Arthur C. Brooks](https://x.com/arthurbrooks) [🔗](https://arthurbrooks.com/)
-- [Matias De Stefano](https://x.com/destefanomatias) [🔗](https://matiasdestefano.org/en/frontpage/)
-- James Hollis [🔗](https://jameshollis.net/)
-- [Colin O'Brady](https://x.com/colinobrady) [🔗](https://www.colinobrady.com/)
-- [Rangan Chatterjee](https://x.com/drchatterjeeuk) [🔗](https://drchatterjee.com/)
+## 📚 Resource Appendix
+
+### 🎧 Recommended Podcasts by Category
+*Subscribe to these expert-curated shows for deeper insights*
+
+#### Diet & Nutrition
+<div class="resource-grid">
+  <div class="resource-card">
+    <strong>Fitness Confidential</strong> with Vinnie Tortorich<br>
+    <span class="resource-description">NSNG lifestyle and sugar-free living</span><br>
+    <a href="https://www.vinnietalks.com/" target="_blank" rel="noopener" class="resource-link">🎧 Subscribe</a>
+  </div>
+  <div class="resource-card">
+    <strong>The Rich Roll Podcast</strong><br>
+    <span class="resource-description">Plant-based nutrition and peak performance</span><br>
+    <a href="https://www.richroll.com/all-episodes/" target="_blank" rel="noopener" class="resource-link">🎧 Subscribe</a>
+  </div>
+</div>
+
+#### Brain Health & Sleep Optimization  
+<div class="resource-grid">
+  <div class="resource-card">
+    <strong>Huberman Lab</strong> with Andrew Huberman<br>
+    <span class="resource-description">Neuroscience protocols for optimization</span><br>
+    <a href="https://hubermanlab.com/" target="_blank" rel="noopener" class="resource-link">🎧 Subscribe</a>
+  </div>
+  <div class="resource-card">
+    <strong>The Tim Ferriss Show</strong><br>
+    <span class="resource-description">Peak performance and life optimization</span><br>
+    <a href="https://tim.blog/podcast/" target="_blank" rel="noopener" class="resource-link">🎧 Subscribe</a>
+  </div>
+  <div class="resource-card">
+    <strong>Modern Wisdom</strong> with Chris Williamson<br>
+    <span class="resource-description">Psychology, philosophy, and self-improvement</span><br>
+    <a href="https://modernwisdom.co/" target="_blank" rel="noopener" class="resource-link">🎧 Subscribe</a>
+  </div>
+</div>
+
+#### Happiness & Spirituality
+<div class="resource-grid">
+  <div class="resource-card">
+    <strong>Know Thyself</strong> with Andre Duqum<br>
+    <span class="resource-description">Consciousness and spiritual awakening</span><br>
+    <a href="https://www.youtube.com/playlist?list=PLcdXvEekPv1GRqbvjVf41TrYQhjHRO1_q" target="_blank" rel="noopener" class="resource-link">🎧 Subscribe</a>
+  </div>
+  <div class="resource-card">
+    <strong>Aubrey Marcus Podcast</strong><br>
+    <span class="resource-description">Human optimization and consciousness</span><br>
+    <a href="https://www.aubreymarcus.com/blogs/aubrey-marcus-podcast" target="_blank" rel="noopener" class="resource-link">🎧 Subscribe</a>
+  </div>
+  <div class="resource-card">
+    <strong>Think Tank</strong> with Robert Edward Grant<br>
+    <span class="resource-description">Sacred geometry and consciousness</span><br>
+    <a href="https://robertedwardgrant.com/podcast/" target="_blank" rel="noopener" class="resource-link">🎧 Subscribe</a>
+  </div>
+  <div class="resource-card">
+    <strong>The Telepathy Tapes</strong> with Ky Dickens<br>
+    <span class="resource-description">Exploring extraordinary human abilities</span><br>
+    <a href="https://thetelepathytapes.com/" target="_blank" rel="noopener" class="resource-link">🎧 Subscribe</a>
+  </div>
+</div>
+
+#### General Health & Wellness
+<div class="resource-grid">
+  <div class="resource-card">
+    <strong>The Joe Rogan Experience</strong><br>
+    <span class="resource-description">Long-form conversations with health experts</span><br>
+    <a href="https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk" target="_blank" rel="noopener" class="resource-link">🎧 Subscribe</a>
+  </div>
+</div>
+
+### 👥 Recommended Experts by Category
+*Follow these thought leaders for cutting-edge insights*
+
+#### Diet & Nutrition
+<div class="expert-grid">
+  <div class="expert-card">
+    <strong>Vinnie Tortorich</strong><br>
+    <span class="expert-specialty">NSNG Lifestyle & Sugar-Free Living</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/VinnieTortorich" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://www.vinnietalks.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>Dr. Zach Bush</strong><br>
+    <span class="expert-specialty">Gut Health & Regenerative Medicine</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/DrZachBush" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://zachbushmd.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>Dr. Rangan Chatterjee</strong><br>
+    <span class="expert-specialty">Lifestyle Medicine & Nutrition</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/drchatterjeeuk" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://drchatterjee.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+</div>
+
+#### Exercise & Fitness
+<div class="expert-grid">
+  <div class="expert-card">
+    <strong>Dr. Sean O'Mara</strong><br>
+    <span class="expert-specialty">Body Composition & Fat Loss</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/DrSeanOMara" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://drseanomara.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>Paul Chek</strong><br>
+    <span class="expert-specialty">Holistic Health & Movement</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/PaulChek" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://chekinstitute.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>Colin O'Brady</strong><br>
+    <span class="expert-specialty">Endurance & Mental Resilience</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/colinobrady" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://www.colinobrady.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+</div>
+
+#### Brain Health & Sleep
+<div class="expert-grid">
+  <div class="expert-card">
+    <strong>Dr. Andrew Huberman</strong><br>
+    <span class="expert-specialty">Neuroscience & Sleep Optimization</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/hubermanlab" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://hubermanlab.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>Tim Ferriss</strong><br>
+    <span class="expert-specialty">Performance Optimization & Biohacking</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/tferriss" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://tim.blog/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>Arthur C. Brooks</strong><br>
+    <span class="expert-specialty">Happiness Research & Psychology</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/arthurbrooks" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://arthurbrooks.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>Bruce Lipton</strong><br>
+    <span class="expert-specialty">Epigenetics & Mind-Body Connection</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/biologyofbelief" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://www.brucelipton.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+</div>
+
+#### Happiness & Spirituality
+<div class="expert-grid">
+  <div class="expert-card">
+    <strong>Joe Dispenza</strong><br>
+    <span class="expert-specialty">Meditation & Consciousness</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/DrJoeDispenza" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://drjoedispenza.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>Sadhguru</strong><br>
+    <span class="expert-specialty">Yoga & Spiritual Wisdom</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/SadhguruJV" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://isha.sadhguru.org/us/en" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>Kute Blackson</strong><br>
+    <span class="expert-specialty">Spiritual Transformation</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/kuteblackson" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://kuteblackson.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>Matias De Stefano</strong><br>
+    <span class="expert-specialty">Ancient Wisdom & Consciousness</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/destefanomatias" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://matiasdestefano.org/en/frontpage/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>Federico Faggin</strong><br>
+    <span class="expert-specialty">Consciousness & Quantum Physics</span><br>
+    <div class="expert-links">
+      <a href="https://x.com/fedefaggin" target="_blank" rel="noopener" class="social-link">𝕏 Follow</a>
+      <a href="https://www.federicofaggin.com/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+  <div class="expert-card">
+    <strong>James Hollis</strong><br>
+    <span class="expert-specialty">Jungian Psychology & Personal Growth</span><br>
+    <div class="expert-links">
+      <a href="https://jameshollis.net/" target="_blank" rel="noopener" class="website-link">🔗 Website</a>
+    </div>
+  </div>
+</div>
 
 <div style="text-align: center; margin: 40px 0;">
   <a href="#" style="background: #159957; color: white; padding: 12px 24px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.background='#1e7e34'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#159957'; this.style.transform='translateY(0)'">
