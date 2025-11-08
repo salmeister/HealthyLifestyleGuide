@@ -12,11 +12,31 @@ layout: null
     <priority>1.0</priority>
   </url>
   
+  <!-- Category Pages -->
+  <url>
+    <loc>{{ site.url }}/nutrition/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/fitness/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/sleep/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
   <!-- Notes/Articles -->
   {% for note in site.notes %}
   <url>
     <loc>{{ note.url | absolute_url }}</loc>
-    <lastmod>{% if note.date %}{{ note.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
+    <lastmod>{% if note.lastmod %}{{ note.lastmod | date_to_xmlschema }}{% elsif note.date %}{{ note.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     {% if note.image %}

@@ -177,13 +177,17 @@
           {% endif %}
           <div class="article-meta">
             {% if page.author %}<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
-            {% if page.date %}<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% endif %}
+            {% if page.date %}<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">Published: {{ page.date | date: "%B %d, %Y" }}</time>{% endif %}
+            {% if page.lastmod %}<time itemprop="dateModified" datetime="{{ page.lastmod | date_to_xmlschema }}"> • Updated: {{ page.lastmod | date: "%B %d, %Y" }}</time>{% endif %}
           </div>
         </header>
         
         <div itemprop="articleBody">
           {{ content }}
         </div>
+
+        <!-- Related Articles Section -->
+        {% include related-articles.html %}
 
       </article>
       {% else %}

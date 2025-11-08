@@ -1,0 +1,34 @@
+<!-- Related Articles Component -->
+{% if page.collection == 'notes' %}
+  {% assign related_limit = 3 %}
+  {% assign related_count = 0 %}
+  {% assign current_category = page.category %}
+  {% assign current_path = page.path %}
+  
+  <!-- Find related articles from the same category -->
+  {% assign related_posts = '' | split: '' %}
+  {% for note in site.notes %}
+    {% if note.category == current_category and note.path != current_path %}
+      {% assign related_posts = related_posts | push: note %}
+    {% endif %}
+  {% endfor %}
+  
+  {% if related_posts.size > 0 %}
+  <aside class="related-articles" role="complementary" aria-labelledby="related-heading">
+    <h2 id="related-heading">Related Articles</h2>
+    <div class="related-articles-grid">
+      {% for post in related_posts limit:related_limit %}
+      <article class="related-article-card">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        {% if post.description %}
+        <p class="related-description">{{ post.description | truncate: 120 }}</p>
+        {% endif %}
+        {% if post.author %}
+        <p class="related-author">By {{ post.author }}</p>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </aside>
+  {% endif %}
+{% endif %}

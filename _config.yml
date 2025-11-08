@@ -25,6 +25,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+# Feed Settings
+feed:
+  categories:
+    - notes
+  excerpt_only: false
+  
 # Collections
 collections:
   notes:
