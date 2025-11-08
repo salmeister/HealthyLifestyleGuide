@@ -1327,3 +1327,120 @@ a[href*="instagram.com"] {
     filter: drop-shadow(0 0 8px rgba(228, 64, 95, 0.6));
   }
 }
+// Related Articles Section
+.related-articles {
+  margin: 60px 0 40px 0;
+  padding: 30px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  border-left: 4px solid #159957;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    color: #159957;
+    font-size: 1.8em;
+    margin: 0 0 25px 0;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .related-articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .related-article-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(21, 153, 87, 0.1);
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 16px rgba(21, 153, 87, 0.2);
+    }
+
+    h3 {
+      margin: 0 0 10px 0;
+      font-size: 1.2em;
+
+      a {
+        color: #159957;
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #0d6e3d;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .related-description {
+      color: #666;
+      font-size: 0.9em;
+      line-height: 1.5;
+      margin: 10px 0;
+    }
+
+    .related-author {
+      color: #999;
+      font-size: 0.85em;
+      font-style: italic;
+      margin: 10px 0 0 0;
+    }
+  }
+}
+
+// Dark mode for related articles
+.dark-mode .related-articles {
+  background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+  border-left-color: #64b5f6;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+  h2 {
+    color: #64b5f6;
+  }
+
+  .related-article-card {
+    background: #2d2d2d;
+    border-color: rgba(100, 181, 246, 0.2);
+
+    &:hover {
+      box-shadow: 0 4px 16px rgba(100, 181, 246, 0.3);
+    }
+
+    h3 a {
+      color: #64b5f6;
+
+      &:hover {
+        color: #90caf9;
+      }
+    }
+
+    .related-description {
+      color: #bbb;
+    }
+
+    .related-author {
+      color: #888;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .related-articles {
+    padding: 20px;
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    .related-articles-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}

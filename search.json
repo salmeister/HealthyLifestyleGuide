@@ -7,7 +7,12 @@ layout: null
   {
     "url": "{{ note.url | relative_url }}",
     "content": {{ note.content | strip_html | strip_newlines | normalize_whitespace | jsonify }},
-    "title": {{ note.title | jsonify }}
+    "title": {{ note.title | jsonify }},
+    "description": "{% if note.description %}{{ note.description }}{% elsif note.excerpt %}{{ note.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}",
+    "category": "{{ note.category }}",
+    "author": "{{ note.author }}",
+    "keywords": "{{ note.keywords }}",
+    "date": "{% if note.date %}{{ note.date | date: '%B %d, %Y' }}{% endif %}"
   }
   {% endfor %}
 ]

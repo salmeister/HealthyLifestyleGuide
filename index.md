@@ -4,6 +4,15 @@ title: "Thriving Healthy - Nutrition, Fitness & Wellness Tips"
 description: "Discover evidence-based health and wellness resources. Expert-curated content on nutrition, fitness, mental health, sleep optimization, and sustainable lifestyle changes."
 keywords: "healthy lifestyle, nutrition tips, fitness guide, mental health, wellness, diet advice, exercise routines, sleep optimization, stress management"
 image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
+faq:
+  - question: "What types of health topics does Thriving Healthy cover?"
+    answer: "We cover six core wellness areas: Diet & Nutrition (fasting, keto, whole foods), Exercise & Fitness (strength training, mobility), Sleep & Rest (optimization, morning routines), Brain & Stress (cognitive health, breathing techniques), Health & Wellness (holistic approaches), and Happiness & Spirituality (mindfulness, life purpose)."
+  - question: "Are the health resources on this site evidence-based?"
+    answer: "Yes, all content is curated from credentialed experts like Dr. Andrew Huberman, Dr. Rhonda Patrick, Dr. Mindy Pelz, and others who reference scientific research and have demonstrated real-world results."
+  - question: "How can I use this guide effectively?"
+    answer: "Browse by category based on your health goals, read AI-enhanced summaries for quick insights, explore original content that resonates with you, implement 1-2 actionable items at a time, and return to summaries as quick reference guides."
+  - question: "Is this website suitable for beginners?"
+    answer: "Absolutely! We organize complex health topics into accessible categories with summaries that highlight practical, actionable steps suitable for all levels from beginners to advanced health enthusiasts."
 ---
 
 <div class="quick-navigation">
