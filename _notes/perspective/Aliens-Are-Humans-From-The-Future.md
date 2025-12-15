@@ -6,7 +6,7 @@ category: "Perspective"
 author: "Dr. Michael Masters, David Grusch"
 podcast: "American Alchemy"
 date: 2023-11-11
-link: "https://www.youtube.com/watch?v=[VIDEO_ID]"
+link: "https://www.youtube.com/watch?v=Y26iMB0r-f8"
 ---
 
 ## Overview
@@ -16,8 +16,8 @@ link: "https://www.youtube.com/watch?v=[VIDEO_ID]"
 **⏱️ Key Takeaway**: The most parsimonious explanation for UFO phenomena isn't extraterrestrial visitation—it's time-traveling humans from our own future, evidenced by humanoid morphology, reproductive compatibility, and the nature of the craft themselves as time machines
 
 <div style="text-align: center; margin: 20px 0;">
-  <a href="https://www.youtube.com/watch?v=[VIDEO_ID]" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com/vi/[VIDEO_ID]/maxresdefault.jpg" alt="American Alchemy - Aliens Are Humans From The Future" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <a href="https://www.youtube.com/watch?v=Y26iMB0r-f8" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/Y26iMB0r-f8/maxresdefault.jpg" alt="American Alchemy - Aliens Are Humans From The Future" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </a>
 </div>
 
