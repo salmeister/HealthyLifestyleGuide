@@ -69,7 +69,11 @@ layout: null
   {% for note in site.notes %}
   <url>
     <loc>{{ note.url | absolute_url }}</loc>
-    <lastmod>{% if note.lastmod %}{{ note.lastmod | date_to_xmlschema }}{% elsif note.date %}{{ note.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
+    {% if note.lastmod %}
+    <lastmod>{{ note.lastmod | date_to_xmlschema }}</lastmod>
+    {% elsif note.date %}
+    <lastmod>{{ note.date | date_to_xmlschema }}</lastmod>
+    {% endif %}
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     {% if note.image %}
