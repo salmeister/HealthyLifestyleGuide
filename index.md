@@ -1,18 +1,24 @@
 ---
 layout: default
-title: "Thriving Healthy - Nutrition, Fitness & Wellness Tips"
-description: "Discover evidence-based health and wellness resources. Expert-curated content on nutrition, fitness, mental health, sleep optimization, and sustainable lifestyle changes."
-keywords: "healthy lifestyle, nutrition tips, fitness guide, mental health, wellness, diet advice, exercise routines, sleep optimization, stress management"
+title: "Thriving Healthy - Expert Health & Wellness Summaries (2025)"
+description: "Get instant insights from top health podcasts by Dr. Huberman, Dr. Mindy Pelz, Joe Rogan & more. AI-powered summaries on fasting, nutrition, fitness, sleep & brain health."
+keywords: "health podcast summaries, Andrew Huberman notes, Dr Mindy Pelz fasting, nutrition tips, fitness guide, mental health, wellness, diet advice, exercise routines, sleep optimization, stress management, Joe Rogan health episodes"
 image: "/assets/images/thehealthylifestyleguide-thumbnail.png"
 faq:
   - question: "What types of health topics does Thriving Healthy cover?"
-    answer: "We cover six core wellness areas: Diet & Nutrition (fasting, keto, whole foods), Exercise & Fitness (strength training, mobility), Sleep & Rest (optimization, morning routines), Brain & Stress (cognitive health, breathing techniques), Health & Wellness (holistic approaches), and Happiness & Spirituality (mindfulness, life purpose)."
+    answer: "We cover seven core wellness areas: Diet & Nutrition (fasting, keto, whole foods), Exercise & Fitness (strength training, mobility), Sleep & Rest (optimization, morning routines), Brain & Stress (cognitive health, breathing techniques), Health & Wellness (holistic approaches), Happiness & Spirituality (mindfulness, life purpose), and Perspective (UAP, consciousness, alternate realities)."
   - question: "Are the health resources on this site evidence-based?"
     answer: "Yes, all content is curated from credentialed experts like Dr. Andrew Huberman, Dr. Rhonda Patrick, Dr. Mindy Pelz, and others who reference scientific research and have demonstrated real-world results."
   - question: "How can I use this guide effectively?"
     answer: "Browse by category based on your health goals, read AI-enhanced summaries for quick insights, explore original content that resonates with you, implement 1-2 actionable items at a time, and return to summaries as quick reference guides."
   - question: "Is this website suitable for beginners?"
     answer: "Absolutely! We organize complex health topics into accessible categories with summaries that highlight practical, actionable steps suitable for all levels from beginners to advanced health enthusiasts."
+  - question: "What is intermittent fasting and how does it work?"
+    answer: "Intermittent fasting is a time-restricted eating pattern where you cycle between periods of eating and fasting. Common approaches include 16:8 (16 hours fasting, 8 hours eating) or one meal a day (OMAD). Benefits include improved insulin sensitivity, cellular repair through autophagy, weight management, and enhanced mental clarity."
+  - question: "How can I improve my sleep quality naturally?"
+    answer: "Key strategies include maintaining consistent sleep and wake times, getting morning sunlight exposure within 30 minutes of waking, avoiding screens 1-2 hours before bed, keeping your bedroom cool (65-68°F), limiting caffeine after noon, and practicing relaxation techniques like diaphragmatic breathing."
+  - question: "What are the best foods for brain health?"
+    answer: "Top brain-boosting foods include fatty fish (omega-3s), blueberries and dark berries, leafy greens, nuts and seeds, eggs (choline), olive oil, and dark chocolate. Avoid ultra-processed foods, excess sugar, and industrial seed oils which can impair cognitive function."
 ---
 
 <div class="quick-navigation">
@@ -23,6 +29,7 @@ faq:
   <li><a href="#sleep-rest">Sleep & Rest</a></li>
   <li><a href="#brain-stress">Brain & Stress</a></li>
   <li><a href="#happiness-spirituality">Happiness & Spirituality</a></li>
+  <li><a href="#perspective">Perspective</a></li>
   </ul>
 </div>
 
@@ -146,6 +153,17 @@ faq:
 <div class="note-grid">
   {% include note-card.html url="https://youtube.com/clip/Ugkx1mJ0yyrcWatebI5KA_ByXTdwd3c0mabA?si=BETEpvHDvMyG7F9Q" show="Unstoppable" title="Zach Bush — Rabbits and Pesticides Study" tags="Nutrition,Spirituality" platform="youtube" %}
   {% include note-card.html url="https://youtube.com/clip/Ugkx5aGBx3qXld3O6Qn1lC4Dj_8O70jW1DcK?si=e-e0h9WpGWpy4UIo" show="Unstoppable" title="Zach Bush — Eating Together" tags="Nutrition,Spirituality" platform="youtube" %}
+</div>
+
+## Perspective {#perspective}
+{% include tag-badges.html tags="Perspective" %}
+*You are not the center of the Earth, the Earth is not the center of the solar system, the solar system is not the center of the universe*
+
+#### Podcast Episodes
+<div class="note-grid">
+  {% include note-card.html url="/notes/perspective/Immaculate-Constellation-Whistleblower/" show="Weaponized" title="Matthew Brown – Immaculate Constellation: A Whistleblower Honors His Oath" tags="Perspective" platform="youtube" %}
+  {% include note-card.html url="/notes/perspective/Dylan-Borland-Legacy-UFO-Programs/" show="Weaponized" title="Dylan Borland – The Truth About Legacy UFO Programs" tags="Perspective" platform="youtube" %}
+  {% include note-card.html url="/notes/perspective/Aliens-Are-Humans-From-The-Future/" show="American Alchemy" title="Dr. Michael Masters – Aliens Are Humans From The Future" tags="Perspective" platform="youtube" %}
 </div>
 
 <div style="text-align: center; margin: 40px 0;">

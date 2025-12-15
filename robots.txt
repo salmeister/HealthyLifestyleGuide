@@ -1,25 +1,27 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Sitemap location
 Sitemap: https://thrivinghealthy.com/sitemap.xml
 
-# Block access to search results and admin areas
+# RSS Feed
+Allow: /feed.xml
+
+# Block access to internal/system areas
 Disallow: /search
 Disallow: /admin/
 Disallow: /_includes/
 Disallow: /_layouts/
 Disallow: /_sass/
+Disallow: /assets/js/
+Disallow: /*.json$
 
-# Allow crawling of important directories
+# Allow crawling of important content directories
 Allow: /notes/
-Allow: /assets/
-Allow: /images/
-Allow: /nutrition/
-Allow: /fitness/
-Allow: /sleep/
+Allow: /assets/images/
+Allow: /assets/css/
 
-# Crawl delay (optional - helps prevent overwhelming the server)
+# Crawl delay (helps prevent overwhelming the server)
 Crawl-delay: 1
 
 # Google-specific directives
@@ -27,7 +29,47 @@ User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
 
+# Google Images - allow all images
+User-agent: Googlebot-Image
+Allow: /assets/images/
+Allow: /
+
 # Bing-specific directives
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
+
+# Bing Images
+User-agent: BingPreview
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Facebook/Meta crawler
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter card crawler
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn crawler
+User-agent: LinkedInBot
+Allow: /
+
+# Pinterest
+User-agent: Pinterest
+Allow: /
+
+# Block AI training crawlers (optional - uncomment if desired)
+# User-agent: GPTBot
+# Disallow: /
+# User-agent: ChatGPT-User
+# Disallow: /
+# User-agent: CCBot
+# Disallow: /
+# User-agent: anthropic-ai
+# Disallow: /
