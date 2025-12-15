@@ -3,6 +3,12 @@
 <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}healthy lifestyle, nutrition, fitness, mental health, wellness, diet, exercise, sleep, mindfulness{% endif %}">
 <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="google-site-verification" content="pK7iLpeX8Y3Sin8eslaBzFhw2Sx9HQqPmZ41Lgc7e58">
+
+<!-- Mobile & PWA Enhancements -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Thriving Healthy">
+<meta name="format-detection" content="telephone=no">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="{% if page.layout == 'post' or page.collection == 'notes' %}article{% else %}website{% endif %}">
@@ -43,6 +49,44 @@
 <link rel="preconnect" href="https://www.googletagmanager.com">
 
 <!-- JSON-LD Structured Data -->
+
+<!-- Organization Schema - Critical for E-E-A-T -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "{{ site.url }}/#organization",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://thrivinghealthy.com/assets/images/thehealthylifestyleguide-thumbnail.png",
+    "width": 600,
+    "height": 60
+  },
+  "description": "{{ site.description | escape }}",
+  "sameAs": [
+    "https://twitter.com/thrivinghealth"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "url": "{{ site.url }}/about/"
+  },
+  "foundingDate": "2024",
+  "knowsAbout": [
+    "Nutrition",
+    "Fitness",
+    "Mental Health",
+    "Sleep Optimization",
+    "Fasting",
+    "Brain Health",
+    "Wellness",
+    "Holistic Health"
+  ]
+}
+</script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -85,6 +129,44 @@
   {% endif %}
 }
 </script>
+
+<!-- VideoObject Schema for YouTube Content -->
+{% if page.collection == 'notes' and page.link %}
+{% assign link_url = page.link | downcase %}
+{% if link_url contains 'youtube.com' or link_url contains 'youtu.be' %}
+{% if page.link contains 'v=' %}
+{% assign video_id = page.link | split: 'v=' | last | split: '&' | first %}
+{% elsif page.link contains 'youtu.be/' %}
+{% assign video_id = page.link | split: 'youtu.be/' | last | split: '?' | first %}
+{% endif %}
+{% if video_id %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "{{ page.title | escape }}",
+  "description": "{% if page.description %}{{ page.description | escape }}{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | escape }}{% endif %}",
+  "thumbnailUrl": "https://img.youtube.com/vi/{{ video_id }}/maxresdefault.jpg",
+  "uploadDate": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "contentUrl": "{{ page.link }}",
+  "embedUrl": "https://www.youtube.com/embed/{{ video_id }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://thrivinghealthy.com/assets/images/thehealthylifestyleguide-thumbnail.png"
+    }
+  },
+  "potentialAction": {
+    "@type": "WatchAction",
+    "target": "{{ page.link }}"
+  }
+}
+</script>
+{% endif %}
+{% endif %}
+{% endif %}
 
 <!-- BreadcrumbList Schema -->
 {% if page.collection == 'notes' %}
@@ -138,11 +220,129 @@
   ]
 }
 </script>
+
+<!-- ItemList Schema for Category Navigation -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Health & Wellness Categories",
+  "description": "Browse expert-curated health content organized by category",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Diet & Nutrition",
+      "url": "{{ site.url }}/#diet-nutrition",
+      "description": "Evidence-based nutritional guidance including fasting, keto, and whole foods"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Health & Wellness",
+      "url": "{{ site.url }}/#health-wellness",
+      "description": "Comprehensive approaches to optimal health and disease prevention"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Exercise & Fitness",
+      "url": "{{ site.url }}/#exercise-fitness",
+      "description": "Science-backed exercise strategies for strength, mobility, and longevity"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Sleep & Rest",
+      "url": "{{ site.url }}/#sleep-rest",
+      "description": "Master your sleep for enhanced recovery, performance, and health"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Brain & Stress",
+      "url": "{{ site.url }}/#brain-stress",
+      "description": "Optimize cognitive function and build resilience against stress"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Happiness & Spirituality",
+      "url": "{{ site.url }}/#happiness-spirituality",
+      "description": "Cultivate mental well-being and find meaning in your health journey"
+    }
+  ]
+}
+</script>
+{% endif %}
+
+<!-- CollectionPage Schema for Notes Collection -->
+{% if page.url == '/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ page.title | escape }}",
+  "description": "{{ page.description | escape }}",
+  "url": "{{ site.url }}",
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ site.notes.size }},
+    "itemListElement": [
+      {% for note in site.notes limit: 10 %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": "{{ note.url | absolute_url }}",
+        "name": "{{ note.title | escape }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  "about": [
+    {"@type": "Thing", "name": "Nutrition"},
+    {"@type": "Thing", "name": "Fitness"},
+    {"@type": "Thing", "name": "Mental Health"},
+    {"@type": "Thing", "name": "Sleep"},
+    {"@type": "Thing", "name": "Wellness"}
+  ]
+}
+</script>
 {% endif %}
 
 <!-- Search functionality -->
 <script src="https://unpkg.com/lunr/lunr.js" defer></script>
 <script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>
+
+<!-- Speakable Schema for Google Assistant / Voice Search -->
+{% if page.collection == 'notes' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".article-meta", "h1", "h2", ".note-card-title", "blockquote"]
+  },
+  "url": "{{ page.url | absolute_url }}"
+}
+</script>
+{% endif %}
+
+<!-- Person Schema for Expert Authors -->
+{% if page.author and page.collection == 'notes' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/#author-{{ page.author | slugify }}",
+  "name": "{{ page.author | escape }}",
+  "jobTitle": "Health Expert",
+  "url": "{{ page.url | absolute_url }}",
+  "sameAs": []
+}
+</script>
+{% endif %}
 
 <!-- Enhanced Analytics and Tracking -->
 {% include analytics.html %}
