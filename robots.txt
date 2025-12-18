@@ -7,19 +7,19 @@ Sitemap: https://thrivinghealthy.com/sitemap.xml
 # RSS Feed
 Allow: /feed.xml
 
-# Block access to internal/system areas
-Disallow: /search
+# Allow crawling of content and assets
+Allow: /notes/
+Allow: /assets/
+Allow: /about
+Allow: /nutrition
+Allow: /fitness
+Allow: /sleep
+
+# Block access to Jekyll internal directories
 Disallow: /admin/
 Disallow: /_includes/
 Disallow: /_layouts/
 Disallow: /_sass/
-Disallow: /assets/js/
-Disallow: /*.json$
-
-# Allow crawling of important content directories
-Allow: /notes/
-Allow: /assets/images/
-Allow: /assets/css/
 
 # Crawl delay (helps prevent overwhelming the server)
 Crawl-delay: 1
