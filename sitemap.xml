@@ -8,7 +8,7 @@ layout: null
   <!-- Homepage - Highest Priority -->
   <url>
     <loc>{{ site.url | replace: "www.", "" }}/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -16,7 +16,7 @@ layout: null
   <!-- About Page -->
   <url>
     <loc>{{ site.url | replace: "www.", "" }}/about/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -28,11 +28,11 @@ layout: null
   <url>
     <loc>{{ note.url | absolute_url | replace: "www.", "" }}</loc>
     {% if note.lastmod %}
-    <lastmod>{{ note.lastmod | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ note.lastmod | date: "%Y-%m-%d" }}</lastmod>
     {% elsif note.date %}
-    <lastmod>{{ note.date | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ note.date | date: "%Y-%m-%d" }}</lastmod>
     {% else %}
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     {% endif %}
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -66,7 +66,7 @@ layout: null
     {% unless page.url contains '/404' or page.url == '/' or page.url contains 'sitemap' or page.url contains 'robots' or page.url contains 'feed' or page.url contains '.json' %}
     <url>
       <loc>{{ page.url | absolute_url | replace: "www.", "" }}</loc>
-      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
