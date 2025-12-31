@@ -7,7 +7,7 @@ layout: null
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <!-- Homepage - Highest Priority -->
   <url>
-    <loc>{{ site.url }}/</loc>
+    <loc>{{ site.url | replace: "www.", "" }}/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -15,7 +15,7 @@ layout: null
   
   <!-- About Page -->
   <url>
-    <loc>{{ site.url }}/about/</loc>
+    <loc>{{ site.url | replace: "www.", "" }}/about/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -26,11 +26,13 @@ layout: null
   <!-- Notes/Articles - High Priority Content -->
   {% for note in site.notes %}
   <url>
-    <loc>{{ note.url | absolute_url }}</loc>
+    <loc>{{ note.url | absolute_url | replace: "www.", "" }}</loc>
     {% if note.lastmod %}
     <lastmod>{{ note.lastmod | date_to_xmlschema }}</lastmod>
     {% elsif note.date %}
     <lastmod>{{ note.date | date_to_xmlschema }}</lastmod>
+    {% else %}
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     {% endif %}
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -63,7 +65,7 @@ layout: null
   {% for page in site.pages %}
     {% unless page.url contains '/404' or page.url == '/' or page.url contains 'sitemap' or page.url contains 'robots' or page.url contains 'feed' or page.url contains '.json' %}
     <url>
-      <loc>{{ page.url | absolute_url }}</loc>
+      <loc>{{ page.url | absolute_url | replace: "www.", "" }}</loc>
       <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
