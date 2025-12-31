@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 
+# Preferred domain (non-www)
 # Sitemap location
 Sitemap: https://thrivinghealthy.com/sitemap.xml
 
