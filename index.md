@@ -135,6 +135,7 @@ faq:
   {% include note-card.html url="/notes/happiness/Architect-Your-Life/" show="Know Thyself" title="Dr. Rangan Chatterjee – Architect Your Life" tags="Nutrition,Spirituality" platform="youtube" %}
   {% include note-card.html url="/notes/happiness/Anita-Moorjani-NDE/" show="Aubrey Marcus" title="Anita Moorjani – NDE Survivor" tags="Spirituality,Brain" platform="youtube" %}
   {% include note-card.html url="/notes/happiness/Vincent-Tolman-NDE/" show="Next Level Soul Podcast" title="Vincent Tolman – NDE Survivor" tags="Spirituality,Brain" platform="youtube" %}
+  {% include note-card.html url="/notes/happiness/Eckhart-Tolle-Finding-Presence/" show="Eckhart Tolle" title="Eckhart Tolle – Beyond the Mind's Clutter: Finding Presence" tags="Spirituality,Brain" platform="youtube" %}
   {% include note-card.html url="/notes/happiness/Dave-Asprey-BioHacking/" show="Know Thyself" title="Dave Asprey – BioHacking" tags="Nutrition,Brain" platform="youtube" %}
   {% include note-card.html url="/notes/happiness/The-Valley/" show="Otherworld" title="The Valley" tags="Spirituality" platform="spotify" %}
   {% include note-card.html url="/notes/happiness/Andy-Salmela/" show="Only the Important Stuff" title="Andy Salmela – Kids, Marriage, Loss" tags="Spirituality" platform="spotify" %}
